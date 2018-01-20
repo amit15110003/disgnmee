@@ -109,7 +109,7 @@
                 foreach ($details as $row ) {
                   $category=str_replace(' ', '-', $row->category);?>
             <li>
-                <a href="<?php echo base_url("product/category/$category"); ?>"><?php echo $row->category;?></a>
+                <a href="<?php echo base_url("index.php/product/category/$category"); ?>"><?php echo $row->category;?></a>
             </li>
             <?php }?>
           </ul>
@@ -129,7 +129,7 @@
             <div class="col-xs-6 col-md-3">
                <ul class="multi-column-dropdown">
             <?php }?>
-                 <li><a href="<?php echo base_url("product/artist/$artist"); ?>"><?php echo $row->artist;?></a></li>
+                 <li><a href="<?php echo base_url("index.php/product/artist/$artist"); ?>"><?php echo $row->artist;?></a></li>
             <?php if($i%8==0){?>    
               </ul>
               </div>
@@ -166,12 +166,12 @@
            <?php echo $result = substr($this->session->userdata('fname'), 0, 4); ?> <span class="glyphicon glyphicon-user" aria-hidden="true">  </span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo base_url("profile"); ?>">Profile</a></li>
-            <li><a href="<?php echo base_url("orders"); ?>" class="list-group-item"> Orders</a></li>
-            <li><a href="<?php echo base_url("wishlist"); ?>" class="list-group-item"> Wishlist</a></li>
-            <li><a href="<?php echo base_url("profile/address"); ?>" class="list-group-item">Address</a></li>
-            <li><a href="<?php echo base_url("profile/account_details"); ?>" class="list-group-item">Account details</a></li>
-            <li><a href="<?php echo base_url("home/logout"); ?>" class="list-group-item">Logout</a></li>
+            <li><a href="<?php echo base_url("index.php/profile"); ?>">Profile</a></li>
+            <li><a href="<?php echo base_url("index.php/orders"); ?>" class="list-group-item"> Orders</a></li>
+            <li><a href="<?php echo base_url("index.php/wishlist"); ?>" class="list-group-item"> Wishlist</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/address"); ?>" class="list-group-item">Address</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/account_details"); ?>" class="list-group-item">Account details</a></li>
+            <li><a href="<?php echo base_url("index.php/home/logout"); ?>" class="list-group-item">Logout</a></li>
           </ul>
         </li>
         <?php } else{?>
