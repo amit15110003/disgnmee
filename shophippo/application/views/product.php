@@ -17,22 +17,20 @@
               <div class="form-group">
                 <label>Category</label>
                 <select class="form-control select2" style="width: 100%;" name="category">
-                <?php
-              foreach( $query as $row)
-                {?>
-                  <option value="<?php echo $row->category; ?>" ><?php echo $row->category; ?></option>
-                   <?php }?>
+                  <option value="Men" >Men</option>
+                  <option value="Women" >Women</option>
                 </select>
               </div>
                <div class="form-group">
-                <label>Artist</label>
-                <select class="form-control select2" style="width: 100%;" name="artist">
-                <?php
-              foreach( $query3 as $row)
-                {?>
-                  <option value="<?php echo $row->artist; ?>" ><?php echo $row->artist; ?></option>
-                   <?php }?>
+                <label>type</label>
+                <select class="form-control select2" style="width: 100%;" name="type">
+                  <option value="Pant" >Pant</option>
+                  <option value="Shirt" >Shirt</option>
                 </select>
+              </div>
+              <div class="form-group">
+                <label>Price</label>
+                  <input type="number" class="form-control"  name="price" required>
               </div>
               <div class="form-group">
                 <label for="sehir">Tag</label>

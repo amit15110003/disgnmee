@@ -354,10 +354,7 @@ class admin extends CI_Controller
 		$this->form_validation->set_rules('title', 'title', 'required');
 		   
 		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showcategory();
-        	$details['query1']=$this->user->showscategory();
-        	$details['query3']=$this->user->showartist();
+        {   
         	$details['query2']=$this->user->showproduct();
         	$details['query4']=$this->user->showtag();
      		$this->load->view('header');
@@ -404,7 +401,8 @@ class admin extends CI_Controller
 				'title' => $this->input->post('title'),
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
-				'artist' => $this->input->post('artist'),
+				'type' => $this->input->post('type'),
+				'price' => $this->input->post('price'),
 				'tag' => $tag,
 				'status' => "pending",
 				'picture' => $picture
@@ -519,7 +517,8 @@ public function updateproduct()
 				'title' => $this->input->post('title'),
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
-				'artist' => $this->input->post('artist'),
+				'type' => $this->input->post('type'),
+				'price' => $this->input->post('price'),
 				'tag' => $tag,
 				'status' => "pending",
 				'picture' => $picture
@@ -540,19 +539,17 @@ public function updateproduct()
 	public function productedit($pid)
 	{	$this->form_validation->set_rules('id', 'id', 'required');
 		if ($this->form_validation->run() == FALSE)
-        {		$data['query']=$this->user->showcategory();
-        		$data['query1']=$this->user->showscategory();
-        		$data['query3']=$this->user->showartist();
+        {		
         		$data['query4']=$this->user->showtag();
         	    $details=$this->user->productedit($pid);
         	    	$data['productid'] = $details[0]->id;
         			$data['title'] = $details[0]->title;
         			$data['Descr'] = $details[0]->Descr;
-        			$data['tag'] = $details[0]->tag;
-        			$data['picture'] = $details[0]->picture;
-					$data['category'] = $details[0]->category;
-					$data['artist'] = $details[0]->artist;
-					$data['scategory'] = $details[0]->scategory;
+        			$data['category'] = $details[0]->category;
+        			$data['type'] = $details[0]->type;
+					$data['price'] = $details[0]->price;
+					$data['tag'] = $details[0]->tag;
+					$data['picture'] = $details[0]->picture;
 					$data['status'] = $details[0]->status;
         	    $data['query2']=$this->user->showproductimage($pid);
      			$this->load->view('header');

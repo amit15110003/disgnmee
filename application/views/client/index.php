@@ -68,15 +68,16 @@
 	</div>
     <div class="th-gap"></div><div class="th-gap"></div>
     <div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/newsletter.jpg'); height: 400px;">
-    <div class="text-center" style="color: #fff;position: absolute;top:15%;left:0;right:0;" >
-    <h1 class="th-pad text-center" style="color: #fff;">News<span class="th-bold">Letter</span></h1>
-    <div class="col-md-6 col-md-offset-3">
-    <input class="col-md-8 th-btn" type="" name="" style="background-color:#fff;" placeholder="Email-id">
-    <input class="col-md-4 th-btn btn" type="submit" name="">
-    </div>
+	    <div class="text-center" style="color: #fff;position: absolute;top:15%;left:0;right:0;" >
+		    <h1 class="th-pad text-center" style="color: #fff;">News<span class="th-bold">Letter</span></h1>
+		    <div class="col-md-6 col-md-offset-3">
+			    <input class="col-md-8 th-btn" type="" name="" style="background-color:#fff;" placeholder="Email-id">
+			    <input class="col-md-4 th-btn btn" type="submit" name="">
+		    </div>
+		</div>
+	</div>
 </div>
-</div>
-</div>
+<div class="th-gap"></div>
 
 
 <script type="text/javascript">

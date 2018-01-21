@@ -1,80 +1,52 @@
-	<!--footer-->
-	<footer style="padding-bottom:40px;">
-		<div class="row">
-			<hr>
-			
-			<div class="container">
-				<div class="col-md-3 col-xs-6">
-                    <h3 style="color:#404040 !important;">SHOP</h3>
-					<?php 
-                        $details=$this->user->showcategory();
-                        foreach ($details as $row ) {
-                          $category=str_replace(' ', '-', $row->category);?>
-                    <li style="list-style: none;">
-                        <a href="<?php echo base_url("product/category/$category"); ?>" style=" text-decoration: none;color: #949494;" ><?php echo $row->category;?></a>
-                    </li>
-                    <?php }?>
-				</div>
-				<div class="col-md-3 col-xs-6" >
-				        <h3 style="color:#404040 !important;">LINKS</h3>
-				        <li style="list-style: none;"><a href="<?php echo base_url("home/about"); ?>" style=" text-decoration: none;color: #949494;">About us</a></li>
-				        <li style="list-style: none;"><a href="#" style=" text-decoration: none;color: #949494;"> Blog </a></li>
-				        <li style="list-style: none;"><a href="<?php echo base_url("home/contact"); ?>" style=" text-decoration: none;color: #949494;"> Contact us </a></li>
-				        <li style="list-style: none;"><a href="<?php echo base_url("home/faqs"); ?>" style=" text-decoration: none;color: #949494;">FAQs</a></li>
-				        <li style="list-style: none;"><a href="<?php echo base_url("home/privacy_policy"); ?>" style=" text-decoration: none;color: #949494;">Privacy Policy</a></li>
-				        <li style="list-style: none;"><a href="<?php echo base_url("home/terms_and_condition"); ?>"  style=" text-decoration: none;color: #949494;">Terms & Conditions</a></li>
-				</div>
-				<div class="col-md-3 col-xs-12" >
-				    <div class="col-md-offset-1 col-md-9  col-xs-12" >
-				    <img src="<?php echo base_url();?>uploads/The-Hippogriff.png" class="img-responsive center-block">
-				    </div>
-				</div>
-				<div class="col-md-3  col-xs-12 text-center">
-					<div class="">
-					<h3 class="theme-color text-center">Follow us</h3>
-						<div class="follow-icon text-center">
-					          <a href="https://www.facebook.com/thehippogriffofficial/" class="follow-icon-img"><img class="img-responsive  center-block" src="<?php echo base_url();?>media/image/FB-01.png"></a>
-					    </div>
-						<div class=" follow-icon text-center">
-					         <a href="http://instagram.com/thehippogriff_" class="follow-icon-img"> <img class="img-responsive  center-block" src="<?php echo base_url();?>media/image/Insta-01.png" ></a>
-					    </div>
-						<div class="follow-icon text-center" >
-					          <a href="" class="follow-icon-img"><img class="img-responsive  center-block" src="<?php echo base_url();?>media/image/Mail-01.png" ></a>
-					    </div>
-						<div class="follow-icon text-center" >
-					          <a href="https://twitter.com/THippogriff" class="follow-icon-img"><img class="img-responsive  center-block" src="<?php echo base_url();?>media/image/twitter.png" ></a>
-					    </div>
-						<div class="follow-icon text-center" >
-					          <a href="" class="follow-icon-img"><img class="img-responsive  center-block" src="<?php echo base_url();?>media/image/Youtube-01.png" ></a>
-					    </div>
-					</div>
-					<br>
-					<p>We Accept</p>
-                    <img src="<?php echo base_url();?>media/image/payment.png" class="img-responsive  center-block"><br>
-				    <li style="list-style: none;"><a href=""  style=" text-decoration: none;color: #949494;">Copyright © 2018. THE HIPPOGRIFF.<br>Some rights reserved </a></li>
-				</div>
+<div class="footer">
+  <hr>
+  <div class="th-gap"></div>
+	<div class="row">			
+		<div class="container-fluid" style="padding-left: 5%; padding-right: 5%;">
+      <div class="col-md-3  col-xs-12 text-center">
+        <div>
+          <a href="<?php echo base_url(""); ?>" ><img class="img-responsive center-block" style="height: 30px;" src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png"></a>
+        </div>
+        <br><br>
+        <p>143-B Shahpur Jat, 1st floor, New Delhi - 110049011-49056967</p>
+        <br>
+        <p>+91-9785967626 exampla@designmee.com</p>
+      </div>
+			<div class="col-md-3 col-xs-6">
+        <ul style="list-style: none;"><p>About Us</p><br>
+          <li class="rate"><a href="" >Our Story</a></li><br>
+          <li class="rate"><a href="" >Press Coverage</a></li><br>
+          <li class="rate"><a href="" >Career & Internship</a></li><br>
+          <li class="rate"><a href="" >Terms & Condition</a></li>
+        </ul>
 			</div>
+			<div class="col-md-3 col-xs-6" >
+        <ul style="list-style: none;"><p>Help</p><br>
+          <li class="rate"><a href="" >Ordering Fabric Samples</a></li><br>
+          <li class="rate"><a href="" >How Dress Shirts Shrink</a></li><br>
+          <li class="rate"><a href="" >Common Fit Problems</a></li><br>
+          <li class="rate"><a href="" >Shipping & Fast Delivery</a></li>
+        </ul>
+			</div>
+      <div class="col-md-3 col-xs-6" >
+        <ul style="list-style: none;"><p>Support</p><br>
+          <li class="rate"><a href="" >Style Advice</a></li><br>
+          <li class="rate"><a href="" >Return Policy</a></li><br>
+          <li class="rate"><a href="" >Special Events</a></li><br>
+          <li class="rate"><a href="" >Contact Us</a></li>
+        </ul>
+			</div>
+      <div class="text-center col-md-12">
+        <br><br><br>
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <br><br><br>
+      </div>
 		</div>
-		<!--<div class="row">
-			<div class="container-fluid">
-			<hr>
-				<div class="col-md-8">
-					<ul class="footer-inline">
-				        <li><a href="">Copyright © 2017 </a></li>
-				        <li><a href="<?php echo base_url("home/about"); ?>">About us</a></li>
-				        <li><a href="#"> Blog </a></li>
-				        <li><a href="<?php echo base_url("home/faqs"); ?>">FAQs</a></li>
-				        <li><a href="<?php echo base_url("home/contact"); ?>"> Contact us </a></li>
-				        <li><a href="<?php echo base_url("home/terms_and_condition"); ?>">Terms & Conditions</a></li>
-				        <li><a href="<?php echo base_url("home/privacy_policy"); ?>">Privacy Policy</a></li>
-				     </ul>
-				</div>
-				<div class="col-md-4">
-          
-				</div>
-			</div>
-		</div>-->
-	</footer>
+	</div>
+</footer>
 	<!--footerend-->
 
 	

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Expires" content="30" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>THE HIPPOGRIFF</title>
+    <title>DesignMee</title>
 
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -20,7 +20,7 @@
   <script src="<?php echo base_url();?>media/js/jquery.toc.js"></script>
   <script src="<?php echo base_url();?>media/js/prism.js"></script>
   <script src="https://use.fontawesome.com/772998029d.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300|Raleway:300,500,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,500,800" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url();?>media/css/asRange.css">
   <script src="<?php echo base_url();?>media/js/jquery-asRange.js"></script>
 <link rel="icon" href="images/favicon.html" type="image/x-icon">
