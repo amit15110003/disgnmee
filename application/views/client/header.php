@@ -16,10 +16,11 @@
     <link href="<?php echo base_url();?>media/css/animate.css" rel="stylesheet">
     <link href="<?php echo base_url();?>media/css/bootstrap-dropdownhover.css" rel="stylesheet">
     <link href="<?php echo base_url();?>media/css/style.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>media/css/style1.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url();?>media/css/prism.css">
   <script src="<?php echo base_url();?>media/js/jquery.toc.js"></script>
   <script src="<?php echo base_url();?>media/js/prism.js"></script>
+  <script src="https://use.fontawesome.com/772998029d.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300|Raleway:300,500,800" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url();?>media/css/asRange.css">
   <script src="<?php echo base_url();?>media/js/jquery-asRange.js"></script>
 <link rel="icon" href="images/favicon.html" type="image/x-icon">
@@ -38,36 +39,19 @@
   </head>
   <body>
   <!--header-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container" style="padding-right:15px;padding-left:8px;">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header" style="padding-left: 10px;">
-      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
+  <nav class="navbar navbar-default th-header navbar-fixed-top" style="border:none; height: 60px;">
+  <div class="container-fluid  th-header-p" >
+    <div class="navbar-header col-md-4">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="visible-xs center-block"  href="<?php echo base_url(""); ?>" ><img src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png" class="img-responsive " style="margin-top:10px;"></a>
-      <!--<a href=""  class="navbar-toggle navbar-mobile pull-right" data-toggle="modal" data-target=".search">
-        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-      </a>
-      <?php if ($this->session->userdata('fname')){ ?>
-          <a class=" dropdown-toggle dropdown navbar-toggle navbar-mobile pull-right" type="button" data-toggle="dropdown" data-hover="dropdown">
-           <?php echo $result = substr($this->session->userdata('fname'), 0, 4); ?> <span class="glyphicon glyphicon-user" aria-hidden="true">  </span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="<?php echo base_url("profile"); ?>">Profile</a></li>
-            <li><a href="<?php echo base_url("orders"); ?>" class="list-group-item"> Orders</a></li>
-            <li><a href="<?php echo base_url("wishlist"); ?>" class="list-group-item"> Wishlist</a></li>
-            <li><a href="<?php echo base_url("profile/address"); ?>" class="list-group-item">Addresses</a></li>
-            <li><a href="<?php echo base_url("profile/account_details"); ?>" class="list-group-item">Account details</a></li>
-            <li><a href="<?php echo base_url("home/logout"); ?>" class="list-group-item">Logout</a></li>
-          </ul>
-        <?php } else{?><a data-toggle="modal" data-target=".login"  class="navbar-toggle navbar-mobile pull-right"><span class="glyphicon glyphicon-user" aria-hidden="true"> </span></a>
-        <?php }?>-->
+      <a class="navbar-brand " href="<?php echo base_url(""); ?>" ><img class="img-responsive" style="height: 30px;" src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png"></a>
+
       <a href="<?php echo base_url("cart"); ?>" class="navbar-toggle navbar-mobile pull-right hidden">
-        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span><span class="badge" id="cartcounter">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i><i class="badge" id="cartcounter">
           <?php 
             if(!empty($this->session->userdata('uid')))
             {
@@ -91,59 +75,22 @@
                echo $i;
             }
             else{echo"0";} ?>
-        </span>
+        </i>
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#fff!important;">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-md-4" style="background-color:#fff!important;">
       <ul class="nav navbar-nav">
-          <li class="visible-xs"><a href="<?php echo base_url(""); ?>">Home</a></li>
-       <li class="dropdown" style="margin-left:6px;">
-          <a class="dropdown-toggle button-top-category" type="button" data-toggle="dropdown" data-hover="dropdown" style="">
-           SHOP BY CATEGORY
-          </a>
-          <ul class="dropdown-menu">
-            <?php 
-                $details=$this->user->showcategory();
-                foreach ($details as $row ) {
-                  $category=str_replace(' ', '-', $row->category);?>
-            <li>
-                <a href="<?php echo base_url("index.php/product/category/$category"); ?>"><?php echo $row->category;?></a>
-            </li>
-            <?php }?>
-          </ul>
-        </li>
-       <li class="dropdown" style="margin-left:6px;">
-          <a class="dropdown-toggle button-top-category" type="button" data-toggle="dropdown" data-hover="dropdown" style="">
-           SHOP BY ARTIST
-          </a>
-          <ul class="dropdown-menu multi-column columns-3">
-                <div class="row">
-                  <?php 
-             $i=1;
-                $details=$this->user->showartist();
-                foreach ($details as $row ) {
-                  $artist=str_replace(' ', '-', $row->artist);?>
-            <?php if($i%8==1){?>
-            <div class="col-xs-6 col-md-3">
-               <ul class="multi-column-dropdown">
-            <?php }?>
-                 <li><a href="<?php echo base_url("index.php/product/artist/$artist"); ?>"><?php echo $row->artist;?></a></li>
-            <?php if($i%8==0){?>    
-              </ul>
-              </div>
-            <?php }?>
-            <?php $i++;}?>
-               </div>   
-          </ul>
-        </li>
+        <li><a href="#">Bespoke</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Decor</a></li>
+        <li><a href="#">Know Fasion</a></li>
       </ul>
-      <div class="header-img" style="">
-          <a href="<?php echo base_url(""); ?>"><img src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png" class="img-responsive"></a>
-      </div>
       <ul class="nav navbar-nav navbar-right">
-          <li><a>
+        <li> <a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+          <!--<li><a>
               <?php $attributes = array("name" => "search");
                       echo form_open("home/search_keyword", $attributes);?>
               <div class="form-inline" style="margin-top:-9px;">
@@ -159,11 +106,11 @@
             </div>
               </div>
                   <?php echo form_close(); ?></a>
-             </li>
+             </li>-->
         <?php if ($this->session->userdata('fname')){ ?>
         <li class="dropdown">
-          <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
-           <?php echo $result = substr($this->session->userdata('fname'), 0, 4); ?> <span class="glyphicon glyphicon-user" aria-hidden="true">  </span>
+          <a class=" dropdown-toggle th-btn" type="button" data-toggle="dropdown" data-hover="dropdown">
+           <?php echo $result = substr($this->session->userdata('fname'), 0, 4); ?> <i class="fa fa-user-circle" aria-hidden="true"></i>
           </a>
           <ul class="dropdown-menu">
             <li><a href="<?php echo base_url("index.php/profile"); ?>">Profile</a></li>
@@ -175,11 +122,11 @@
           </ul>
         </li>
         <?php } else{?>
-        <li><a data-toggle="modal" data-target=".login"><span class="glyphicon glyphicon-user" aria-hidden="true"> </span></a></li>
+        <li><a data-toggle="modal" data-target=".login"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
         <?php }?>
         <li>
           <a href="<?php echo base_url("cart"); ?>">
-              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
               <span class="badge" id="cartcounter1">
               <?php 
             if(!empty($this->session->userdata('uid')))
