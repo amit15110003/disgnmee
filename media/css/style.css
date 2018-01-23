@@ -34,6 +34,7 @@ p{font-size: 1.1em; font-weight: 400; line-height: 1.5em;  color: #a3a3a3; }
 a:focus { outline: none; }
 a:hover, a:focus { color: #000; text-decoration: none;}
 .pral{ font-size: 1.1em; font-family: 'Raleway', sans-serif; color: #a3a3a3; }
+.hitem{ font-size: 1.2em; font-family: 'Raleway', sans-serif; color: #000; font-weight: 300; }
 .footer a{ font-family: 'Raleway', sans-serif; color: #a3a3a3; }
 .footer i{color: #a3a3a3;font-size: 14px !important;}
 .footer{background-color: #f9f9f9;}
@@ -43,105 +44,63 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 /*headings end*/
 .cover-img{ padding: 0; background-size: cover; background-position: center; background-repeat: no-repeat; }
 .tile{ padding: 5%; text-decoration: none;}
+.tile:hover{box-shadow: 0 0 20px grey;}
 .tile a{ text-decoration: none;}
-.menu {
-    vertical-align: top;
-    padding-top: 25%;
-    display: inline-block;
-    margin: 10px ;
-}
-.menu-item {
-    background-color: #fff;
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-}
+.mini-menu li{list-style: none;}
+.color-square { display: inline-block; width: 30px; height: 30px; border-radius: 0; cursor: pointer;}
+.color-square:hover{box-shadow: 0 0 10px grey;}
+.container:hover{color: #000;}
 
-.header-item {
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    color: #000000  ;
-    font-size: 1em;
-    padding: 15px 15px;
-}
-
-.color-row1,  .color-row2  {
-    margin: 15px;
-    padding:0;
-    max-width: 220px;
-}
-
-.color-circle {
-    max-width: 220px;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px 50px 50px 50px;
-    
-}
-
-.mini-menu{
-    width: 200px;
-    border-radius: 3px;
-    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
-    overflow: hidden;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #848C8F ;
-    font-size: 11px;
-    margin: 10px;
-}
-.mini-menu ul {
-    list-style: none;
-    margin: 0;
-    padding:0;
-    text-align:left;
-}
-.mini-menu > ul > li {
-    position: relative;
-}
-.mini-menu > ul > li > a {
-    display: block;	
-    outline: 0;	
-    padding: 1.2em 1em;	
-    text-decoration: none;	
-    color:#3C3D41;	
-    font-weight: normal;
-    letter-spacing: 2px;	
-    background: #FEFEFE;
-    border-bottom: 1.5px solid #EAEAEA;
-   
-}
-
-.mini-menu .sub > ul {
-    height: 0;
-    overflow: hidden;
-    background: #848C8F;
-}
-.mini-menu .sub > ul > li > a {
-    font-family:  sans-serif;
-    color:#FEFEFE;
-    font-size: 12px;
+/* The container */
+.container {
     display: block;
-    text-decoration: none;
-    padding: .7em 1em;
-    text-transform: capitalize;
-    font-style: normal; 
-    letter-spacing: 1px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 1em; font-family: 'Raleway', sans-serif; color: #a3a3a3; font-weight: 300;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-/*.mini-menu .sub > ul > li > a:hover,*/
-.mini-menu .sub > a.active,
- {
-    padding-left: 1.3em;
-    color: blue;
-    content: "1";
-    float: right;
-    margin-right:6px;
-    line-height: 12px;
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
-.mini-menu .sub >  a:after{
-    content: "V";
-    float: right;
-    margin-right:6px;
-    line-height: 12px;
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: .8em;
+    width: .8em;
+    background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: .9em;
+    width: .5em;
+    height: 1em;
+    border: solid #ed1d2e;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }

@@ -1,97 +1,91 @@
-<div class="container-fluid">
-	<div class="col-md-3">
+<div class="container-fluid" style="padding-top: 5%;">
+	<div class="col-md-3" style="padding: 4%;">
 		<div class="menu">
         	<div class="mini-menu">
-	            <ul>
-					<li class="sub">
-						<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
-						  <li><a href="#">Library</a></li>
-						  <li class="active">Data</li>
-						</ol>
-					</li>	            		
-	        		<li class="sub">
-		            	<a href="#">WOMAN</a>
-		            	<ul>
-			               <li><a href="#">Jackets</a></li>
-			               <li><a href="#">Blazers</a></li>
-			               <li><a href="#">Suits</a></li>
-			               <li><a href="#">Trousers</a></li>
-			               <li><a href="#">Jenas</a></li>
-			               <li><a href="#">Shirts</a></li> 
-		            	</ul>
+	            <ul>         		
+	        		<li>
+		            	<a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<label class="container">Formal
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Casual
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Festive
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+			        </li>        		
+	        		<li>
+		            	<br><br><a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<label class="container">Cotton
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Linen
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Chambray
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Flannel
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+			        </li>         		
+	        		<li>
+		            	<br><br><a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<label class="container">Solids
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Stripes
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Checks
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Prints
+						  <input type="checkbox">
+						  <span class="checkmark"></span>
+						</label>
 			        </li>
-			        <li class="sub">
-			            <a href="#">MAN</a>
-			            <ul>
-			               <li><a href="#">Jackets</a></li>
-			               <li><a href="#">Blazers</a></li>
-			               <li><a href="#">Suits</a></li>
-			               <li><a href="#">Trousers</a></li>
-			               <li><a href="#">Jenas</a></li>
-			               <li><a href="#">Shirts</a></li> 
-			            </ul>
-			        </li>
-			        <li class="sub">
-			            <a href="#">KIDS</a>
-			            <ul>
-			               <li><a href="#">Jackets</a></li>
-			               <li><a href="#">Blazers</a></li>
-			               <li><a href="#">Suits</a></li>
-			               <li><a href="#">Trousers</a></li>
-			               <li><a href="#">Jenas</a></li>
-			               <li><a href="#">Shirts</a></li> 
-			            </ul>
-			        </li>
-			        <li class="sub">
-			            <a href="#">Shoes&Bags</a>
-			            <ul>
-			            <li><a href="#">Jackets</a></li>
-			               <li><a href="#">Blazers</a></li>
-			               <li><a href="#">Suits</a></li>
-			               <li><a href="#">Trousers</a></li>
-			               <li><a href="#">Jenas</a></li>
-			               <li><a href="#">Shirts</a></li> 
-			            </ul>
-			        </li>
-	    		</ul>
+			    </ul>
         	</div>
-	        <div class="menu-colors menu-item">
-	            <div class="header-item" >Colors</div>
-	            <ul class="color-row1">
-	                <li class="color-circle" style="background:#4286f4"></li>
-	                <li class="color-circle" style="background:#2acc4b"></li>
-	                <li class="color-circle" style="background:#343534"></li>
-	                <li class="color-circle" style="background:#5f605f"></li>
-	                <li class="color-circle" style="background:#929392"></li>
+	        <div>
+	            <ul>
+	            	<br><br><div class="hitem" >Colour</div><br><br>
+	                <li class="color-square" style="background:#00ffff"></li>
+	                <li class="color-square" style="background:#ff0000"></li>
+	                <li class="color-square" style="background:#ffff00"></li>
+	                <li class="color-square" style="background:#00ff00"></li>
+	                <li class="color-square" style="background:#ff00ff"></li>
+	                <li class="color-square" style="background:#0f0f0f"></li>
+	                <li class="color-square" style="background:#f0f0f0"></li>
+	                <li class="color-square" style="background:#0f0f0f"></li>
+	                <li class="color-square" style="background:#fff0f0"></li>
+	                <li class="color-square" style="background:#f0f0f0"></li>
 	            </ul>
-	            <ul class="color-row2">
-	                <li class="color-circle" style="background:#9e8045"></li>
-	                <li class="color-circle" style="background:#d3d3d3"></li>
-	                <li class="color-circle" style="background:#6b6666"></li>
-	                <li class="color-circle" style="background:#999797"></li>
-	                <li class="color-circle" style="background:#923476"></li>
-	            </ul>
-	        </div>
-	        <div class="menu-price menu-item">
-	            <div class="header-item" >Price</div>
-	            <p>
-	                <!--<label for="amount">Price range:</label>-->
-	                <input type="text" readonly id="amount"  style="border:0; color:#f6931f; font-weight:bold;">
-	            </p>
-	            <div id="slider-range"></div>
 	        </div>
     	</div>
 	</div>
-	<div class="col-md-9" style="padding-top: 10%;">
+	<div class="col-md-9" style="padding: 5%;">
 		<?php foreach($query as $row) {
 				$category=str_replace(' ', '-', $row->category);
 				$title=str_replace(' ', '-', $row->title);?>
-		<div class="col-md-4 tile">
-		<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
-			<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?><s>₹ 5000</s> ( 30% Off )</span></p>
-		</a>
+		<div class="col-md-4">
+			<div class="tile">
+				<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
+					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
+					<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?><s>₹ 5000</s> ( 30% Off )</span></p>
+				</a>
+			</div>
 		</div>
 		<?php }?>
 		<div class="row col-md-12 col-xs-12 text-center ">
@@ -101,8 +95,6 @@
         </div>
 	</div>
 </div>
-
-
 
 
 
