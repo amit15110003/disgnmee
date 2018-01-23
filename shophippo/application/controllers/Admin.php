@@ -203,152 +203,7 @@ class admin extends CI_Controller
 	    $result=$this->user->order_status($id,$status);
 	    redirect($_SERVER['HTTP_REFERER']);
 	}
-	public function category()
-	{	if($this->input->post('userSubmit'))
-		{
-                if(!empty($_FILES['picture']['name'])){
-                $config['upload_path'] = '../uploads/category/';
-                $config['allowed_types'] = 'jpg|jpeg|png|gif';
-                $config['file_name'] = 'category';
-                //Load upload library and initialize configuration
-                $this->load->library('upload',$config);
-                $this->upload->initialize($config);
-                
-                if($this->upload->do_upload('picture')){
-                    $uploadData = $this->upload->data();
-                     $this->gallery_path = realpath(APPPATH . '../uploads');//fetching path
-                     $config1 = array(
-                          'source_image' => $uploadData['full_path'], //get original image
-                          'new_image' => $this->gallery_path.'/category/', //save as new image //need to create thumbs first
-                          'maintain_ratio' => TRUE,
-                          'width' => 270,
-                          'height' => 270
-                           
-                        );
-                        $this->load->library('image_lib', $config1); //load library
-                        $this->image_lib->resize(); //generating thumb
-
-                    $picture = $uploadData['file_name'];
-                }else{
-                    $picture = '';
-                }
-            }else{
-                $picture = '';
-            }
-            
-			$data = array(
-				'category' => $this->input->post('category'),
-				'descr' => $this->input->post('descr'),
-				'picture' => $picture
-			);
-		if ($this->user->insert_category($data))
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/category');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/category');
-			}
-		}else{
-        	$details['query']=$this->user->showcategory();
-     		$this->load->view('header');
-			$this->load->view('category',$details);
-			$this->load->view('footer');	
-		}
-
-	}
-
-	public function Deletecategory($id)
-	{
-			
-		$details['query']=$this->user->showcategory();
-     		$this->load->view('header');
-		$this->load->view('category',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deletecategory($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/category');
-	 
-	}
-
-	public function scategory()
-	{	$this->form_validation->set_rules('name', 'name', 'required');
-		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showcategory();
-        	$details['query1']=$this->user->showscategory();
-     		$this->load->view('header');
-		$this->load->view('scategory',$details);
-		$this->load->view('footer');
-        }
-		else
-		{
-			
-			$name=$_POST['name'];
-		    $descr=$_POST['descr'];
-
-		    $categorys = $_POST['category'];
-
-
-					    
-			
-			$result=$this->user->insert_scategory( $name,$descr,$categorys);
-		if ($result)
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/scategory');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/scategory');
-			}
-		}
 	
-		
-	}
-	public function Deletescategory($id)
-	{
-			
-		$details['query']=$this->user->showscategory();
-     		$this->load->view('header');
-		$this->load->view('scategory',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deletescategory($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/scategory');
-	 
-	}
-
-
 	public function product()
 	{	
 		$this->form_validation->set_rules('title', 'title', 'required');
@@ -356,7 +211,7 @@ class admin extends CI_Controller
 		if ($this->form_validation->run() == FALSE)
         {   
         	$details['query2']=$this->user->showproduct();
-        	$details['query4']=$this->user->showtag();
+        	$details['query4']=$this->user->showtype();
      		$this->load->view('header');
 		$this->load->view('product',$details);
 		$this->load->view('footer');
@@ -394,8 +249,6 @@ class admin extends CI_Controller
             }else{
                 $picture = '';
             }
-            if(!empty($this->input->post('tag'))){
-            $tag=implode(",",$this->input->post('tag'));}else{$tag="";}
 			$data = array(
 				
 				'title' => $this->input->post('title'),
@@ -403,7 +256,7 @@ class admin extends CI_Controller
 				'category' => $this->input->post('category'),
 				'type' => $this->input->post('type'),
 				'price' => $this->input->post('price'),
-				'tag' => $tag,
+				'color' => $this->input->post('color'),
 				'status' => "pending",
 				'picture' => $picture
 			);
@@ -510,7 +363,6 @@ public function updateproduct()
                          {
                          $picture=$delpicture;
                           }
-			$tag=implode(",",$this->input->post('tag'));
                         
 			$data = array(
 				
@@ -519,7 +371,7 @@ public function updateproduct()
 				'category' => $this->input->post('category'),
 				'type' => $this->input->post('type'),
 				'price' => $this->input->post('price'),
-				'tag' => $tag,
+				'color' => $this->input->post('color'),
 				'status' => "pending",
 				'picture' => $picture
 			);
@@ -540,7 +392,7 @@ public function updateproduct()
 	{	$this->form_validation->set_rules('id', 'id', 'required');
 		if ($this->form_validation->run() == FALSE)
         {		
-        		$data['query4']=$this->user->showtag();
+        		$data['query4']=$this->user->showtype();
         	    $details=$this->user->productedit($pid);
         	    	$data['productid'] = $details[0]->id;
         			$data['title'] = $details[0]->title;
@@ -548,7 +400,7 @@ public function updateproduct()
         			$data['category'] = $details[0]->category;
         			$data['type'] = $details[0]->type;
 					$data['price'] = $details[0]->price;
-					$data['tag'] = $details[0]->tag;
+					$data['color'] = $details[0]->color;
 					$data['picture'] = $details[0]->picture;
 					$data['status'] = $details[0]->status;
         	    $data['query2']=$this->user->showproductimage($pid);
@@ -612,77 +464,6 @@ public function updateproduct()
 	
 		
 	}
-		public function media2()
-	    {  
-     			$this->load->view('header');
-				$this->load->view('media1');
-				$this->load->view('footer');
-
-        }
-		public function media()
-	    {  $config = array();
-            $config["base_url"] = base_url() . "index.php/admin/media";
-            $config["total_rows"] = $this->user->countproduct();
-            $config["per_page"] = 30;
-            $config["uri_segment"] = 3;
-
-            $this->pagination->initialize($config);
-
-            $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
-            $details['query'] = $this->user->showmedia($config["per_page"], $page);
-            $details["links"] = $this->pagination->create_links();
-     			$this->load->view('header');
-				$this->load->view('media',$details);
-				$this->load->view('footer');
-
-        }
-		public function media1()
-	    {
-		if(!empty($_FILES['picture']['name'])){
-                $config['upload_path'] = '../uploads/';
-                $config['allowed_types'] = 'jpg|jpeg|png|gif';
-                $config['file_name'] = time().'product';
-                //Load upload library and initialize configuration
-                $this->load->library('upload',$config);
-                $this->upload->initialize($config);
-                
-                if($this->upload->do_upload('picture')){
-                    $uploadData = $this->upload->data();
-                     $this->gallery_path = realpath(APPPATH . '../../uploads');//fetching path
-                     $config1 = array(
-                          'source_image' => $uploadData['full_path'], //get original image
-                          'new_image' => $this->gallery_path.'/thumb/', //save as new image //need to create thumbs first
-                          'maintain_ratio' => TRUE,
-                          'width' => 600
-                           
-                        );
-                        $this->load->library('image_lib', $config1); //load library
-                        $this->image_lib->resize(); //generating thumb
-
-                    $picture = $uploadData['file_name'];
-                }else{
-                    $picture = '';
-                }
-            }else{
-                $picture = '';
-            }
-            
-			$data = array(
-				'img' => $picture
-			);
-		if($this->user->insert_productimage($data))
-		{
-			$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/media');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/media');
-			}
-		
-	}
 	public function status($id)
 	{
 	
@@ -700,225 +481,6 @@ public function updateproduct()
 	 redirect($_SERVER['HTTP_REFERER']);
 
 	   
-	}
-	
-
-	public function artist()
-	{	$this->form_validation->set_rules('artist', 'artist', 'required');
-		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showartist();
-     		$this->load->view('header');
-		$this->load->view('artist',$details);
-		$this->load->view('footer');
-        }
-		else
-		{
-			$data = array(
-				'artist' => $this->input->post('artist')
-			);
-		if ($this->user->insert_artist($data))
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/artist');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/purity');
-			}
-		}
-	
-		
-	}
-	public function Deleteartist($id)
-	{
-			
-		$details['query']=$this->user->showartist();
-     		$this->load->view('header');
-		$this->load->view('artist',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deleteartist($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/artist');
-	 
-	}
-
-	public function attribute()
-	{	$this->form_validation->set_rules('attribute', 'attribute', 'required');
-		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showattribute();
-     		$this->load->view('header');
-		$this->load->view('attribute',$details);
-		$this->load->view('footer');
-        }
-		else
-		{
-			$data = array(
-				'attribute' => $this->input->post('attribute'),
-				'category' => $this->input->post('category')
-			);
-		if ($this->user->insert_attribute($data))
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/attribute');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/attribute');
-			}
-		}
-	
-		
-	}
-	public function Deleteattribute($id)
-	{
-			
-		$details['query']=$this->user->showattribute();
-     		$this->load->view('header');
-		$this->load->view('attribute',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deleteattribute($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/attribute');
-	 
-	}
-	public function attributevalue()
-	{	$this->form_validation->set_rules('attributevalue', 'attributevalue', 'required');
-		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showattributevalue();
-     		$this->load->view('header');
-		$this->load->view('attributevalue',$details);
-		$this->load->view('footer');
-        }
-		else
-		{
-			$data = array(
-				'attribute' => $this->input->post('attribute'),
-				'attributevalue' => $this->input->post('attributevalue'),
-				'cost' => $this->input->post('cost')
-			);
-		if ($this->user->insert_attributevalue($data))
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/attributevalue');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/attributevalue');
-			}
-		}
-	
-		
-	}
-	public function Deleteattributevalue($id)
-	{
-			
-		$details['query']=$this->user->showattributevalue();
-     		$this->load->view('header');
-		$this->load->view('attributevalue',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deleteattributevalue($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/attributevalue');
-	 
-	}
-	public function tag()
-	{	$this->form_validation->set_rules('tag', 'tag', 'required');
-		if ($this->form_validation->run() == FALSE)
-        {
-        	$details['query']=$this->user->showtag();
-     		$this->load->view('header');
-		$this->load->view('tag',$details);
-		$this->load->view('footer');
-        }
-		else
-		{
-			$data = array(
-				'category' => $this->input->post('category'),
-				'tag' => $this->input->post('tag')
-			);
-		if ($this->user->insert_tag($data))
-			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
-				redirect('admin/tag');
-			}
-			else
-			{
-				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
-				redirect('admin/tag');
-			}
-		}
-	
-		
-	}
-	public function Deletetag($id)
-	{
-			
-		$details['query']=$this->user->showtag();
-     		$this->load->view('header');
-		$this->load->view('tag',$details);
-		$this->load->view('footer');
-	  
-	  echo "<script>
-	 x = confirm ('You want to proceed deleting?')";
-	 
-	  $r=$this->user->deletetag($id);
-	  if($r){
-	  echo "Successfully Deleted Data";
-	  }
-	  else {
-		  echo "Can Not Delete Data";
-	  }
-	  
-	   
-	  
-	  redirect('admin/tag');
-	 
 	}
 	public function type()
 	{	$this->form_validation->set_rules('color', 'color', 'required');

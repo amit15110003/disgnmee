@@ -20,7 +20,7 @@ class product extends CI_Controller {
 
 	public function category($category)
 	{	
-		$category1 = str_replace('-', ' ', $category);
+		$category1 = str_replace('-',' ', $category);
 		$config = array();
         $config["base_url"] = base_url() . "index.php/product/category/$category";
         $config["total_rows"] = $this->user->countproduct_category($category1);
@@ -32,7 +32,6 @@ class product extends CI_Controller {
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
         $details['query'] = $this->user->showproduct_category($config["per_page"],$page,$category1);
         $details["links"] = $this->pagination->create_links();
-        $details['query1'] =$this->user->showtag($category1);
 		$details['categoryval']=$category1;
 		$this->load->view('client/header',$details);
 		$this->load->view('client/category',$details);
@@ -51,14 +50,13 @@ class product extends CI_Controller {
 			$data['title'] = $details[0]->title;
         	$data['Descr'] = $details[0]->Descr;
         	$data['category'] = $details[0]->category;
-        	$data['love'] = $details[0]->love;
-        	$data['artist'] = $details[0]->artist;
-        	$data['tag'] = $details[0]->tag;
+        	$data['price'] = $details[0]->price;
+        	$data['color'] = $details[0]->color;
         	$data['review'] = $details[0]->review;
         	$data['view'] = $details[0]->view;
         	$view=$data['view']+1;
 		$this->user->updateview($details[0]->id,$view);
-		$this->load->view('client/header-product',$data);
+		$this->load->view('client/header',$data);
 		$this->load->view('client/product',$data);
 		$this->load->view('client/footer');
 	}
@@ -95,77 +93,8 @@ class product extends CI_Controller {
     }
 
 
-    public function artist($artist)
-	{	
-		$artist1 = str_replace('-', ' ', $artist);
-		$config = array();
-        $config["base_url"] = base_url() . "index.php/product/artist/$artist";
-        $config["total_rows"] = $this->user->countproduct_artist($artist1);
-        $config["per_page"] = 16;
-        $config["uri_segment"] = 3;
-
-        $this->pagination->initialize($config);
-
-        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
-        $details['query'] = $this->user->showproduct_artist($config["per_page"], $page,$artist1);
-        $details["links"] = $this->pagination->create_links();
-		$details['categoryval']=$artist1;
-		$this->load->view('client/header-product',$details);
-		$this->load->view('client/artist',$details);
-		$this->load->view('client/footer');
-	}
-
-	public function details_artist($category,$title)
-	{	
-		$category = str_replace('%20', ' ', $category);
-		$details=$this->user->get_product_id($category,$title);
-		$data['query']=$this->user->get_image_id($details[0]->id);
-		$data['query1']=$this->user->get_review_id($details[0]->id);
-		$data['query2']=$this->user->showproduct_mostview_cat($category);
-			$data['id'] = $details[0]->id;
-			$data['picture'] = $details[0]->picture;
-			$data['title'] = $details[0]->title;
-        	$data['Descr'] = $details[0]->Descr;
-        	$data['category'] = $details[0]->category;
-        	$data['love'] = $details[0]->love;
-        	$data['review'] = $details[0]->review;
-        	$data['view'] = $details[0]->view;
-        	$view=$data['view']+1;
-		$this->user->updateview($details[0]->id,$view);
-		$this->load->view('client/header-product',$data);
-		$this->load->view('client/product',$data);
-		$this->load->view('client/footer');
-	}
-
-	 function viewsort_artist($category){
-        $sortBy = $this->input->post('sortBy');
-        $category = str_replace('%20', ' ', $category);
-        $details['categoryval']=$category;
-		$details['category']=$this->user->showcategory();
-        if($sortBy=="high")
-        {
-		$details['query']=$this->user->sortproduct_high($category);
-		}
-		else if($sortBy=="low")
-		{
-			$details['query']=$this->user->sortproduct_low($category);
-		}
-		else if($sortBy=="popular")
-		{
-			$details['query']=$this->user->sortproduct_popular($category);
-		}
-		else if($sortBy=="new")
-		{
-			$details['query']=$this->user->sortproduct_new($category);
-		}
-		else
-		{
-			$details['query']=$this->user->sortproduct($category);
-		}
-		$this->load->view('client/category1',$details);
-    }
-
-
+   
+	
 	public function login()
     {
 		// get form input

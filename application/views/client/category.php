@@ -84,18 +84,21 @@
     	</div>
 	</div>
 	<div class="col-md-9" style="padding-top: 10%;">
+		<?php foreach($query as $row) {
+				$category=str_replace(' ', '-', $row->category);
+				$title=str_replace(' ', '-', $row->title);?>
 		<div class="col-md-4 tile">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-			<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
+		<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
+			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
+			<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?><s>₹ 5000</s> ( 30% Off )</span></p>
+		</a>
 		</div>
-		<div class="col-md-4 tile">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-			<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
-		</div>
-		<div class="col-md-4 tile">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-			<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
-		</div>
+		<?php }?>
+		<div class="row col-md-12 col-xs-12 text-center ">
+                <ul class="pagination center">
+                    <li><?php echo $links; ?></li>
+                </ul>
+        </div>
 	</div>
 </div>
 

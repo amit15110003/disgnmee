@@ -104,12 +104,7 @@
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url('index.php/admin/scategory'); ?>"><i class="fa fa-circle-o"></i>Sub-Category</a></li>
-            <li><a href="<?php echo base_url('index.php/admin/category'); ?>"><i class="fa fa-circle-o"></i> Category</a></li>
-            <li><a href="<?php echo base_url('index.php/admin/artist'); ?>"><i class="fa fa-circle-o"></i> Artist</a></li>
-            <li><a href="<?php echo base_url('index.php/admin/attribute'); ?>"><i class="fa fa-circle-o"></i> Attribute</a></li>
-            <li><a href="<?php echo base_url('index.php/admin/attributevalue'); ?>"><i class="fa fa-circle-o"></i> Attribute value</a></li>
-            <li><a href="<?php echo base_url('index.php/admin/tag'); ?>"><i class="fa fa-circle-o"></i> Tag</a></li>
+            <li><a href="<?php echo base_url('index.php/admin/type'); ?>"><i class="fa fa-circle-o"></i> Color</a></li>
           </ul>
         </li>
         <li>

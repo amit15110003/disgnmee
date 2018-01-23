@@ -3,6 +3,7 @@ body{ font-family: 'Lato', sans-serif; }
 .menu{ font-family: 'Raleway', sans-serif; color: #a3a3a3; }
 /*end-body*/
 /*theme*/
+.uc{text-transform: capitalize;}
 .th-header{background-color: #fff;}
 .th-header-p{padding-right: 5%;padding-left: 5%;}
 .th-gap{height: 50px;}
@@ -12,23 +13,37 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .th-pad{padding-right: 5%;padding-left: 5%;}
 /*endtheme*/
 /*button*/
+#addcartbtn{background-color: #000;color: #fbfbfb !important;font-family: 'Raleway', sans-serif; border: none;}
 .btn{border-radius: 0px;}
 .th-btn{ color: #fbfbfb; font-size: 1.2em; background-color: #000; height: 60px; padding-left: 50px; padding-right: 50px;font-weight: 300; }
+.th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
+.th-btn-inv{ font-family: 'Raleway', sans-serif; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; height: 40px; background-color: #fff; border: 1px solid #a3a3a3; }
+.btn:active, .btn.active{ background-color: #000; }
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
+button:focus { outline: none; }
 /*end-button*/
 /*headings*/
-h1{font-family: 'Raleway', sans-serif; font-size: 4em; color: #a3a3a3; font-weight: 300;}
-h2{font-family: 'Raleway', sans-serif; font-size: 2em; color: #a3a3a3; font-weight: 300;}
+h1{font-family: 'Raleway', sans-serif; font-size: 4em; color: #a3a3a3; font-weight: 300; text-transform: capitalize; }
+@media screen and (max-width: 768px)
+{
+    h1{font-size: 3em;}
+}
+h2{font-family: 'Raleway', sans-serif; font-size: 2em; color: #a3a3a3; font-weight: 300; text-transform: capitalize; }
 .th-bold{font-weight: 800;}
-p{font-size: 1.1em; font-weight: 400; line-height: 1.5em;  color: #a3a3a3;}
+p{font-size: 1.1em; font-weight: 400; line-height: 1.5em;  color: #a3a3a3; }
+a:focus { outline: none; }
+a:hover, a:focus { color: #000; text-decoration: none;}
+.pral{ font-size: 1.1em; font-family: 'Raleway', sans-serif; color: #a3a3a3; }
 .footer a{ font-family: 'Raleway', sans-serif; color: #a3a3a3; }
 .footer i{color: #a3a3a3;font-size: 14px !important;}
 .footer{background-color: #f9f9f9;}
+.txtny{background-color: #f9f9f9; padding-top: 5%; padding-bottom: 5%;}
 .rate{ font-weight: 300; line-height: 1.5em;  color: #a3a3a3; font-size: 1em;}
 .vr-txt { transform: rotate(90deg); position: absolute; right: 0; top: 40%;}
 /*headings end*/
 .cover-img{ padding: 0; background-size: cover; background-position: center; background-repeat: no-repeat; }
-.tile{ padding: 5%; }
-
+.tile{ padding: 5%; text-decoration: none;}
+.tile a{ text-decoration: none;}
 .menu {
     vertical-align: top;
     padding-top: 25%;

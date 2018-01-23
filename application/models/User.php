@@ -203,23 +203,6 @@ class user extends CI_Model
         }
         return false;
 	}
-	public function showproduct_artist($limit, $start,$artist)
-	{	
-		$this->db->limit($limit, $start);
-		$this->db->where('artist', $artist);
-		$this->db->where('status', "hosted");
-		$query=$this->db->get('product');
-		
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                $data[] = $row;
-            }
-            return $data;
-        }
-        return false;
-	}
-
-
 	public function get_product_id($category,$title)
 	{	
 		$this->db->where('category', $category);

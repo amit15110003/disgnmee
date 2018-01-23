@@ -40,11 +40,11 @@
           </div>
           <div class="form-group">
             <label for="sehir">Tag</label>
-            <select id="dates-field2" class="multiselect-ui form-control" multiple="multiple" name="tag[]">
+            <select id="dates-field2" class="multiselect-ui form-control" name="color">
               <?php
           foreach( $query4 as $row)
             {?>
-                <option value="<?php echo $row->tag;?>"><?php echo $row->tag; ?></option>
+                <option value="<?php echo $row->colorcode;?>" <?php if($color==$row->colorcode){echo "selected";}?>><?php echo $row->color; ?></option>
                 <?php }?>
             </select>
           </div>
