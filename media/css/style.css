@@ -51,6 +51,12 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .color-square:hover{box-shadow: 0 0 10px grey;}
 .container:hover{color: #000;}
 
+/* checkout page */
+.clps { border: solid 1px; margin: 2%; padding: 0;}
+.clps-h { padding: 5px; background-color: #fff; }
+.clps-f { padding: 5px; background-color: #eee; }
+/* end checkout page */
+
 /* The container */
 .container {
     display: block;
