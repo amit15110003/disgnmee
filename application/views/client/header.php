@@ -83,8 +83,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-md-4" style="background-color:#fff!important;">
       <ul class="nav navbar-nav">
         <li><a href="#">Bespoke</a></li>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Women</a></li>
+        <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+        <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
         <li><a href="#">Decor</a></li>
         <li><a href="#">Know Fasion</a></li>
       </ul>
