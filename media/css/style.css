@@ -47,7 +47,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .tile:hover{box-shadow: 0 0 20px grey;}
 .tile a{ text-decoration: none;}
 .mini-menu li{list-style: none;}
-.color-square { display: inline-block; width: 30px; height: 30px; border-radius: 0; cursor: pointer;}
+.color-square { display: inline-block; width: 30px; height: 30px; border-radius: 0; cursor: pointer; padding: 0; margin: 0; }
 .color-square:hover{box-shadow: 0 0 10px grey;}
 .container:hover{color: #000;}
 

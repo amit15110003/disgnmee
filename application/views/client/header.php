@@ -125,7 +125,7 @@
         <li><a data-toggle="modal" data-target=".login"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
         <?php }?>
         <li>
-          <a href="<?php echo base_url("cart"); ?>">
+          <a href="<?php echo base_url();?>index.php/cart">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
               <span class="badge" id="cartcounter1">
               <?php 

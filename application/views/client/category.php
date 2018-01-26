@@ -19,7 +19,7 @@
 						</label>
 			        </li>        		
 	        		<li>
-		            	<br><br><a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<br><br><a href="#" class="hitem" >Fabric</a><br><br>
 		            	<label class="container">Cotton
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
@@ -38,7 +38,7 @@
 						</label>
 			        </li>         		
 	        		<li>
-		            	<br><br><a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<br><br><a href="#" class="hitem" >Pattern</a><br><br>
 		            	<label class="container">Solids
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>

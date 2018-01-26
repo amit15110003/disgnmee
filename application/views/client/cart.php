@@ -120,7 +120,7 @@
                 </tbody>
             </table>
             <?php if($i!='0'){?>
-            <a class="btn col-xs-12 col-md-12 btn-lg theme-btn" href="<?php echo base_url(); ?>checkout" style="" > PROCEED</a><?php } else{?>
+            <a class="btn col-xs-12 col-md-12 btn-lg theme-btn" href="<?php echo base_url(); ?>index.php/checkout" style="" > PROCEED</a><?php } else{?>
             <a class="btn col-xs-12 col-md-12 btn-lg theme-btn" href="<?php echo base_url(); ?>" style="" >CONTINUE SHOPPING</a><?php }?>
         </div>
         </div>
