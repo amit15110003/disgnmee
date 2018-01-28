@@ -19,7 +19,9 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .th-btn-inv{ font-family: 'Raleway', sans-serif; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; height: 40px; background-color: #fff; border: 1px solid #a3a3a3; }
 .btn:active, .btn.active{ background-color: #000; }
+.hdr{ font-size: 1.3em; padding-top: 5px;}
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
+.th-form{ padding: 25px; margin: 5px 0;}
 button:focus { outline: none; }
 /*end-button*/
 /*headings*/
@@ -52,9 +54,11 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .container:hover{color: #000;}
 
 /* checkout page */
-.clps { border: solid 1px; margin: 2%; padding: 0;}
-.clps-h { padding: 5px; background-color: #fff; }
-.clps-f { padding: 5px; background-color: #eee; }
+.clps { border: solid 1px #a3a3a3;  padding: 15px; margin: 15px 0;}
+.clpsb { border: solid 1px #a3a3a3; padding: 0 0 15px 0; margin: 15px 0;}
+.clpsi { border: solid 1px #a3a3a3; margin-top: 15px; padding: 15px;}
+.nm{margin: 0; padding: 15px; background-color: black; color: white; font-size: 1.4em; font-weight: 300;}
+.cbtn{ float: right; margin: 0; padding: 0 20px; }
 /* end checkout page */
 
 /* The container */

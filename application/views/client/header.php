@@ -81,7 +81,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-md-4" style="background-color:#fff!important;">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav hdr">
         <li><a href="#">Bespoke</a></li>
         <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
         <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
