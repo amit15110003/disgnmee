@@ -365,6 +365,10 @@ class user extends CI_Model
 	    return NULL;
 
 	}
+	public function showcart( $id )
+	{ 	
+	
+	}
 
 	function update_review($productid,$review)
     {	
