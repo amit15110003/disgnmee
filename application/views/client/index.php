@@ -4,7 +4,6 @@
 			<div class="col-md-6 home-banner cover-img" >
 			<section class="slide-wrapper">
 <div class="container">
-<div class="container">
 <div id="myCarousel" class="carousel slide">
   <!-- Indicators -->
     <ol class="carousel-indicators">

@@ -14,7 +14,7 @@
       </div>
 			<div class="col-md-3 col-xs-6">
         <ul style="list-style: none;"><p>About Us</p><br>
-          <li class="rate"><a href="" >Our Story</a></li><br>
+          <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/about" >Our Story</a></li><br>
           <li class="rate"><a href="" >Press Coverage</a></li><br>
           <li class="rate"><a href="" >Career & Internship</a></li><br>
           <li class="rate"><a href="" >Terms & Condition</a></li>
