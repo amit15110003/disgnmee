@@ -203,7 +203,118 @@ class admin extends CI_Controller
 	    $result=$this->user->order_status($id,$status);
 	    redirect($_SERVER['HTTP_REFERER']);
 	}
-	
+	public function category()
+    {   
+            $data = array(
+                'category' => $this->input->post('category'),
+                'descr' => $this->input->post('descr')
+            );
+        if ($this->user->insert_category($data))
+            {
+                $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
+                redirect('admin/category');
+            }
+            else
+            {
+                // error
+                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
+                redirect('admin/category');
+            }
+        }else{
+            $details['query']=$this->user->showcategory();
+            $this->load->view('header');
+            $this->load->view('category',$details);
+            $this->load->view('footer');    
+        }
+
+    }
+
+    public function Deletecategory($id)
+    {
+            
+        $details['query']=$this->user->showcategory();
+            $this->load->view('header');
+        $this->load->view('category',$details);
+        $this->load->view('footer');
+      
+      echo "<script>
+     x = confirm ('You want to proceed deleting?')";
+     
+      $r=$this->user->deletecategory($id);
+      if($r){
+      echo "Successfully Deleted Data";
+      }
+      else {
+          echo "Can Not Delete Data";
+      }
+      
+       
+      
+      redirect('admin/category');
+     
+    }
+
+    public function scategory()
+    {   $this->form_validation->set_rules('name', 'name', 'required');
+        if ($this->form_validation->run() == FALSE)
+        {
+            $details['query']=$this->user->showcategory();
+            $details['query1']=$this->user->showscategory();
+            $this->load->view('header');
+        $this->load->view('scategory',$details);
+        $this->load->view('footer');
+        }
+        else
+        {
+            
+            $name=$_POST['name'];
+            $descr=$_POST['descr'];
+
+            $categorys = $_POST['category'];
+
+
+                        
+            
+            $result=$this->user->insert_scategory( $name,$descr,$categorys);
+        if ($result)
+            {
+                $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
+                redirect('admin/scategory');
+            }
+            else
+            {
+                // error
+                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
+                redirect('admin/scategory');
+            }
+        }
+    
+        
+    }
+    public function Deletescategory($id)
+    {
+            
+        $details['query']=$this->user->showscategory();
+            $this->load->view('header');
+        $this->load->view('scategory',$details);
+        $this->load->view('footer');
+      
+      echo "<script>
+     x = confirm ('You want to proceed deleting?')";
+     
+      $r=$this->user->deletescategory($id);
+      if($r){
+      echo "Successfully Deleted Data";
+      }
+      else {
+          echo "Can Not Delete Data";
+      }
+      
+       
+      
+      redirect('admin/scategory');
+     
+    }
 	public function product()
 	{	
 		$this->form_validation->set_rules('title', 'title', 'required');
