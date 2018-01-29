@@ -17,7 +17,7 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .btn{border-radius: 0px;}
 .th-btn{ color: #fbfbfb; font-size: 1.2em; background-color: #000; height: 60px; padding-left: 50px; padding-right: 50px;font-weight: 300; }
 .th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
-.th-btn-inv{ font-family: 'Raleway', sans-serif; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; height: 40px; background-color: #fff; border: 1px solid #a3a3a3; }
+.th-btn-inv{ padding: 0 20px; font-family: 'Raleway', sans-serif; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; height: 40px; background-color: #fff; border: 1px solid #a3a3a3; }
 .btn:active, .btn.active{ background-color: #000; }
 .hdr{ font-size: 1.3em; padding-top: 5px;}
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
@@ -58,7 +58,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .clpsb { border: solid 1px #a3a3a3; padding: 0 0 15px 0; margin: 15px 0;}
 .clpsi { border: solid 1px #a3a3a3; margin-top: 15px; padding: 15px;}
 .nm{margin: 0; padding: 15px; background-color: black; color: white; font-size: 1.4em; font-weight: 300;}
-.cbtn{ float: right; margin: 0; padding: 0 20px; }
+.cbtn{ float: right; margin: 0; }
 /* end checkout page */
 
 /* The container */

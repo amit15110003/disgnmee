@@ -1,9 +1,28 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header ">
-		<h1>My Cart</h1>	
+
+<div class="container-fluid" style="margin-top: 100px;">
+    <div class="row">
+        <div class="col-md-8 col-xs-12 col-md-offset-2" style="background-color: #f9f9f9;padding: 15px;">
+        <div class="col-md-2 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 100px;background-position: center;background-size: cover; ">
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>Rs.5000</s> ( 30% Off )</span></p>
+          <div class="col-md-12 text-center">
+            <p>Size: S &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+              <button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">-</button>&nbsp;&nbsp; 1 &nbsp;&nbsp;<button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">+</button>
+            </span></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center">
+            <button class="th-btn-inv">Remove</button>
+        </div>
+        </div>
+    </div>
 </div>
-<div class="container">
+
+
+
+<!--<div class="container">
         <div class="col-xs-12 col-md-9" >
             <?php 
                 if ($cart = $this->cart->contents()){$i=0;
@@ -123,7 +142,7 @@
             <a class="btn col-xs-12 col-md-12 btn-lg theme-btn" href="<?php echo base_url(); ?>index.php/checkout" style="" > PROCEED</a><?php } else{?>
             <a class="btn col-xs-12 col-md-12 btn-lg theme-btn" href="<?php echo base_url(); ?>" style="" >CONTINUE SHOPPING</a><?php }?>
         </div>
-        </div>
+        </div>-->
         </div>
     </div>
 </div>

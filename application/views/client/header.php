@@ -82,9 +82,30 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-md-4" style="background-color:#fff!important;">
       <ul class="nav navbar-nav hdr">
-        <li><a href="#">Bespoke</a></li>
-        <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
-        <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Bespoke</a></li>
+            <li><a href="#">Bespoke</a></li>
+            <li><a href="#">Bespoke</a></li>
+            <li><a href="#">Bespoke</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Men &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+          </ul>
+        </li>
+        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Women &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+          </ul>
+        </li>
         <li><a href="#">Decor</a></li>
         <li><a href="#">Know Fasion</a></li>
       </ul>

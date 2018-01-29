@@ -52,17 +52,28 @@
             </div>
           </div>
           <div id="shipping" class="collapse col-md-12  col-xs-12 ">
-              <div class="col-md-12">
+              <div class="col-md-12" style="margin: 5px 0;">
                 <div class="col-md-4 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 100px;"></div>
                 <div class="col-md-8">
-                  <p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
-                  <div class="col-md-12">
-                    <p class="col-md-6">
-                      Size: S
-                    </p>
-                    <p>
+                  <p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>Rs.5000</s> ( 30% Off )</span></p>
+                  <div class="col-md-12 text-center">
+                    <p>Size: S &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>
                       <button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">-</button>&nbsp;&nbsp; 1 &nbsp;&nbsp;<button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">+</button>
-                    </p>
+                    </span></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-12" style="margin: 5px 0;">
+                <div class="col-md-4 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 100px;"></div>
+                <div class="col-md-8">
+                  <p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>Rs.5000</s> ( 30% Off )</span></p>
+                  <div class="col-md-12 text-center">
+                    <p>Size: S &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>
+                      <button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">-</button>&nbsp;&nbsp; 1 &nbsp;&nbsp;<button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">+</button>
+                    </span></p>
                   </div>
                 </div>
               </div>
