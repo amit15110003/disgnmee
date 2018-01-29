@@ -203,8 +203,9 @@ class admin extends CI_Controller
 	    $result=$this->user->order_status($id,$status);
 	    redirect($_SERVER['HTTP_REFERER']);
 	}
-	public function category()
-    {   
+	   public function category()
+    {   if($this->input->post('userSubmit'))
+        {  
             $data = array(
                 'category' => $this->input->post('category'),
                 'descr' => $this->input->post('descr')
