@@ -8,9 +8,9 @@
           <a href="<?php echo base_url(""); ?>" ><img class="img-responsive center-block" style="height: 30px;" src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png"></a>
         </div>
         <br><br>
-        <p>143-B Shahpur Jat, 1st floor, New Delhi - 110049011-49056967</p>
+        <p>D86 100 foot road Chatarpur enclave New Delhi 110074  //  F379, 2nd floor DLF Mall of India, Sector -18 Noida 201301</p>
         <br>
-        <p>+91-9785967626 exampla@designmee.com</p>
+        <p> Ph- +91-9810312151<br>Email- contact@designmee.in</p>
       </div>
 			<div class="col-md-3 col-xs-6">
         <ul style="list-style: none;"><p>About Us</p><br>
@@ -38,10 +38,10 @@
 			</div>
       <div class="text-center col-md-12">
         <br><br><br>
-        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=" https://www.facebook.com/DesignMeeIN/" style="padding: 0 15px;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/designmeein/" style="padding: 0 15px;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" style="padding: 0 15px;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#" style="padding: 0 15px;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <br><br><br>
       </div>
 		</div>

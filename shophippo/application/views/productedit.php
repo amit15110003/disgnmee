@@ -21,17 +21,11 @@
             <textarea class="form-control" rows="3" name="descr" required ><?php echo $Descr;?></textarea>
           </div>
           <div class="form-group">
-                <label>Category</label>
-                <select class="form-control select2" style="width: 100%;" name="category">
-                  <option value="Men" <?php if($category=='Men'){echo "selected";}?>>Men</option>
-                  <option value="Women" <?php if($category=='Women'){echo "selected";}?>>Women</option>
-                </select>
-          </div>
-          <div class="form-group">
-            <label>type</label>
-            <select class="form-control select2" style="width: 100%;" name="type">
-              <option value="Pant" <?php if($type=='Pant'){echo "selected";}?>>Pant</option>
-              <option value="Shirt" <?php if($type=='Shirt'){echo "selected";}?>>Shirt</option>
+            <label>Category</label>
+            <select class="form-control select2" style="width: 100%;" name="category">
+              <?php foreach ($query3 as $row) { ?>
+                <option value="<?php echo $row->id;?>" ><?php echo $row->category; echo " - "; echo $row->name;?></option>
+              <?php }?>
             </select>
           </div>
           <div class="form-group">

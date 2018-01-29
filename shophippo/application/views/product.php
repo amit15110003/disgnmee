@@ -17,15 +17,9 @@
               <div class="form-group">
                 <label>Category</label>
                 <select class="form-control select2" style="width: 100%;" name="category">
-                  <option value="Men" >Men</option>
-                  <option value="Women" >Women</option>
-                </select>
-              </div>
-               <div class="form-group">
-                <label>type</label>
-                <select class="form-control select2" style="width: 100%;" name="type">
-                  <option value="Pant" >Pant</option>
-                  <option value="Shirt" >Shirt</option>
+                  <?php foreach ($query3 as $row) { ?>
+                    <option value="<?php echo $row->id;?>" ><?php echo $row->category; echo " - "; echo $row->name;?></option>
+                  <?php }?>
                 </select>
               </div>
               <div class="form-group">
@@ -33,7 +27,7 @@
                   <input type="number" class="form-control"  name="price" required>
               </div>
               <div class="form-group">
-                <label for="sehir">Tag</label>
+                <label for="sehir">Color</label>
                 <select id="dates-field2" class="multiselect-ui form-control" name="color">
                   <?php
               foreach( $query4 as $row)
@@ -69,7 +63,6 @@
           {?>
                 <tr>
                   <td><?php echo $row->title; ?> </td>
-                  <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/Deletelibrary/'.$row->id; ?>">delete</a></td>
                   <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/productedit/'.$row->id; ?>">Edit</a></td>
                 </tr>
                  <?php }?>

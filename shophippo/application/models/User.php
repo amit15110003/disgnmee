@@ -160,7 +160,7 @@ class user extends CI_Model
 
 	public function showscategory()
 	{
-		$query=$this->db->get('scategory');;
+		$query=$this->db->get('scategory');
 		return $query->result();
 	}
 	function insert_scategory($name,$descr,$categorys)

@@ -323,7 +323,7 @@ class admin extends CI_Controller
 		if ($this->form_validation->run() == FALSE)
         {   
         	$details['query2']=$this->user->showproduct();
-        	$details['query4']=$this->user->showtype();
+            $details['query3']=$this->user->showscategory();
      		$this->load->view('header');
 		$this->load->view('product',$details);
 		$this->load->view('footer');
@@ -366,7 +366,6 @@ class admin extends CI_Controller
 				'title' => $this->input->post('title'),
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
-				'type' => $this->input->post('type'),
 				'price' => $this->input->post('price'),
 				'color' => $this->input->post('color'),
 				'status' => "pending",
@@ -510,12 +509,12 @@ public function updateproduct()
         			$data['title'] = $details[0]->title;
         			$data['Descr'] = $details[0]->Descr;
         			$data['category'] = $details[0]->category;
-        			$data['type'] = $details[0]->type;
 					$data['price'] = $details[0]->price;
 					$data['color'] = $details[0]->color;
 					$data['picture'] = $details[0]->picture;
 					$data['status'] = $details[0]->status;
         	    $data['query2']=$this->user->showproductimage($pid);
+                $data['query3']=$this->user->showscategory();
      			$this->load->view('header');
 				$this->load->view('productedit',$data);
 				$this->load->view('footer');

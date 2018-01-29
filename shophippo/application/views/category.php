@@ -13,14 +13,10 @@
               <label for="">Category Description</label>
                 <input type="text" class="form-control"  name="descr">
             </div>
-            <div class="form-group">
-                  <label for="exampleInputFile">File input</label>
-                  <input type="file" id="exampleInputFile" name="picture">
-            </div>
             <div class="box-footer">
               <button type="submit" class="btn btn-primary" class="btn btn-default" name="userSubmit" value="Add">Submit</button>
             </div>
-          </div>
+          </div></form>
           </div>
           </div>
          <div class="box-body">

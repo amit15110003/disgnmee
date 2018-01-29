@@ -104,6 +104,10 @@
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('index.php/admin/category'); ?>"><i class="fa fa-circle-o"></i> Category</a></li>
+
+            <li><a href="<?php echo base_url('index.php/admin/scategory'); ?>"><i class="fa fa-circle-o"></i> Subcategory</a></li>
+
             <li><a href="<?php echo base_url('index.php/admin/type'); ?>"><i class="fa fa-circle-o"></i> Color</a></li>
           </ul>
         </li>
@@ -115,11 +119,6 @@
         <li>
           <a href="<?php echo base_url('index.php/admin/abandoned_cart'); ?>">
             <i class="fa fa-th"></i> <span>Abandoned Cart</span>
-          </a>
-        </li>
-        <li>
-          <a href="<?php echo base_url('index.php/admin/media'); ?>">
-            <i class="fa fa-th"></i> <span>Media</span>
           </a>
         </li>
       </ul>
