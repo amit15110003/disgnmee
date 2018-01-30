@@ -1,98 +1,110 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>Terms & Conditions</h1>
-</div>
-<div class="container">
+<div class="container-fluid" style="padding:10% 0;"> 
+	<div class="col-md-8 col-md-offset-2"><p>
 
-<p >We have created this privacy statement in order to demonstrate our firm commitment to privacy.  This document discloses our information gathering and usage practices.</p>
-<p >This Privacy Policy (“Privacy Policy”) applies to <a href="http://thehippogriff.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://thehippogriff.com&amp;source=gmail&amp;ust=1487421076911000&amp;usg=AFQjCNFBevW7h1r_mFAcp46JWJ5mYM3lPQ">thehippogriff.com</a> (“Website”) and the services of The Hippogriff (hereinafter referred as the “firm” or “We”).</p>
-<p >The purpose of Privacy Policy is to ensure continuing commitment to the privacy of Personal Information provided by those visiting, registering, and interacting with the said website; further, for the purpose of this Privacy Policy, Personal Information shall mean, any and all, information collected in accordance with this Privacy Policy. The terms “users” or “you” as used in this Privacy Policy, refer to Persons, who access or use the Website and share their Personal Information.</p>
-<p >A. COLLECTION AND USE OF PERSONAL INFORMATION</p>
-<p >Personal information collected from you may include your name, postal address, email address, landline or mobile telephone number, location details as well as other non-sensitive personal information. If you use our web sites, we may also collect information about you or your computer when you browse to allow you to use the services available.</p>
-<p >We may store your browsing information, primarily, to provide services and features that most likely meet your needs, and to customize our Website to make your experience safer and easier. More importantly, while doing so we collect personal information from you that we consider necessary for achieving this purpose.</p>
-<p >We may track certain information about you based upon your behaviour on our Website. We use this information to do internal research on our users&#8217; demographics, interests, and behaviour to better understand, protect and serve our users. This information is compiled and analysed on an aggregated basis. This information may include the URL that you just came from (whether this URL is on our Website or not), which URL you next go to (whether this URL is on our Website or not), your computer browser information, and your IP address.</p>
-<p >We may collect information to understand the customer or client expectation and behaviour.</p>
-<p >If you choose to post reviews and tips about our services or post messages or leave feedback, we retain this information as necessary to resolve disputes, provide customer support and troubleshoot problems as permitted by law.</p>
-<p >The email address/ phone information that you provide on the Website may be used to contact you about service offers from us. We may also use that information to let you know of additional products and services from other companies that you might be interested in. If you do not wish to receive these kinds of communications, you may not opt to receive such communication or unsubscribe in later stage.</p>
-<p >We may use your Personal Information for the following purposes:</p>
-<ol>
-<li >
-<p >to provide the requested services and in optimization of our Website.</p>
-</li>
-<li >
-<p >to contact/ communicate you from time to time with critical user or service updates or other information important for our services;</p>
-</li>
-<li >
-<p >to customize, measure and improve our services, content and advertising;</p>
-</li>
-<li >
-<p >to promote the services or special offers or promotions related to our Website and services or those of our subsidiaries and/or affiliates;</p>
-</li>
-<li >
-<p >to compare information for accuracy, and verify it with third parties;</p>
-</li>
-<li >
-<p >to prevent illegal activity; and</p>
-</li>
-<li >
-<p >for the enforcement of this Privacy Policy and/or our Terms or any other purpose referenced herein or therein.</p>
-</li>
-</ol>
-<p >B. WEBSITE USAGE &amp; COOKIES</p>
-<p >We may gather certain information about the User, such as Internet protocol (IP) addresses, domain name, browser type, operating system, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our Website unless an attempt to damage the Website has been detected. We may use your IP address to help diagnose problems with our server, or to administer our web sites. We may conduct analyses of user traffic to measure the use of our sites and to improve the content of our web sites and our services.</p>
-<p >We use data collection devices such as &#8220;cookies&#8221; on certain pages of the Website to help analyse our web page flow, measure promotional effectiveness, and promote trust and safety. We use both “session ID cookies or session cookies” and “persistent cookies.” We use session cookies to make it easier for you to navigate the Website. A session cookie expires when you close your browser. If you check “remember me on this computer” when logging in to the Website, We also sets a persistent cookie to store you username passwords, so you do not have to enter it more than once. The persistent cookie also enables us to track and target the interests of users to enhance the experience on the Website. The persistent cookie is removed when you uncheck the “remember my email address” check box. For avoidance of doubt it is clarified that some of our business partners (such as advertisers) use cookies on the Website. We have no access to or control over these cookies. This Privacy Policy covers the use of cookies by us only and does not cover the use of cookies by any advertisers.</p>
-<p >C. SECURITY OF PERSONAL INFORMATION</p>
-<p >We use appropriate administrative, technical, and physical measures to safeguard personal information against loss, theft and unauthorised uses, access or modifications. If you are a user of our websites and have a password, you should not share your password with anyone else.</p>
-<p >Our Website has stringent security measures in place to protect the loss, misuse, and alteration of the information under our control. Whenever you change or access your account information, we offer the use of a secure server. Once your information is in our possession we adhere to strict security guidelines, protecting it against unauthorized access. For example, we use “_________” to ensure that all transfer of user data and transactions are encrypted and secured, as per SSL (Secure Sockets Layer) criteria etc.</p>
-<p >However, it remains each user&#8217;s responsibility:</p>
-<ol>
-<li >
-<p >to protect against unauthorized access to your use of the Website;</p>
-</li>
-<li >
-<p >to ensure no-one else uses the Website while the user&#8217;s machine is &#8220;logged on&#8221; to the Website service;</p>
-</li>
-<li >
-<p >to log off or exit from Website when not using it; and</p>
-</li>
-<li >
-<p >where relevant, to keep his/her password or other access information secret.</p>
-</li>
-</ol>
-<p >All Personal Information submitted to us is stored on a secure server. We do not store credit card numbers or related identifying information on any Website server. All such information is stored by our credit card processing partner(s), who are obligated to store such information using secure methods.  We also use third parties to help us optimize our Website flow, content and advertising.  All of our partners are under contract with us and they are obligated to keep your information confidential.</p>
-<p >D. DISCLOSURE TO THIRD PARTY</p>
-<p >We reserve the right, and you consent thereto, to share Personal Information with companies, organizations, advertiser  or individuals outside of the Firm, if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:</p>
-<ol>
-<li >
-<p >meet any applicable law, regulation, legal process or enforceable governmental request.</p>
-</li>
-<li >
-<p >enforce applicable Terms of Use, including investigation of potential violations.</p>
-</li>
-<li >
-<p >detect, prevent, or otherwise address fraud, security or technical issues.</p>
-</li>
-<li >
-<p >Protect against harm to the rights, property or safety of the Firm, our users or the public as required or permitted by law.</p>
-</li>
-<li >
-<p >In the event we are merged with or acquired by such firm or business entity.</p>
-</li>
-</ol>
-<p >E. PROTECTION MEASURES</p>
-<p >We take appropriate technical and organizational measures to guard against unauthorized or unlawful processing of your Personal Information and against accidental loss or destruction of, or damage to, your Personal Information. While no system is completely secure, we believe the measures implemented by our Website reduce the likelihood of security problems to a level appropriate to the type of data involved. We have security measures in place to protect our user database and access to this database is restricted internally.</p>
-<p >F. MEMBERSHIP</p>
-<p >Our site&#8217;s registration form requires you to provide us contact information.  We may use your contact information from the registration form to send you information about our firm and promotional material from some of our affiliated partners.  Your contact information is also used to contact you when necessary. You may ask us to show you the personal information we hold about you and to make corrections to it.  You can access and correct any of the personal information we hold about you by writing to us at <a href="mailto:support@thehippogriff.com" target="_blank">support@thehippogriff.com</a> If you wish to have your registration removed from our directory for any reason, you may send us an email requesting this.</p>
-<p >G. CHANGES TO PRIVACY POLICY</p>
-<p >We reserve the right to change our Privacy Policy, without prior notice, at our sole discretion. Please review our Privacy Policy periodically to be aware of any changes.</p>
-<p >H. YOUR CONSENT</p>
-<p >By using this Website and/or by providing your information, you hereby consent to the collection and use of the information you disclose on the Website in accordance with this Privacy Policy, including but not limited to your consent for sharing your information as per this Privacy Policy.</p>
-<p >If you do not agree please do not use or access our Website. By mere use of the Website, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Use.</p>
-<p >I. LINKS</p>
-<p >This Website may contain links to other sites. We are not responsible for the privacy practices of such other sites. We encourage users to be aware when they leave the Website and to read the Privacy Policy of sites that collect personally identifiable information. This Privacy Policy applies only to information collected on this Website.  We have no control of either the content or privacy policies of such sites, nor should such links be considered an endorsement of these sites except where otherwise noted.</p>
-<p >J. TERM</p>
-<p >We retain your personal Information as long as is necessary for the purposes to which you consent under this Privacy Policy, or as is required by applicable law, and then we will delete it.</p>
-<p >K. Emails</p>
-<p >It is our policy to send you any email you elect to receive, in addition to customary business communications (payment confirmations, etc.).  Further, it is our policy to immediately remove any member from any mailing list upon the member&#8217;s request.  In addition, we will send newsletters and other communications to members.  Newsletters will contain clear and obvious instructions for how the member can remove him/herself from that mailing list. We do use email as a means of receiving feedback from our members, and we encourage you to email at <a href="mailto:support@thehippogriff.com" target="_blank">support@thehippogriff.com</a></p>
+		Naveli Collections Private Limited (&quot;We&quot;) under the brand name “Designmee” are committed to
+		protecting and respecting your privacy.
+		This policy (together with our terms of use terms and conditions and any other documents
+		referred to on it) sets out the basis on which any personal data we collect from you, or that you
+		provide to us, will be processed by us. Please read the following carefully to understand our
+		views and practices regarding your personal data and how we will treat it.</p>
+
+		<h2>INFORMATION WE MAY COLLECT FROM YOU</h2>
+		<p>We may collect and process the following data about you:
+		<li> Information that you provide by filling in forms on the website www.designmee.in. This
+		includes information provided at the time of registering to use the Website, subscribing
+		to our service, posting material or requesting further services. We may also ask you for
+		information when you report a problem with the Website.
+		</li><li> If you contact us, we may keep a record of that correspondence.
+		</li><li> If you telephone us, we may keep recordings of the call for training purposes.
+		</li><li> We may also ask you to complete surveys that we use for research purposes, although
+		you do not have to respond to them.
+		</li><li> Details of transactions you carry out through the Website and of the fulfilment of your
+		orders.
+		</li><li> Details of your visits to the Website including, but not limited to, traffic data, location
+		data, weblogs and other communication data, whether this is required for our own
+		billing purposes or otherwise and the resources that you access.</li></p>
+
+		<h2>IP ADDRESSES AND COOKIES</h2>
+
+		<p>When you visit the Site, we passively collect data through the use of cookies on your computer
+		and Internet connection, such as the IP address of your computer and/or Internet Service
+		Provider, the date and time you access the Site, the Internet address of websites from which
+		you link to our Site, the computer technology you are using and your movements and
+		preferences on our Site. We may also use such cookies to collect information in connection
+		with future visits to the Site (such as to remember your username and password), to recognize
+		you as a previous visitor, and to track your activity on the Site. You may set your browser to
+		notify you when a cookie is sent or to refuse cookies altogether, but certain features of the Site
+		might not work without cookies.</p><p>
+
+		We reserve the right to use other technologies such as Internet tags, web beacons, and
+		navigational data collection tools. We use such data primarily in order to: administer, protect,
+		and improve our Site and our systems; better understanding the preferences of our Site
+		visitors; identify server problems, compile aggregated statistics about Site usage, help
+		personalize your experience on our Site, advertise on other sites across the Internet, and
+		personalize offers. We may combine data gathered through cookies and other tracking
+		technologies with Personal Data, although when we do, we treat all such data as Personal Data
+		for purposes of this Privacy Policy.</p><p>
+		We may collect information about your computer, including where available your IP address,
+		operating system and browser type, for system administration and to report aggregate
+		information to our advertisers. This is statistical data about our users&#39; browsing actions and
+		patterns, and does not identify any individual.</p><p>
+		For the same reason, we may obtain information about your general internet usage by using a
+		cookie file which is stored on the hard drive of your computer. Cookies and other such software
+		on our Website contain information that is transferred to your computer&#39;s hard drive. They help
+		us to improve the Website and to deliver a better and more personalised service. </p>
+		<h2>USES MADE OF THE INFORMATION</h2><p>
+		We use information held about you in the following ways:</p>
+		<li> To ensure that content from the Website is presented in the most effective manner for
+		you and for your computer.</li>
+		<li> To provide you with information, products or services that you request from us or which
+		we feel may interest you, where you have consented to be contacted for such purposes.</li>
+		<li> To carry out our obligations arising from any contracts entered into between you and
+		us.</li>
+		<li> To allow you to participate in interactive features of our service, when you choose to do
+		so.</li>
+		<li> To notify you about changes to our service.</li><p>
+		We may also use your data, or permit selected third parties to use your data, to provide you
+		with information about goods and services which may be of interest to you and we or they may
+		contact you about these by post.
+		We may also use your data to contact you via electronic means (email or SMS) with information
+		about goods and services similar to those which were the subject of a previous sale to you.
+		You can opt out of any communication from us or from selected third parties, either postal or
+		electronic, by contacting our customer service team.</p>
+
+		<h2>DISCLOSURE OF YOUR INFORMATION</h2><p>
+		We may disclose your personal information to any member of our group, which means our
+		subsidiaries, our ultimate holding company and its subsidiaries, as defined in section 2(87) and
+		section 2 (47) respectively of the Companies Act, 2013 or one of our connected companies.
+		We may disclose your personal information to third parties:
+		<li> In the event that we sell or buy any business or assets, in which case we may disclose
+		your personal data to the prospective seller or buyer of such business or assets.</li>
+		<li> If Naveli Collections Private Limited or substantially all of its assets are acquired by a
+		third party, in which case personal data held by it about its customers will be one of the
+		transferred assets.</li>
+		<li> If we are under a duty to disclose or share your personal data in order to comply with
+		any legal obligation, or in order to enforce or apply our terms of use and other
+		agreements; or to protect the rights, property, or safety of Naveli Collections Private
+		Limited, our customers, or others. This includes exchanging information with other
+		companies and organisations for the purposes of fraud protection and credit risk
+		reduction.</li></p>
+
+		<h2>YOUR RIGHTS</h2><p>
+		You have the right to ask us not to process your personal data for marketing purposes. We will
+		usually inform you (before collecting your data) if we intend to use your data for such purposes
+		or if we intend to disclose your information to any third party for such purposes. You can
+		exercise your right to prevent such processing by checking certain boxes on the forms we use to
+		collect your data. You can also exercise the right at any time by contacting our customer service
+		team.</p><p>
+		The Website may, from time to time, contain links to and from the websites of our partner
+		networks, advertisers and affiliates. If you follow a link to any of these websites, please note
+		that these websites have their own privacy policies and that we do not accept any responsibility
+		or liability for these policies. Please check these policies before you submit any personal data to
+		these websites. CHANGES TO OUR PRIVACY POLICY
+		Any changes we may make to our privacy policy in the future will be posted on this page. Please
+		check this Policy from time to time for any changes.</p>
+		<h2>CONTACT</h2><p>
+		Questions, comments and requests regarding this privacy policy are welcomed and should be
+		addressed to our customer service team at <a href="mailto:contact@designmee.in">contact@designmee.in</a> 
+		</p>
+	</div>
 </div>

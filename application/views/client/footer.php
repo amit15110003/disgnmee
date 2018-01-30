@@ -15,7 +15,8 @@
 			<div class="col-md-3 col-xs-6">
         <ul style="list-style: none;"><p>About Us</p><br>
           <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/about" >Our Story</a></li><br>
-          <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/terms_and_condition" >Terms & Condition</a></li>
+          <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/terms_and_condition" >Terms & Condition</a></li><br>
+          <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/privacy_policy" >Privacy Policy</a></li><br>
         </ul>
 			</div>
 			<div class="col-md-3 col-xs-6" >
