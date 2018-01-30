@@ -1,81 +1,692 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>Terms & Conditions</h1>
-</div>
-<div class="container">
-<p >Welcome to <a href="http://www.hippogriff.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.hippogriff.com&amp;source=gmail&amp;ust=1487421076925000&amp;usg=AFQjCNHIhsvWjAUh91aXIB4oEW9kFMjsPw">www.hippogriff.com</a>. is an online shopping website which offers array of products at amazing prices. Please read this terms and conditions carefully. In following these terms &amp; conditions, references to &#8216;You&#8217;, means the &#8216;User&#8217; registering and accessing the website. &#8216;Service Providers&#8217; means the third party service providers. We reserve the right to amend this Notice at any time and your use of this website following any amendments will represent your agreement to be bound by these terms and conditions as amended.  We therefore recommend that each time you access our website you read these terms and conditions.</p>
-<p >THESE TERMS, INCLUDING THIS INTRODUCTORY SECTION, CREATE A BINDING LEGAL CONTRACT BETWEEN YOU AND US. BY USING THE COMPANY SERVICES, YOU REPRESENT AND WARRANT THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS, YOU MUST NOT USE AND ARE NOT AUTHORIZED TO USE ALL OR ANY PORTION OF THE COMPANY SERVICES.</p>
-<p >ELIGIBILITY:</p>
-<p >For the purposes of this agreement, “you” means a user who pays for access to the website as or user who accesses or uses the site. If you are a child under 13 years of age, we may need your parent or guardians consent before allowing you to use the service. This Site is intended for use by you only if you are 18 years of age or older. The service is not available to any users previously removed from the service by other Ecommerce websites.</p>
-<p >If you are using or opening an account to use the site on behalf of a company, entity or organization (each a “Subscribing Entity”), then you represent and warrant that you: (i) are an authorized representative of that subscribing entity with the authority to bind such entity to these Terms, and (ii) agree to be bound by these Terms on behalf of such subscribing entity.</p>
-<p >Additionally, users are prohibited from transferring their Hippogriff account to another party. If you do not qualify, you may not use the Hippogriff Service.</p>
-<p >By using this website, you agree to be bound by all of the terms and conditions mentioned on the website. These terms and conditions apply to all users of the site. Hippogriff reserve right to limit the number of user accounts per household. Products and services are offered to private users only not to commercial retailers.</p>
-<p >MEMBERSHIP</p>
-<p >In order to access the Service provided on this website, you must become a member. You must complete registration by providing certain information as set out on our membership/registration page.  Please also refer to our Privacy Policy linked on our home page for information relating to our collection, storage and use of the details you provide on registration.</p>
-<p >You agree to ensure that your registration details, including your name, address, contact number and email address, are true and accurate at all times and you undertake to update your registration details from time to time when they change.  If we become aware that either your name and/or email address is incorrect, we reserve the right to immediately cancel your registration and acceptance for registration in the future will be at our discretion.</p>
-<p >You are responsible for maintaining the confidentiality of the password and account, and are fully responsible for all activities that occur under your password or account. In this endeavor company requires you to regularly notify company of any unauthorized use of your password, account or breach of security. There will be no liability of company for any loss or damage arising due to non-compliance terms and conditions of website.</p>
-<p >HIPPOGRIFF SERVICE</p>
-<p >Subject to the terms and conditions of this Agreement, you are hereby granted a non-exclusive, limited, non-transferable, freely revocable license to use the Service for your personal, non-commercial use only and as permitted by the features of the Service. Hippogriff reserves all rights not expressly granted herein in the Service and the Hippogriff Content (as defined below). Hippogriff may terminate this license at any time for any reason or no reason.</p>
-<p >HIPPOGRIFF ACCOUNTS</p>
-<p >Your Hippogriff account gives you access to the services and functionality that we may establish and maintain from time to time and in our sole discretion. By connecting to Hippogriff with a third-party service (for example, Facebook or Twitter), you give us permission to access and use your information from that service as permitted by that service, and to store your log-in credentials for that service.</p>
-<p >You may never use another User’s account without permission. When creating your account, you must provide accurate and complete information. You are solely responsible for the activity that occurs on your account, and you must keep your account password secure. We encourage you to use “strong” passwords (passwords that use a combination of upper and lower case letters, numbers and symbols) with your account. You must notify Hippogriff immediately of any breach of security or unauthorized use of your account. Hippogriff will not be liable for any losses caused by any unauthorized use of your account.</p>
-<p >You may control your User profile and how you interact with the Service by changing the settings in your “account settings” page. By providing Hippogriff, your email address you consent to our using the email address to send you Service-related notices, including any notices required by law, in lieu of communication by postal mail. We may also use your email address to send you other messages, such as changes to features of the Service and newsletters, special offers. If you do not want to receive such email messages, you may opt out or change your preferences in your “account settings or just unsubscribe” page. Opting out may prevent you from receiving email messages regarding updates, improvements, or offers.</p>
-<p >OUR PROPRIETARY RIGHTS</p>
-<p >Except for your User Content, the videos and all materials therein or transferred thereby, including, without limitation, software, images, text, graphics, illustrations, logos, patents, trademarks, service marks, copyrights, photographs, audio, videos, music, and User Content belonging to other Users (the “Hippogriff Content”), and all Intellectual Property Rights related thereto, are the exclusive property of Hippogriff and its licensors (including other Users who post User Content to the Service). Except as explicitly provided herein, nothing in this Agreement shall be deemed to create a license in or under any such Intellectual Property Rights, and you agree not to sell, license, rent, modify, distribute, copy, reproduce, transmit, publicly display, publicly perform, publish, adapt, edit or create derivative works from any Hippogriff Content. Use of the Hippogriff Content for any purpose not expressly permitted by this Agreement is strictly prohibited.</p>
-<p >You may choose to or we may invite you to submit comments or ideas about the Service, including without limitation about how to improve the Service or our products (“Ideas”). By submitting any Idea, you agree that your disclosure is gratuitous, unsolicited and without restriction and will not place Hippogriff under any fiduciary or other obligation, and that we are free to use the Idea without any additional compensation to you, and/or to disclose the Idea on a non-confidential basis or otherwise to anyone. You further acknowledge that, by acceptance of your submission, Hippogriff does not waive any rights to use similar or related ideas previously known to Hippogriff, or developed by its employees, or obtained from sources other than you.</p>
-<p >HYPERLINKS</p>
-<p >This website may from time to time contain hyperlinks to other websites.  Such links are provided for convenience only and we take no responsibility for the content and maintenance of or privacy compliance by any linked website.  Any hyperlink on our website to another website does not imply our endorsement, support, or sponsorship of the operator of that website nor of the information and/or products or services which they provide.</p>
-<p >You may link our website without our consent.  Any such linking will be entirely your responsibility and at your expense.  By linking, you must not alter any of our website&#8217;s contents including any intellectual property notices and you must not frame or reformat any of our pages, files, images, text or other materials.</p>
-<p >PRIVACY &amp; SECURITY</p>
-<p >We care about the privacy of our Users. You understand that by using the Services you consent to the collection, use and disclosure of your personally identifiable information and aggregate data as set forth in our Privacy Policy, and to have your personally identifiable information collected, used, transferred to and processed in India. Hippogriff cares about the integrity and security of your personal information. However, we cannot guarantee that unauthorized third parties will never be able to defeat our security measures or use your personal information for improper provide your personal information at your own risk.</p>
-<p >INTELLECTUAL PROPERTY RIGHTS</p>
-<p >We claim no intellectual property rights over the material you submit post, transmit or display on, or through, the Service. Your profile and materials uploaded remain yours. The ownership of any content created by a user of the Service in the context of a course remains the property of that user. However, be aware that by setting your profile or pages to be viewed publicly, you are allowing others to view your content.</p>
-<p >The copyright to all content that has been created by us, including applets, graphics, images, layouts and text belongs to us or we have a licence to use those materials.</p>
-<p >All trademarks, brands and logos generally identified either with the symbols TM or ® which are used on this website are either owned by us or we have a licence to use them. Your access to our website does not license you to use those marks in any commercial way without our prior written permission.</p>
-<p >If you provide us with Comments, you acknowledge that you are responsible for the content of such material including its legality, originality and copyright.</p>
-<p >You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Site. Hippogriff’s content is not for resale. Your use of the Site does not entitle you to make any unauthorized use of any protected content, and in particular you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use, and will make no other use of the content without the express written permission of Hippogriff and the copyright owner. You agree that you do not acquire any ownership rights in any protected content. We do not grant you any licenses, express or implied, to the intellectual property of Hippogriff or our licensors except as expressly authorized by these Terms.</p>
-<p >Unless otherwise stated, all fees are quoted in Indian Rupees. You are responsible for paying all fees and applicable taxes associated with the Site in a timely manner with a valid payment method that is accepted by us in our sole discretion. If your payment method fails or your account is past due, then we may collect fees owed using other collection mechanisms. This may include charging other payment methods on file with us and/or retaining collection agencies and legal counsel. We may also block your access to site pending resolution of any amounts due by you to us.</p>
-<p >USE OF COMMUNICATION SERVICES</p>
-<p >The Site may contain bulletin board services, chat areas, news groups, forums, communities, personal web pages, calendars, and/or other message or communication facilities designed to enable you to communicate with the public at large or with a group (collectively, “Communication Services”), you agree to use the Communication Services only to post, send and receive messages and material that are proper and related to the particular Communication Service.</p>
-<p >By way of example, and not as a limitation, you agree that when using a Communication Service, you will not: defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others; publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, infringing, obscene, indecent or unlawful topic, name, material or information; upload files that contain software or other material protected by intellectual property laws (or by rights of privacy of publicity) unless you own or control the rights thereto or have received all necessary consents; upload files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another&#8217;s computer; advertise or offer to sell or buy any goods or services for any business purpose, unless such Communication Service specifically allows such messages; conduct or forward surveys, contests, pyramid schemes or chain letters; download any file posted by another user of a Communication Service that you know, or reasonably should know, cannot be legally distributed in such manner; falsify or delete any author attributions, legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded, restrict or inhibit any other user from using and enjoying the Communication Services; violate any code of conduct or other guidelines which may be applicable for any particular Communication Service; harvest or otherwise collect information about others, including e-mail addresses, without their consent; violate any applicable laws or regulations.</p>
-<p >Hippogriff has no obligation to monitor the Communication Services. However, Hippogriff reserves the right to review materials posted to a Communication Service and to remove any materials in its sole discretion. Hippogriff reserves the right to terminate your access to any or all of the Communication Services at any time without notice for any reason whatsoever.</p>
-<p >Hippogriff reserves the right at all times to disclose any information as necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in Hippogriff sole discretion.</p>
-<p >Always use caution when giving out any personally identifying information about yourself or your children in any Communication Service. Hippogriff does not control or endorse the content, messages or information found in any Communication Service and, therefore, Hippogriff specifically disclaims any liability with regard to the Communication Services and any actions resulting from your participation in any Communication Service. Managers and hosts are not authorized Hippogriff spokespersons, and their views do not necessarily reflect those of Hippogriff.</p>
-<p >Materials uploaded to a Communication Service may be subject to posted limitations on usage, reproduction and/or dissemination. You are responsible for adhering to such limitations if you upload the materials.</p>
-<p>&nbsp;</p>
-<p >POSTING</p>
-<p >The Company has the right to reject or refuse to post any material you have provided, remove any material from the website whether or not the material goes against any of these conditions, or restrict, suspend or stop your access to all or any part of the website at any time.</p>
-<p >PRICES</p>
-<p >The prices for products are mentioned in the website and are incorporated into these Terms by reference. The prices are in Indian rupees. The prices, products and services are subject to change at Team Hippogriff’s discretion. The discount code / cash back applied on an order have a limit of 1 code / coupon / cash back per order.</p>
-<p >REFUND</p>
-<p >The amount would be refunded within 45 working days excluding (<span class="aBn" tabindex="0" data-term="goog_1066537863"><span class="aQJ">Saturday</span></span> and <span class="aBn" tabindex="0" data-term="goog_1066537864"><span class="aQJ">Sunday</span></span> or as per company’s convenience) from the date of cancellation. You are requested to check your bank statement thoroughly to make sure that you have received your refund amount. Goods can be returned and refunded only if damaged when or before it reaches you.</p>
-<p >TERMINATION/ACCESS RESTRICTION</p>
-<p >Hippogriff reserves the right, in its sole discretion, to terminate your access to the Site and the related services or any portion thereof at any time, without notice. To the maximum extent permitted by law, this agreement is governed by the laws of India and you hereby consent to the exclusive jurisdiction and venue of courts in India ,in all disputes arising out of or relating to the use of the Site. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limitation, this section.</p>
-<p >You agree that no joint venture, partnership, employment, or agency relationship exists between you and Hippogriff as a result of this agreement or use of the Site. Hippogriff’s performance of this agreement is subject to existing laws and legal process, and nothing contained in this agreement is in derogation of Hippogriff right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by Hippogriff with respect to such use. If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect.</p>
-<p >Unless otherwise specified herein, this agreement constitutes the entire agreement between the user and Hippogriff with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and Hippogriff with respect to the Site. A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish to the parties that this agreement and all related documents be written in English.</p>
-<p >INDEMNITY</p>
-<p >You agree to defend, indemnify and hold harmless Hippogriff and its subsidiaries, agents, licensors, managers, and other affiliated companies, and their employees, contractors, agents, officers and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s fees) arising out of or related to: (i) your use of and access to the Service, including any data or content transmitted or received by you; (ii) your violation of any term of this Agreement, including without limitation your breach of any of the representations and warranties above; (iii) your violation of any third-party right, including without limitation any right of privacy or Intellectual Property Rights; (iv) your violation of any applicable law, rule or regulation; (v) User Content or any other information or content that is submitted via your account including without limitation misleading, false or inaccurate information; (vi) negligent or wilful misconduct; or (vii) any other party’s access and use of other appropriate security code.</p>
-<p >NO WARRANTY</p>
-<p >THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. USE OF THE SERVICE IS AT YOUR OWN RISK. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SERVICE IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WITHOUT LIMITING THE FOREGOING, HIPPOGRIFF, ITS SUBSIDIARIES, ITS AFFILIATES, AND ITS LICENSORS DO NOT WARRANT THAT THE CONTENT IS ACCURATE, RELIABLE OR CORRECT; THAT THE SERVICE WILL MEET YOUR REQUIREMENTS; THAT THE SERVICE WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION, UNINTERRUPTED OR SECURE; THAT ANY DEFECTS OR ERRORS WILL BE CORRECTED; OR THAT THE SERVICE IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. ANY CONTENT DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SERVICE IS DOWNLOADED AT YOUR OWN RISK AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH DOWNLOAD OR YOUR USE OF THE SERVICE.</p>
-<p >SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THIS AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE. THE DISCLAIMERS AND EXCLUSIONS UNDER THIS AGREEMENT WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.</p>
-<p >HIPPOGRIFF DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE HIPPOGRIFF SERVICE OR ANY HYPERLINKED WEBSITE OR SERVICE, AND HIPPOGRIFF WILL NOT BE A PARTY TO OR IN ANY WAY MONITOR ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.</p>
-<p >CANCELLATION OF FRAUDULENT ORDERS</p>
-<p >To provide a safe and secure shopping experience, we regularly monitor transactions for fraudulent activity. In the event of detecting any suspicious activity, Hippogriff.com reserves the right to cancel all past, pending and future orders without any liability. Hippogriff also reserves the right to refuse or cancel orders in scenarios like inaccuracies in pricing of product on website and stock unavailability. We may also require additional verifications or information before accepting any order. We will contact you if all or any portion of your order is cancelled or if additional information is required to accept your order. If your order is cancelled after your card has been charged, the said amount will be reversed to your Card Account. Any promotional voucher used for the cancelled orders may not be refunded.</p>
-<p >INTERNATIONAL USERS</p>
-<p >The Service is controlled, operated and administered by Hippogriff from our offices within India. If you access the Service from a location outside India, you are responsible for compliance with all local laws. You agree that you will not use the Hippogriff’s Content accessed through <a href="http://www.hippogriff.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.Hippogriff.com&amp;source=gmail&amp;ust=1487421076926000&amp;usg=AFQjCNHXg0SwEWeOtPVYV5aAbURLsIHmBw">http://www.Hippogriff.com</a> in any country or in any manner prohibited by any applicable laws, restrictions or regulations.</p>
-<p >LIMITATION OF LIABILITY</p>
-<p >TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL HIPPOGRIFF, ITS AFFILIATES, AGENTS, DIRECTORS, EMPLOYEES, SUPPLIERS OR LICENSORS BE LIABLE FOR ANY INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO THE USE OF, OR INABILITY TO USE, THIS SERVICE. UNDER NO CIRCUMSTANCES WILL HIPPOGRIFF BE RESPONSIBLE FOR ANY DAMAGE, LOSS OR INJURY RESULTING FROM HACKING, TAMPERING OR OTHER UNAUTHORIZED ACCESS OR USE OF THE SERVICE OR YOUR ACCOUNT OR THE INFORMATION CONTAINED THEREIN.</p>
-<p >TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, HIPPOGRIFF ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (I) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT; (II) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO OR USE OF OUR SERVICE; (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION STORED THEREIN; (IV) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICE; (V) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE THAT MAY BE TRANSMITTED TO OR THROUGH OUR SERVICE BY ANY THIRD PARTY; (VI) ANY ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE THROUGH THE SERVICE; AND/OR (VII) USER CONTENT OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY. IN NO EVENT SHALL HIPPOGRIFF, ITS AFFILIATES, AGENTS, DIRECTORS, EMPLOYEES, SUPPLIERS, OR LICENSORS BE LIABLE TO YOU FOR ANY CLAIMS, PROCEEDINGS, LIABILITIES, OBLIGATIONS, DAMAGES, LOSSES OR COSTS IN AN AMOUNT EXCEEDING THE AMOUNT YOU PAID TO HIPPOGRIFF HEREUNDER OR $100.00, WHICHEVER IS GREATER.</p>
-<p >THIS LIMITATION OF LIABILITY SECTION APPLIES WHETHER THE ALLEGED LIABILITY IS BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR ANY OTHER BASIS, EVEN IF HIPPOGRIFF HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION.</p>
-<p >SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. THIS AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE. THE EXCLUSIONS AND LIMITATIONS OF LIABILITY UNDER THIS AGREEMENT WILL NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.</p>
-<p >The Service is controlled and operated from facilities in India. Hippogriff makes no representations that the Service is appropriate or available for use in other locations. Those who access or use the Service from other jurisdictions do so at their own volition and are entirely responsible for compliance with all applicable in India and local laws and regulations, including but not limited to export and import regulations. You may not use the Service if you are a resident of a country embargoed by India, or are a foreign person or entity blocked or denied by the India government. Unless otherwise explicitly stated, all materials found on the Service are solely directed to individuals, companies, or other entities located in India.</p>
-<p >GENERAL</p>
-<p >Assignment This Agreement, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by Hippogriff without restriction. Any attempted transfer or assignment in violation hereof shall be null and void.</p>
-<p >Notification Procedures and Changes to the Agreement Hippogriff may provide notifications, whether such notifications are required by law or are for marketing or other business related purposes, to you via email notice, written or hard copy notice, or through posting of such notice on our website, as determined by Hippogriff in our sole discretion. Hippogriff reserves the right to determine the form and means of providing notifications to our Users, provided that you may opt out of certain means of notification as described in this Agreement. Hippogriff is not responsible for any automatic filtering you or your network provider may apply to email notifications we send to the email address you provide us. Hippogriff may, in its sole discretion, modify or update this Agreement from time to time, and so you should review this page periodically. When we change the Agreement in a material manner, we will update the ‘last modified’ date at the bottom of this page. Your continued use of the Service after any such change constitutes your acceptance of the new Terms of Service. If you do not agree to any of these terms or any future Terms of Service, do not use or access (or continue to access) the Service.</p>
-<p >Entire Agreement/Severability This Agreement, together with any amendments and any additional agreements you may enter into with Hippogriff in connection with the Service, shall constitute the entire agreement between you and Hippogriff concerning the Service. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect, except that in the event of unenforceability of the universal Class Action/Jury Trial Waiver, the entire arbitration agreement shall be unenforceable.</p>
-<p >No Waiver No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term, and Hippogriff failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision.</p>
-<p >Contact Please contact us at <a href="mailto:info@kslegal.co.in" target="_blank">info@kslegal.co.in</a> with any questions regarding this Agreement.</p>
-<p >Disputes Any dispute or claim relating in any way to your use of any Hippogriff Service, or to any products or sold or distributed by Hippogriff or through Hippogriff.com will be resolved by binding arbitration.</p>
-<p >Applicable Law and Jurisdiction Terms of Use shall be governed by and interpreted and construed in accordance with the laws of India. The Courts/Tribunals in New Delhi shall have exclusive jurisdiction to try any disputes or suit arising out of this Agreement.</p>
-</div>
+<div class="container-fluid" style="padding: 10%;">	
+	
+
+	<div class="col-md-8 col-md-offset-2">
+		<h1>Terms<span class="th-bold">&conditions</span></h1><br>
+		<ul style="list-style: none;">
+			<li>
+				<h2>1. Terms of Use</h2>
+				<p>
+					1.1. We thank the user for visitingwww.designmee.in. By accessing or using
+					www.designmee.in website or the mobile application or any other media (&quot;Website&quot;),
+					whether automated or otherwise, user, a registered or a guest user, in terms of the
+					eligibility criteria, set out herein, user (“User”) agrees to be bound by these Terms and
+					Conditions (“Terms”)</p><p> 
+					1.2. In these Terms, references to &quot;user&quot;, &quot;User&quot; shall mean the end user/customer
+					accessing the Website, its contents and using the Services offered through the Website.
+					and references to the “Website”, &quot;Designmee.in&quot;, “Designmee.”, “Naveli” &quot;we&quot;, &quot;us&quot; and
+					&quot;our&quot; shall mean the Website and/or Naveli Collections Private Limited, its affiliates and
+					partners (as applicable).</p><p> 
+					1.3. By impliedly or expressly accepting these Terms, user also accepts and agrees to
+					be bound by Designmee Policies (including but not limited to Privacy Policy available at
+					www.designmee.in/privacypolicy as amended from time to time. If user does not want to
+					be bound by the Terms, user must not subscribe to or use our services. We encourage
+					our users to read these Terms carefully while using the Website.</p><p> 
+					1.4. The contents set out herein form an electronic record in terms of Information
+					Technology Act, 2000 and rules there under as applicable and as amended from time to
+					time. As such, this document does not require any physical or digital signatures and
+					forms a valid and binding agreement between the Website and the User. These Terms
+					are made available to the User pursuant to and in accordance with the provisions of
+					Rule 3 (1) of the Information Technology (Intermediaries Guidelines) Rules, 2011 that
+					require publishing the rules, regulations, privacy policy and Terms for access or usage
+					of the Website</p><p> 
+					1.5. The headings and subheadings herein are included for convenience and
+					identification only and are not intended to describe, interpret, define or limit the scope,
+					extent or intent of the Terms or the right to use the Website by user contained herein or
+					any other section or pages of the Website or any linked sites in any manner
+					whatsoever.</p><p> 
+					1.6. The Terms herein shall apply equally to both the singular and plural form of the
+					terms defined. Whenever the context may require, any pronoun shall include the
+					corresponding masculine and feminine. The words &quot;include&quot;, &quot;includes&quot; and &quot;including&quot;
+					shall be deemed to be followed by the phrase &quot;without limitation&quot;. Unless the context
+					otherwise requires, the terms &quot;herein&quot;, &quot;hereof&quot;, &quot;hereto&quot;, &quot;hereunder&quot; and words of
+					similar import refer to the Terms as a whole.</p><p> 
+
+					1.7. The Website ‘DesignMee.in’ is operated by Naveli Collections Private Limited. A
+					company incorporated under the laws of India having its registered office at D-86 100
+					foot road Chatarpur Enclave, New Delhi - 110074. All references to Website in these
+					Terms shall deem to refer to the aforesaid entity in inclusion of the online portal.</p><p> 
+					1.8. Further, the terms and conditions for any Product, sale, discount, discount
+					vouchers, gift vouchers, pre-paid instruments or contest event organized on the Website
+					from time to time, shall be subject to third party/ partner’s terms and conditions. In
+					addition to the above, some areas of the Website may contain content provided by our
+					third party partners and such content shall be subject to separate terms and conditions
+					of use, which are posted within those areas by third party partners.</p><p> 
+					1.9. This Website may also contain links to other websites, which are not operated by
+					the Website, and the Website has no control over the linked sites and accepts no
+					responsibility for them or for any loss or damage that may arise from user’s use of them.
+					User’s use of the linked sites will be subject to the terms of use and service contained
+					within each such site.</p><p> 
+					1.10. We reserve the right to change these Terms at any time. Such changes will be
+					effective when posted on the Website and may, at the sole discretion of the Website be
+					notified to the Users from time to time. Notwithstanding the foregoing, by continuing to
+					use the Website after we post any such changes, user accept the Terms as modified.</p><p> 
+					1.11. These Terms will continue to apply until terminated by either User or
+					‘Designmee.in’ in accordance with the terms set out below:<br>
+					1.11.1. The agreement with Designmee can be terminated by (i) not accessing the
+					Website; or (ii) closing User Account, if such option has been made available to User.<br>
+					1.11.2. The above clause shall also apply to any additional Terms applicable to the use
+					of the Website and Designmee reserves the right to terminate access to the Website
+					(including any services offered as part thereof);</p><p> 
+					1.12. Notwithstanding the foregoing, these provisions set out in these Terms which by
+					their very nature survive are meant to survive termination, shall survive the termination /
+					expiry of this agreement.
+				</p>	
+			</li>
+			<li>
+				<h2>2. Eligibility to use</h2>
+				<p>
+					2.1. Use of the Website is available only to such persons who are legally competent to
+					enter into a contract as per law of the land.</p><p>
+
+					2.2. Any minor desirous to use or transact on Website, is required to conduct such
+					transaction through their legal guardian or parents.</p><p>
+					2.3. The Website reserves the right to terminate any membership and / or refuse to
+					provide access to the Website if it is brought to the Website’s notice or if it is discovered
+					that the person accessing/using the Website is under the age of 18 years.</p><p>
+					2.4. By accepting the Terms or using or transacting on the Website, the User
+					irrevocably declares and undertakes that he/she is of legal age i.e. 18 years or older
+					and capable of entering into a binding contract and such usage shall be deemed to form
+					a contract between the Website and such User to the extent permissible under
+					applicable laws.
+				</p>
+			</li>
+			<li>
+				<h2>3. Account, Password, and Security</h2>
+				<p>
+					3.1. Any person may access the Website and the Products either by registering to the
+					Website or using the Website as a guest. However, a guest user may not have access
+					to all sections of the Website including certain services/benefits, which shall be reserved
+					only for the purpose of registered Users, and which may change from time to time at the
+					sole discretion of the Website.</p><p>
+					3.2. If user wishes to register self with the Website, user shall be required to create an
+					account by registering through Facebook, Gmail or by filling in the details prescribed in
+					the Website registration form. User will then receive a password and account
+					designation upon completing the Website&#39;s registration process. User is responsible for
+					maintaining the confidentiality of the password and account, and are fully responsible
+					for any and all activities that occur under user password or account. User agrees to (a)
+					immediately notify the Website of any unauthorized use of user password or account or
+					any other breach of security, and (b) ensure that user exit from user account at the end
+					of each session. Designmee.in cannot and will not be liable for any loss or damage
+					arising from user failure to comply with this Section or for any losses occurring thereto.
+					User, as the User, waive any claims against the Website for any loss and damage
+					suffered by user on account of user’s failure to comply with the Terms and reasonably
+					expected good practices in this regard.</p><p>
+					3.3. If any User learns or is made or becomes aware of any instance of hacking or
+					misuse of its User account, it shall without delay notify the Website of the same.
+					Additionally, registered Users may be held liable for losses incurred by the Website for
+					any loss or damage caused as a result of failure in maintaining security by the relevant
+					User.</p><p>
+					3.4. If any User provides any information that is untrue, false, not updated, and
+					incomplete or the Website has reasonable grounds to believe that such information is
+					untrue, false, not updated, incomplete, the Website shall have the right to suspend or
+
+					terminate the relevant User account and refuse any and all current or future use of the
+					Website (or any portion thereof).</p><p>
+					3.5. The Website may be inaccessible for such purposes as it may, at its sole
+					discretions deem necessary, including but not limited to regular maintenance. However,
+					under no circumstances will Designmee be held liable for any losses or claims arising
+					out of such inaccessibility to the Users and the Users expressly waive any claims
+					against Designmee in this regard.</p><p>
+					3.6. Users of the Website may be required to provide certain person information and
+					expressly permit the Website from accessing and/or collecting and retaining such
+					personal information of the Users. Such provision and/or collection, storage, retention,
+					use and disclosure of the personal information of the Users shall be subject to the
+					Website’s privacy policy available at www.designmee.in/privacypolicy.
+				</p>
+			</li>
+			<li>
+				<h2>4. Products</h2>
+				<p>
+					4.1. All Products exhibited on the Website are on an “as is” and “as available” basis.
+					Images of products are for and by reference only and actual Product may vary from the
+					corresponding image exhibited. The Website disclaims any liabilities arising out of any
+					discrepancies to this end.</p><p>
+					4.2. Prices for Products are subject to change without prior notice, and at any time
+					whatsoever, irrespective of whether an item has been earmarked/wish listed by a User.
+					The Website disclaims any and all claims and/or liabilities arising from such revision in
+					prices.
+				</p>
+			</li>
+			<li>
+				<h2>6. Payments</h2>
+				<p>
+					6.1. The Website does not charge any registration/membership or browsing fee.
+					However, the Website reserves the absolute right to alter the fee policy from time to
+					time. In the event, the Website alters its services, it may introduce new fees for such
+					altered services. All such fees that the Website may charge will be intimated to the
+					Users and such change shall automatically become effective immediately after they are
+					posted on the Website. All such fees charged by the Website shall be in the currency of
+					the Country where the User resides. The Users continued use of the Website shall be
+					deemed as an acceptance of the amended terms and conditions.</p><p>
+					6.2 No delivery shall be made effective, in case of Cash on Delivery, unless payment
+					has been made fully by the User to the person Authorized to deliver the product and
+					collect the payments made thereon.</p><p>
+
+					6.3. Designmee.in may enter into agreements with third party payment gateway
+					aggregators and financial institutions authorized by the Reserve Bank of India for
+					collection, refund and remittance and to facilitate payment. The Website shall initiate the
+					remittance of the payments made by the User and the date of completion of transaction
+					shall be after the Products are delivered to the User and such other additional time as
+					may be agreed between Website and the Sellers.</p><p>
+					6.4. While availing any of the payment method/s available on the Website, the Website
+					will not be responsible or assume any liability, whatsoever in respect of any loss or
+					damage arising directly or indirectly to the User due to:
+					<br>1. Lack of authorization for any transaction/s, or
+					<br>2. Exceeding the preset limit mutually agreed by and between the User and relevant banks of
+					the User, or
+					<br>3. Any payment issues arising out of the transaction, or
+					<br>4. Illegitimacy of the payment methods (credit/debit card frauds etc.) being used by a User;
+					<br>5. Decline of transaction for any other reason(s)<br>
+					Notwithstanding anything contained herein, the Website reserves the right to conduct
+					additional verification for security or other reasons if it is not satisfied with the
+					creditability of the User.</p><p>
+					6.5. Every User hereby agrees to provide accurate information, such as credit/debit
+					information for purchasing Products on the Website. Every User further warrants that
+					he/she shall not use payment information or instrument that is not lawfully owned by the
+					User. The Website shall not utilize or share with any third party unless required as per
+					law, regulation or court order or in accordance with the terms of the Privacy Policy. The
+					Website disclaims all liabilities arising out of loss of any information pertaining to the
+					Confidentiality of the credit/debit card details or pre-paid instrument account. In addition
+					to these Terms, the terms and conditions of the bank or other financial institution shall
+					also be applicable to every User. The Website disclaims any liability arising out of
+					declining of payment by such bank or financial institution.</p><p>
+					6.6. The Website may in its sole discretion impose limits on the number of transaction
+					which an individual holding a financial instrument may use for payment for Products.
+					Additionally, the Website reserves the right to refuse to process transactions exceeding
+					such limit and transactions by Users that have incurred questionable charges and
+					amounts.</p><p>
+					6.7. The Website is merely a facilitator for providing the User with payment channels
+					through automated online electronic payments (either itself or through Service
+					Providers), cash on delivery, collection and remittance facility for the payment of
+					Products purchased by the User on the Website using the existing authorized banking
+
+					infrastructure and credit card payment gateway networks (of either the Website or
+					Service Providers).
+				</p>
+			</li>
+			<li>
+				<h2>Conflict of Terms</h2>
+				<p>If there is a conflict or contradiction between the provisions of these website terms and
+				conditions and any other relevant terms and conditions, policies or notices, the other
+				relevant terms and conditions, policies or notices which relate specifically to a particular
+				section or module of the website shall prevail in respect of your use of the relevant
+				section or module of the website.</p>
+			</li>
+			<li>
+				<h2>7. Shipping and Delivery</h2>
+				<p>
+					7.1. All Products purchased from the Website shall be delivered to the User by standard
+					courier services by Designmee.in through a logistics partner. All deliveries where
+					applicable shall be made on a best efforts basis, and while the Website will endeavor to
+					deliver the Products on the dates intimated, the Website disclaims any claims or
+					liabilities arising from any delay in this regard. A nominal fee, i.e., fixed charges to be
+					charged upon delivery on COD, may be charged on cash on delivery (“COD”) orders.
+					The COD charge can be viewed at the time of placing the order and in all order related
+					emails. This charge shall not be refunded if an item is returned or if the cancellation
+					request is raised after the order is shipped.</p><p>
+					7.2. The logistics partner supported by Designmee.in will make a maximum of three
+					attempts to deliver user’s order. In case the User is not reachable or does not accept
+					delivery of products in these attempts Designmee.in reserves the right to cancel the
+					order(s) at its discretion.</p><p>
+					7.3. An estimated delivery time shall be displayed on the order summary page. On
+					placing user order, user will receive an email containing a summary of the order and
+					also the estimated delivery time to user location.</p><p>
+					7.4. Sometimes, delivery may take longer due to inter alia:
+					<br>1. bad weather
+					<br>2. flight delays
+					<br>3. political disruptions
+					<br>4. other unforeseen circumstances</p><p>
+					7.5. Where there is a likelihood of delay in delivery of the Products, the User may be
+					notified of the same from time to time. However, no refunds may be claimed by the User
+					for any delay in delivery of the Products, which was caused due to reasons beyond the
+					control of the Website and/or the Seller.</p><p>
+
+					7.6. However, in case where a damage has been caused to the Products ordered,
+					Designmee shall replace the products as per the replacement policy as may be
+					indicated on the Website along with the Product.</p><p>
+					7.7. The deliveries of the Products shall be made effective without any territorial
+					limitations.</p><p>
+					7.8. If a User wishes to get delivery to different addresses, then the User shall be
+					required to purchase the Products under separate transactions and provide separate
+					delivery addresses for each transaction, as may be required. The User agrees that the
+					delivery can be made to the person who is present at the shipping address provided by
+					the User.</p><p>
+					7.9. Designmee.in shall not compensate for any mental agony caused due to delay in
+					delivery. The Users can cancel the order at any moment of time even if the delivery time
+					exceeds the expected delivery time. If it is a prepaid order, the Users will be refunded
+					back the price of the product in the account or payment wallet, in accordance with the
+					options chosen by user, as soon as the order is successfully cancelled.
+				</p>
+			</li>
+			<li>
+				<h2>8. Return, Replacement and Refund.</h2>
+				<p>
+					8.1. However, no Products will be accepted if (a) the Products have been damaged by
+					the User (b) if there is a change in the quality, quantity or other characteristics of the
+					Product (c) if the product returned is not the Product that was delivered (d) any other
+					circumstances that the Website and/or the Seller may notify or deem appropriate from
+					time to time. However, it Is pertinent to note that any replacement has to be notified to
+					the Website within 14 days from the time of the delivery to the User.</p><p>
+					8.2 We offer no refunds in any case of a custom-made products as we cannot re-use or re-sale
+					for the individual according to their custom design), there is no resale value, and thus we
+					are not required to accept returns, unless there is any deviation from the specifications
+					provided by the Customer in the product delivered by the Website.</p><p>
+					8.3. In case of returns:
+					<br>1. Return/size exchange should be initiated within 14 days of order delivery.
+					<br>2. The tags on the product should be intact.
+					<br>3. The product should be unwashed, unused and in an undamaged condition.
+					<br>4. The item needs to be returned along with the original packaging.</p><p>
+					8.4. Refunds shall be against a valid RVP slip/written confirmation from the courier
+					company that the RVP has been done for a particular shipment/order.</p><p>
+
+					8.5. In case of any discrepancy in the status of reverse pick up of a Product, (where the
+					Users claims the Product has been returned, while our system suggests otherwise)
+					refund will be initiated only if the Users successfully furnishes the RVP slip given at the
+					time of the pick-up.</p><p>
+					8.6. Designmee.in will not be liable for the products returned by mistake. In
+					circumstances where a product not belonging to Designmee.in is returned by mistake,
+					Designmee.in is not accountable for misplacement or replacement of the product and is
+					not responsible for its delivery back to the User.</p><p>
+					8.7. Size exchange can be availed and if there is a price differential, the same will have
+					to be paid by the customer. Please take note that this is applicable only on Products
+					that are exchangeable, as mentioned on the product page.</p><p>
+					8.8. In case a User does not raise a refund claim as per the Terms, the User shall be
+					ineligible for a refund. In the event, the refund facility is not available in full or in part for
+					certain Products, the User shall not be entitled to a refund in respect of such Products.</p><p>
+					8.9. All Products ordered by the User shall be eligible to be replaced in accordance with
+					the Designmee replacement policy as indicated herein above, if the Product delivered is
+					damaged, soiled or is different from the Product specifications mentioned on the
+					Website. Designmee.in will accept return or size exchange of a Product only in
+					accordance with the returns policy of the respective product/ section.</p><p>
+					8.10. Where the Product replaced is of a higher value than the Product returned, the
+					User shall be liable to pay the differential charges by way of any of the payment method
+					mentioned herein</p><p>
+					8.11. Where the Product replaced is of a lower value, the Website may at its discretion
+					issue a voucher or credit note for the differential value and the User that may use such
+					voucher, subject to terms and conditions stated therein, for another transaction on the
+					Website.</p><p>
+					8.12. Refund, if any, shall be made at the same issuing bank through which the Product
+					was purchased. For cash on delivery transactions, the User has the option to receive
+					the refund of the product value, without any interest or damage, in any bank account via
+					NEFT (for which the User shall have to share the bank details).</p><p>
+					8.13. For payments made through electronic means like debit card, credit card, net
+					banking, wallet etc. refund shall be made using the same payment mode.</p><p>
+
+					8.14. The User acknowledges that the Website will not be liable for any damages,
+					interests or claims etc. resulting from non-processing an order or any delay in
+					processing an order which is beyond control of the Website.</p><p>
+					8.15. All Users shall comply with all the applicable laws (including without limitation
+					Foreign Exchange Management Act, 1999 and the rules made there under, Customs
+					Act, Information and Technology Act, 2000 as amended by the Information Technology
+					(Amendment) Act 2008, Prevention of Money Laundering Act, 2002 and the rules made
+					there under, Foreign Contribution Regulation Act, 1976 and the rules made there under,
+					Income Tax Act, 1961 and the rules made there under and all other laws as may be
+					applicable.
+				</p>
+			</li>
+			<li>
+				<h2>9. Cancellation</h2>
+				<p>
+					9.1.<br>a) To provide a safe and secure shopping experience, we regularly monitor
+					transactions for fraudulent activity. In the event of detecting any suspicious activity,
+					Designmee.in reserves the absolute right to cancel all past, pending and future orders
+					without any liability. Further, in case of suspicious transactions, Designmee.in reserves
+					the right to inform law enforcement officials and provide them with all transaction details
+					that may be requested for investigation of any illegal activity
+					<br>b) Designmee.in also reserves the right to refuse or cancel orders in scenarios like
+					inaccuracies in pricing of product on Website and stock unavailability. We may also
+					require additional verifications or information before accepting any order.
+					<br>c)We may contact user if all or any portion of user’s order is cancelled or if additional
+					information is required to accept user’s order.
+					<br>d)If user’s order is cancelled after user’s card has been charged, the said amount will be
+					reversed to user’s account. Any promotional voucher used for the cancelled orders may
+					not be refunded.</p><p>
+					9.2. The User may be considered fraudulent if inter alia any of the following scenarios
+					are met:
+					<br>1. Misuse of another User’s phone/email
+					<br>2. User uses invalid email and phone no.
+					<br>3. Overuse of a voucher code
+					<br>4. Use of a special voucher not tagged to the email ID used.
+					<br>5. User returns the wrong product
+					<br>6. Users refuses to pay for an order
+					<br>7. Users is involved in the snatch and run for any order</p><p>
+
+					9.3. The User may be considered loss to business if any of the following scenarios are
+					met:
+					<br>1. User with a very high return rate
+					<br>2. Invalid/Incomplete address cases
+					<br>3. Repeated request for monetary compensation for petty issues<br>
+					Account for the Users falling in fraudulent or loss to business category may be blocked.
+					Such an act of blocking the accounts shall not spare the User falling in such categories,
+					from any liability, if any, as per law of the land. Any credits earned through loyalty or
+					referral program will be forfeited in such case.</p><p>
+					9.4. Designmee.in may cancel any orders that classify as &#39;Bulk Order&#39; under certain
+					criteria at any stage of the product delivery. An order can be classified as &#39;Bulk Order&#39; if
+					it meets with the below mentioned criteria, and any additional criteria as defined by
+					Designmee:
+					<br>1. Products ordered are not for self-consumption but for commercial resale
+					<br>2. Multiple orders placed for same product at the same address, depending on the product
+					category
+					<br>3. Bulk quantity of the same product ordered
+					<br>4. Invalid address given in order details
+					<br>5. Any malpractice used to place the order
+					Any promotional voucher used for placing the &#39;Bulk Order&#39; may not be refunded</p><p>
+					9.5. If a User raises a complaint for partial item/partial order:
+					<br>1. The Users is supposed to claim for pilferage within 48 hours of delivery failing which the
+					claim will not be entertained.
+
+					<br>2. An Email will be sent seeking/providing following information:
+					<br>&nbsp;o Short description of the case (A few questions will be asked to help us understand
+					the scenario).
+					<br>&nbsp;o The snapshots of the packet and other box (If any)(Try to cover the sides which look
+					tampered/damaged as per the Users)
+					<br>&nbsp;o The refund for prepaid orders will be done after investigation
+
+					<br>3. The Users may not be liable for a refund if he/she falls in any of the scenarios stated below:
+					<br>&nbsp;o Users fails to provide adequate information about the case
+					<br>&nbsp;o Users fails to provide snapshots of the packet and box (if any)
+					<br>&nbsp;o If an opened delivery was received, pilferage claims must be made the same day
+
+					<br>&nbsp;o Users must not dispose the packaging for 3-4 days post-delivery. We might need to
+					pick-up user packaging for investigation at our end.
+				</p>
+			</li>
+			<li>
+				<h2>10. User Conduct and Rules:</h2>
+				<p>
+					10.1. User agrees and undertakes to use the Website only to post and upload
+					messages and material that are proper. By way of example, and not as a limitation, user
+					agree and undertake that when on the Website, user will not:
+					<br>1. defame, abuse, harass, stalk, threaten or otherwise violate the legal rights of others;
+					<br>2. publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory,
+					infringing, obscene, indecent or unlawful topic, name, material or information;
+					<br>3. upload files that contain software or other material protected by intellectual property laws
+					unless user own or control the rights thereto or have received all necessary consents;
+					<br>4. upload or distribute files that contain viruses, corrupted files, or any other similar software or
+					programs that may damage the operation of the Website or another&#39;s computer;
+					<br>5. conduct or forward surveys, contests, pyramid schemes or chain letters;
+					<br>6. download any file posted by another user of a Service that user know, or reasonably should
+					know, cannot be legally distributed in such manner;
+					<br>7. falsify or delete any author attributions, legal or other proper notices or proprietary
+					designations or labels of the origin or source of software or other material contained in a file
+					that is uploaded;
+					<br>8. violate any code of conduct or other guidelines, which may be applicable for or to any
+					particular Service;
+					<br>9. violate any applicable laws or regulations for the time being in force in or outside India; and
+					<br>10. violate any of the terms and conditions of this Agreement or any other terms and conditions
+					for the use of the Website contained elsewhere herein.
+					<br>11. exploit any of the services. We reserve the right to deprive individual Users of our cash on
+					delivery payment option. Moreover, we might refuse any of our services, terminate accounts,
+					and/or cancel orders at our discretion, including but not limited to, if we believe that Users
+					conduct violates applicable law or is harmful to our interests.
+					<br>12. User shall not make any derogatory, defamatory, abusive, inappropriate, profane or indecent
+					statement/s and/or comment/s about the Website, its associates and partners on any
+					property owned or operated by the Website.
+				</p>
+			</li>
+			<li>
+				<h2>11. Intellectual Property Rights</h2>
+				<p>
+					11.1. Intellectual Property Rights (“IPR”) for the purpose of these Terms shall always
+					mean and include copyrights whether registered or not, patents including rights of filing
+					patents, trademarks, trade names, trade dresses, house marks, collective marks,
+					associate marks and the right to register them, designs both industrial and domestic
+					geographical indicators, moral rights, source code, technical data, broadcasting rights,
+					displaying rights, distribution rights, selling rights, abridged rights, translating rights,
+					reproducing rights, performing rights, communicating rights, adapting rights, circulating
+					rights, protected rights, joint rights, reciprocating rights, infringement rights and further
+					shall also include but not be limited to all text, graphics, user interfaces, visual
+					interfaces, sounds and music (if any), artwork and computer code in relation to the
+					Website.</p><p>
+
+					11.2. All IPR on the Website exclusively belong to Designmee. Under no circumstance
+					shall any User infringe in any way such IPR of the Website, or pursuant to its use of the
+					Website for any purposes whatsoever.</p><p>
+					11.3. All those IPR arising as a result of domain names, internet or any other right
+					available under applicable law shall vest in the domain of Naveli Collections Private
+					Limited and/or its affiliates as the owner of such domain name.</p><p>
+					11.4. The Parties hereto agree and confirm that no part of any Intellectual Property
+					rights mentioned hereinabove is transferred in the name of User and any intellectual
+					property rights arising as a result of these presents shall also be in the absolute
+					ownership, possession and our control or control of its owners/permitted assigns, as the
+					case may be.</p><p>
+					11.5. Every User hereby grants Designmee.in a perpetual, non-revocable, worldwide,
+					royalty-free and sub-licensable right and license to use, copy, publish, transmit,
+					reproduce, modify, adapt any content provided or created by the User. Designmee shall
+					have no liability for any infringement of intellectual property rights with respect to such
+					content created by the User.</p><p>
+					11.6. Except as expressly provided herein, the User acknowledges and agrees that it
+					shall not copy, republish, post, display, translate, transmit, reproduce or distribute or in
+					any other way infringe any Intellectual Property Right through any medium without
+					obtaining the necessary authorization from the Website or the third-party owner of such
+					Intellectual Property Right.
+				</p>
+			</li>
+			<li>
+				<h2>12. Indemnity</h2>
+				<p>
+					12.1. The User hereby indemnifies, defends and holds harmless the entity owning and
+					operating the Website, its subsidiaries, affiliates, vendors, agents and their respective
+					directors, officers, employees, contractors and agents (herein after individually and
+					collectively referred to as &quot;indemnified parties&quot;) from and against any and all losses,
+					liabilities, claims, suits, proceedings, penalties, interests, damages, demands, costs and
+					expenses (including legal and other statutory fees and disbursements in connection
+					therewith and interest chargeable thereon) asserted against or incurred by the
+					indemnified parties that arise out of, result from, or in connection with :
+					<br>1. The User’s breach of these Terms; or
+					<br>2. Any claims made by any third party due to, or arising out of, or in connection with, the User’s
+					use of the Website; or
+					<br>3. Any claim that any third party IPR, proprietary information, content or materials provided by
+					the User causes any damage to a third party; or
+					<br>4. Violation of any rights of any third party by the User, including any IPR.
+
+					Each an “Indemnity Event”</p><p>
+					12.2. Upon occurrence of an Indemnity Event, the Website may notify the User of any
+					claims which the User shall be liable to indemnify the Website against. The User shall
+					then be obligated to consult with the Website regarding the course of action to be
+					undertaken in defending such a claim.</p><p>
+					12.3. The User shall not compromise or settle any claim or admit any liability or
+					wrongdoing on the part of the Website without the express prior written consent of the
+					Website which can be withheld or denied or conditioned by the Website in its sole
+					discretion.</p><p>
+					12.4. Notwithstanding anything to contrary, the Website’s entire and aggregate liability
+					to the User under and in relation to these Terms shall not exceed the greater of Indian
+					Rupees One Hundred (INR 100) or the amount of fees, if any, paid by the User/Seller to
+					the Website under the relevant order to which the cause of action for the liability relates.</p><p>
+					12.5. Notwithstanding anything to contrary, in no event shall the Website, its
+					subsidiaries or affiliates and their respective officers, directors, employees, partners or
+					suppliers be liable to the User for any special, incidental, indirect, consequential,
+					exemplary or punitive damages whatsoever, including those resulting from loss of use,
+					data or profits, whether or not foreseeable or whether or not the Website has been
+					advised of the possibility of such damages, or based on any theory of liability, including
+					breach of contract or warranty, negligence or other tortious action, or any other claim
+					arising out of or in connection with the User’s use of or access to the Website or the
+					Product.
+				</p>
+			</li>
+			<li>
+				<h2>13. Use of Content</h2>
+				<p>
+					13.1. While using the Website, the User specifically undertakes not to host, display,
+					upload, modify, publish, transmit, update or share any information or content that:
+					<br>1. belongs to another person and to which the User does not have any right to;
+					<br>2. is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, pedophilic,
+					libelous, invasive of another&#39;s privacy, hateful, or racially, ethnically objectionable,
+					disparaging, relating or encouraging money laundering or gambling, or otherwise unlawful in
+					any manner whatsoever;
+					<br>3. harms minors in any way;
+					<br>4. impersonate any person or entity, or falsely state or otherwise misrepresent the User’s
+					affiliation with a person or entity;
+					<br>5. threatens the unity, integrity, defense, security or sovereignty of India, friendly relations with
+					foreign states or public order or causes incitement to the commission of any cognizable
+					offence or prevents investigation of any offence or is insulting of any other nation;
+					<br>6. infringes any patent, trademark, copyright or other IPR;
+
+					<br>7. contain software viruses or any other computer code, files or programs designed to interrupt
+					destroy or limit the functionality of any computer resource;
+					<br>8. deceives or misleads the addressee about the origin of such messages or communicates
+					any information which is grossly offensive or menacing in nature;
+					<br>9. engage in any activity that interferes with or disrupts access to the Website or the Products
+					(or the servers and networks which are connected to the Website);
+					<br>10. attempt to gain unauthorized access to any portion or feature of the Website, any other
+					systems or networks connected to the Website, to any Website server, or to any of the
+					Products offered on or through the Website, by hacking, password mining or any other
+					illegitimate means;
+					<br>11. probe, scan or test the vulnerability of the Website or any network connected to the Website,
+					nor breach the security or authentication measures on the Website or any network
+					connected to the Website.
+					<br>12. disrupt or interfere with the security of, or otherwise cause harm to, the Website, systems
+					resources, accounts, passwords, servers or networks connected to or accessible through the
+					Websites or any affiliated or linked sites;
+					<br>13. use the Website or content therein for any purpose that is unlawful or prohibited by the
+					Terms or to solicit the performance of any illegal activity or other activity which infringes the
+					rights of the Website or other third parties;
+					<br>14. falsify or delete any author attributions, legal or other proper notices or proprietary
+					designations or labels of the origin or source of software or other material contained in a file
+					that is uploaded;
+					<br>15. violate any code of conduct or other guidelines, which may be applicable for or to any
+					particular Service;
+					<br>16. violate any applicable laws or regulations for the time being in force within or outside India;
+					and
+					<br>17. violate the terms of these Terms.</p><p>
+					13.2. In certain cases, where the User requires certain services in relation to the
+					Products, the User shall directly contact the customer care desk at DesignMee and the
+					team shall in turn resolve the concern.</p><p>
+					13.4. The User acknowledges that there may be certain orders that the Website is
+					unable to process or or which the Website must cancel owing to various reasons such
+					as non- availability of the Website service, force majeure, credit limitations or suspected
+					fraud etc.</p><p>
+					13.5. The User shall use the Website and purchase any Products available on it, for
+					personal, non-commercial use only and shall not re-sell the same to any other person or
+					commercialize the same in any manner whatsoever.</p><p>
+					13.6. The User may need to install updates that the Website or any third party may
+					introduce from time to time to access the Products /Website including downloads and
+					required functionality, such as bug fixes, patches, enhanced functions, missing plug-ins
+					and new versions. By using the Website, the User shall be deemed to have agreed to
+					receive such updates.</p><p>
+
+					13.7. The User agrees that it shall solely be responsible towards the Website and to any
+					third party for any breach of its obligations under these Terms and for any
+					consequences, losses or damages that may be suffered by the Website owing to such
+					breach by a User.
+				</p>
+			</li>
+			<li>
+				<h2>14. Report Abuse and Take Down Policy</h2>
+				<p>
+					14.1. In the event the Website or any User becomes aware of any objectionable content
+					on the Website including but not limited to violation of privacy, misuse of personal
+					information or violation of any IPR, in violation of these Terms then, the Website, by
+					itself or upon receipt of a communication from any of its Users, without any prior notice
+					take down such objectionable content from the Website.</p><p>
+					14.2. For any reporting in respect of the aforesaid, the User should contact the Website
+					at <a href="mailto:contact@designmee.in">contact@designmee.in</a> 
+				</p>
+			</li>
+			<li>
+				<h2>15. Feedback and Information</h2>
+				<p>
+					15.1. User feedbacks or information pertaining to Products offered on the Website or
+					any information pertaining to the Website shall be deemed to be non-confidential in
+					nature.</p><p>
+					15.2. The Website reserves the right, at its sole discretion to use such information for
+					upgrading/enhancing the Website and such use shall be entirely unrestricted.</p><p>
+					15.3. The Website may at its discretion, also make any modifications or changes to the
+					Website and its content and / or Products on the basis of such feedback or information.</p><p>
+					15.4. In the event that the Website makes any changes or modifications to the Website
+					or Products on the basis of any such feedback, the User shall not have any rights or title
+					(including any IPR) in such changes or modifications to the Website or Products listed
+					therein.</p><p>
+					15.5. By submitting any feedback or any information, the User hereby warrants that (i)
+					the feedback does not contain confidential or proprietary information belonging to the
+					User or any other person and shall not entitled to any compensation or reimbursement
+					of any kind from the Website for the feedback under any circumstances.
+				</p>
+			</li>
+			<li>
+				<h2>16. Applicable Law:</h2>
+				<p>These Terms shall be governed by and interpreted and construed in accordance with
+				the laws of India. The courts in New Delhi shall have exclusive jurisdiction in respect of
+				any matters arising herefrom.</p>
+			</li>
+			<li>
+				<h2>17. Jurisdictional Issues</h2>
+				<p>For the purpose of delivery of the products/items listed on the Website, the jurisdiction
+				shall vest with the place where the parties to the Agreement resides or works for gain.</p>
+			</li>
+			<li>
+				<h2>18. Dispute Resolution</h2>
+				<p>18.1. In the event any dispute arises out of or in connection with the Terms herein,
+				including the validity hereof, the parties hereto shall endeavor to settle such dispute
+				amicably in the first instance. The attempt to bring about an amicable settlement shall
+				be treated as having failed as soon as one of the parties hereto, after reasonable
+				attempts, which shall continue for not less than 15 (Fifteen) calendar days, gives a
+				notice to this effect, to the other party in writing.</p><p>
+				18.2. In case of such failure, the dispute shall be referred to a sole arbitrator, who shall
+				be appointed by the Website, as defined in Clause 1.3. (The list of the Arbitrators should
+				be provided by the Website). The arbitration proceedings shall be governed by the
+				Indian Arbitration and Conciliation Act, 1996 and shall be held in New Delhi. The
+				language of arbitration shall be English.</p>
+			</li>
+			<li>
+				<h2>19. Disclaimer</h2>
+				<p>Designmee does not promise that the site or any content, service or feature of the site will be error-
+				free or uninterrupted, or that any defects will be corrected, or that your use of the site will provide
+				specific results. The site and its content are delivered on an &quot;as-is&quot; and &quot;as-available&quot; basis. All
+				information provided on the site is subject to change without notice. We cannot ensure that any files
+				or other data you download from the site will be free of viruses or contamination or destructive
+				features. Designmee disclaims all warranties, express or implied, including any warranties of
+				accuracy, non-infringement, merchantability and fitness for a particular purpose. Designmee
+				disclaims any and all liability for the acts, omissions and conduct of any third parties in connection
+				with or related to your use of the site and/or any of our services. You assume total responsibility for
+				your use of the site and any linked sites. Your sole remedy against Designmee for dissatisfaction
+				with the site or any content is to stop using the site or any such content. This limitation of relief is a
+				part of the bargain between the parties.</p>
+				<ul><p><b>Designmee reserves the right to do any of the following, at any time, without notice:</b></p>
+				<li>to modify, suspend or terminate operation of or access to the site, or any portion of the site, for any
+				reason;</li>
+				<li>to modify or change the site, or any portion of the site, and any applicable policies or terms;</li>
+				<li>to interrupt the operation of the site, or any portion of the site, as necessary to perform routine or
+				non-routine maintenance, error correction, or other changes.</li></ul>
+			</li>
+			<li>
+				<h2>20. General Provisions</h2>
+				<p><b>Notice:</b> All notices to be issued pursuant to these Terms shall be served to the User by
+				email or by general notification on the Website. Any notice to be sent to the Website
+				pursuant to these Terms shall be sent to the Website’s grievance officer by e-mail to
+				<a href="mailto:contact@Designmee.in">contact@Designmee.in</a>.(Or through a written notice by Registered Courier, Fax, etc on
+				the mailing address where the Company actually is in existence).</p><p>
+				<b>Assignment:</b> This Terms shall not be assigned or otherwise transferred by the User.
+				However, the Website’s obligations under these Terms are freely assignable or
+				otherwise transferable by the Website to any third parties without the requirement of
+				seeking the Users prior consent.</p><p>
+				<b>Severability:</b> If any provision of these Terms is void or is voidable, or is so declared,
+				such provision shall be severed. The Terms shall otherwise remain in full force and
+				effect.</p><p>
+				<b>Waiver:</b> Any failure or delay by a party to enforce or exercise any provision of these
+				Terms, or any related right, shall not constitute a waiver by such party of that provision
+				or right. The exercise of one or more of a party&#39;s rights hereunder shall not be a waiver
+				of, or preclude the exercise of, any rights or remedies available to such party under
+				these Terms or in law or at equity. Any waiver by a party shall only be made in writing
+				and executed by a duly authorized officer of such party.</p><p>
+				<b>Relationship and Exclusivity.</b> Nothing in these Terms shall constitute or be deemed to
+				constitute a partnership, joint venture, agency or the like between the parties hereto or
+				confer on any party any authority to bind the other party or to contract in the name of the
+				other party or to incur any liability or obligation on behalf of the other party.</p><p>
+				<b>Force Majeure:</b> If performance of any Service under these Terms by the Website is
+				prevented, restricted, delayed or interfered with by reason of labor disputes, strikes,
+				acts of God, floods, lightning, severe weather, shortages of materials, rationing,
+				inducement of any virus, Trojan or other disruptive mechanisms, any event of hacking
+				or illegal usage of the website, utility or communication failures, earthquakes, war,
+				revolution, acts of terrorism, civil commotion, acts of public enemies, blockade, embargo
+				or any law, order, proclamation, regulation, ordinance, demand or requirement having
+				legal effect of any government or any judicial authority or representative of any such
+				government, or any other act whatsoever, whether similar or dissimilar to those referred
+				to in this clause, which are beyond the reasonable control of the Website and could not
+				have been prevented by reasonable precautions then the Website shall in toto be
+				excused and discharged from such performance to the extent of and during the period
+				of such force majeure event, and such non-performance shall, in no manner whosoever,
+				amount to a breach by the Website of its obligations herein.</p>
+			</li>
+		</ul></div></div>
