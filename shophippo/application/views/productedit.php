@@ -33,7 +33,7 @@
               <input type="number" class="form-control"  name="price" value="<?php echo $price;?>" required>
           </div>
           <div class="form-group">
-            <label for="sehir">Tag</label>
+            <label for="sehir">Color</label>
             <select id="dates-field2" class="multiselect-ui form-control" name="color">
               <?php
           foreach( $query4 as $row)

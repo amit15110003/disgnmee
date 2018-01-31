@@ -324,6 +324,7 @@ class admin extends CI_Controller
         {   
         	$details['query2']=$this->user->showproduct();
             $details['query3']=$this->user->showscategory();
+            $details['query4']=$this->user->showtype();
      		$this->load->view('header');
 		$this->load->view('product',$details);
 		$this->load->view('footer');
