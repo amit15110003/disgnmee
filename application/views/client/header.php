@@ -84,8 +84,8 @@
       <ul class="nav navbar-nav hdr">
         <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">call a tailor</a></li>
-            <li><a href="#">call a designer</a></li>
+            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">call a tailor</a></li>
+            <li><a href="<?php echo base_url(""); ?>index.php/home/designer">call a designer</a></li>
           </ul>
         </li>
         <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Men &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>

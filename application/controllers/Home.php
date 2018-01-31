@@ -113,6 +113,22 @@ class Home extends CI_Controller {
         $this->session->sess_destroy();
 		redirect($_SERVER['HTTP_REFERER']);
 	}
+
+	public function tailor()
+	{	
+	    
+		$this->load->view('client/header.php');
+		$this->load->view('client/tailor');
+		$this->load->view('client/footer');
+	}
+
+	public function designer()
+	{	
+	    
+		$this->load->view('client/header.php');
+		$this->load->view('client/designer');
+		$this->load->view('client/footer');
+	}
 	
 
 }
