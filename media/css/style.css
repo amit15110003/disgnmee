@@ -53,7 +53,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .mini-menu li{list-style: none;}
 .color-square { display: inline-block; width: 30px; height: 30px; border-radius: 0; cursor: pointer; padding: 0; margin: 0; }
 .color-square:hover{box-shadow: 0 0 10px grey;}
-.container:hover{color: #000;}
+.cont:hover{color: #000;}
 
 /* checkout page */
 .clps { border: solid 1px #a3a3a3;  padding: 15px; margin: 15px 0;}
@@ -63,8 +63,8 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .cbtn{ float: right; margin: 0; }
 /* end checkout page */
 
-/* The container */
-.container {
+/* The cont */
+.cont {
     display: block;
     position: relative;
     padding-left: 30px;
@@ -78,7 +78,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.cont input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -102,11 +102,11 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.cont input:checked ~ .checkmark:after {
     display: block;
 }
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.cont .checkmark:after {
     left: .9em;
     width: .5em;
     height: 1em;

@@ -5,53 +5,53 @@
 	            <ul>         		
 	        		<li>
 		            	<a href="#" class="hitem" >Ocassion</a><br><br>
-		            	<label class="container">Formal
+		            	<label class="cont">Formal
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Casual
+						<label class="cont">Casual
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Festive
+						<label class="cont">Festive
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
 			        </li>        		
 	        		<li>
 		            	<br><br><a href="#" class="hitem" >Fabric</a><br><br>
-		            	<label class="container">Cotton
+		            	<label class="cont">Cotton
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Linen
+						<label class="cont">Linen
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Chambray
+						<label class="cont">Chambray
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Flannel
+						<label class="cont">Flannel
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
 			        </li>         		
 	        		<li>
 		            	<br><br><a href="#" class="hitem" >Pattern</a><br><br>
-		            	<label class="container">Solids
+		            	<label class="cont">Solids
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Stripes
+						<label class="cont">Stripes
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Checks
+						<label class="cont">Checks
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>
-						<label class="container">Prints
+						<label class="cont">Prints
 						  <input type="checkbox">
 						  <span class="checkmark"></span>
 						</label>

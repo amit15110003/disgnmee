@@ -32,7 +32,7 @@
           <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/faqs" >FAQs</a></li><br>
           <li class="rate"><a href="" >Return Policy</a></li><br>
           <li class="rate"><a href="" >Special Events</a></li><br>
-          <li class="rate"><a href="" >Contact Us</a></li>
+          <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/Contact" >Contact Us</a></li>
         </ul>
 			</div>
       <div class="text-center col-md-12">

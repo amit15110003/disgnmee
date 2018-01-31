@@ -52,17 +52,14 @@ class user extends CI_Model
     	$this->db->where('id', $id);
 		return $this->db->update('user', $data);
 	}
-<<<<<<< HEAD
-
 	public function showcategory()
 	{
 		$query=$this->db->get('category');
 		return $query->result();
-=======
+	}
     function insert_subscriber($email)
     {$data = array('email'=>$email);
 		return $this->db->insert('subscribe', $data);
->>>>>>> f10d8afb1ed78837d82ac2cc82f0fbcdfaef7b99
 	}
 	public function showcategory_category($category)
 	{	$this->db->where('category', $category);
