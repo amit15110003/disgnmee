@@ -87,8 +87,8 @@
 	    <div class="text-center" style="color: #fff;position: absolute;top:15%;left:0;right:0;" >
 		    <h1 class="th-pad text-center" style="color: #fff;">News<span class="th-bold">Letter</span></h1>
 		    <div class="col-md-6 col-md-offset-3">
-			    <input class="col-md-8 th-btn" type="" name="" style="background-color:#fff;" placeholder="Email-id">
-			    <input class="col-md-4 th-btn btn" type="submit" name="">
+			    <input class="col-md-8 col-xs-6 th-btn" type="email"  id="subemail" style="background-color:#fff;" placeholder="Email-id">
+			    <button class="col-md-4 col-xs-6 th-btn btn" type="submit" name="" onclick="javascript:subscribe('');">Subscribe</button>
 		    </div>
 		</div>
 	</div>
