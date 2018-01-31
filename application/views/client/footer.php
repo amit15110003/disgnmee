@@ -62,11 +62,50 @@
     <script>
 	   $("#zoom_01").elevateZoom(); 
 	</script>
-	<script>
-	$('.carousel').carousel({
-		  interval: 6000,
-		  pause: "false"
-		});</script>
+	    <script type="text/javascript">
+     $('.carousel').carousel({
+  interval: 3000,cycle: true,pause: "null"
+});
+    </script>
+    <script type="text/javascript">
+      $(function() {
+
+    function abso() {
+
+        $('.top1').css({
+            width: $(window).width(),
+            height: $(window).height()
+        });
+
+    }
+
+    $(window).resize(function() {
+        abso();         
+    });
+
+    abso();
+
+});
+    </script>
+    <script type="text/javascript">
+      $(function() {
+
+    function abso1() {
+
+        $('.left').css({
+            height: $(window).height()/1.3
+        });
+
+    }
+
+    $(window).resize(function() {
+        abso1();         
+    });
+
+    abso1();
+
+});
+    </script>
 	<script>
          function searchFilter() {
              var keywords = $('#keywords').val();
