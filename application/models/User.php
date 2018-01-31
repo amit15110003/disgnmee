@@ -55,7 +55,7 @@ class user extends CI_Model
 
 	public function showcategory()
 	{
-		$query=$this->db->get('category');;
+		$query=$this->db->get('category');
 		return $query->result();
 	}
 	public function showcategory_category($category)
@@ -616,12 +616,6 @@ WHERE orderid='.$orderid.'');
     {
     	$data['odate'] = date("Y-m-d H:i:s");
 		return $this->db->insert('abandoned_cart', $data);
-	}
-
-	public function showcategory()
-	{
-		$query=$this->db->get('category');
-		return $query->result();
 	}
 
 	public function showscategory($cat)
