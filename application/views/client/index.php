@@ -1,7 +1,7 @@
 <div class="container-fluid" style="padding:0px;">
 	<div class="row" style="padding:0px;">
 		<div class="col-md-12 home-banner" style="padding:0px;">
-			<div class="col-md-6  cover-img" style="margin-top: 50px;">
+			<div class="col-md-6  cover-img" >
 				<div id="myCarousel" class="carousel slide vertical">
                     <!-- Carousel items -->
                     <div class="carousel-inner">
@@ -27,6 +27,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="th-gap"></div>
     <div class="row">
 		<h1 class="th-pad">On<span class="th-bold">Treanding</span></h1>	
 		<div class="th-gap"></div>
@@ -100,4 +101,21 @@
 	    {
 	    $('.home-banner').height($(window).height());
 		});
+</script>
+<script>
+         function subscribe() {
+             var email =document.getElementById("subemail").value;
+             $.ajax({
+                 type: 'POST',
+                 url: '<?php echo base_url(); ?>index.php/home/subscribe',
+                 data:'&email='+email,
+                 beforeSend: function () {
+                     $('.loading').show();
+                 },
+                 success: function (html) {
+                     $('#subcribed').html(html);
+                     $('.loading').fadeOut("slow");
+                 }
+             });
+         }
 </script>
