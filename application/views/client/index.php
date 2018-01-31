@@ -1,7 +1,7 @@
 <div class="container-fluid" style="padding:0px;">
 	<div class="row" style="padding:0px;">
 		<div class="col-md-12 home-banner" style="padding:0px;">
-			<div class="col-md-6  cover-img" style="margin-top: 50px;">
+			<div class="col-md-6  cover-img" >
 				<div id="myCarousel" class="carousel slide vertical">
                     <!-- Carousel items -->
                     <div class="carousel-inner">
@@ -27,6 +27,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="th-gap"></div>
     <div class="row">
 		<h1 class="th-pad">On<span class="th-bold">Treanding</span></h1>	
 		<div class="th-gap"></div>
@@ -86,8 +87,8 @@
 	    <div class="text-center" style="color: #fff;position: absolute;top:15%;left:0;right:0;" >
 		    <h1 class="th-pad text-center" style="color: #fff;">News<span class="th-bold">Letter</span></h1>
 		    <div class="col-md-6 col-md-offset-3">
-			    <input class="col-md-8 th-btn" type="" name="" style="background-color:#fff;" placeholder="Email-id">
-			    <input class="col-md-4 th-btn btn" type="submit" name="">
+			    <input class="col-md-8 col-xs-6 th-btn" type="email"  id="subemail" style="background-color:#fff;" placeholder="Email-id">
+			    <button class="col-md-4 col-xs-6 th-btn btn" type="submit" name="" onclick="javascript:subscribe('');">Subscribe</button>
 		    </div>
 		</div>
 	</div>
@@ -100,4 +101,21 @@
 	    {
 	    $('.home-banner').height($(window).height());
 		});
+</script>
+<script>
+         function subscribe() {
+             var email =document.getElementById("subemail").value;
+             $.ajax({
+                 type: 'POST',
+                 url: '<?php echo base_url(); ?>index.php/home/subscribe',
+                 data:'&email='+email,
+                 beforeSend: function () {
+                     $('.loading').show();
+                 },
+                 success: function (html) {
+                     $('#subcribed').html(html);
+                     $('.loading').fadeOut("slow");
+                 }
+             });
+         }
 </script>

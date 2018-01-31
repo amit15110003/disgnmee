@@ -62,7 +62,7 @@
     <script>
 	   $("#zoom_01").elevateZoom(); 
 	</script>
-	    <script type="text/javascript">
+  <script type="text/javascript">
      $('.carousel').carousel({
   interval: 3000,cycle: true,pause: "null"
 });
@@ -93,7 +93,7 @@
     function abso1() {
 
         $('.left').css({
-            height: $(window).height()/1.3
+            height: $(window).height()
         });
 
     }

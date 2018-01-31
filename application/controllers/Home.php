@@ -113,7 +113,30 @@ class Home extends CI_Controller {
         $this->session->sess_destroy();
 		redirect($_SERVER['HTTP_REFERER']);
 	}
-
+    function subscribe()
+    {
+    	$email = $this->input->post("email");
+        $this->form_validation->set_rules('email', 'Email ID', 'trim|required|valid_email|is_unique[subscribe.email]');
+		if ($this->form_validation->run() == FALSE)
+        {       
+                $data['status']="Already Registered Or Error";
+		$this->load->view('client/subscriber',$data);	
+        }
+		else
+		{
+		
+        $this->user->insert_subscriber($email);
+         if ($this->user->insert_subscriber($email))
+			{ 
+		$data['status']="Successfully Registered";
+			}
+			else
+			{
+				
+		$data['status']="Already Registered";
+			}
+		$this->load->view('client/subscriber',$data);}
+    }
 	public function tailor()
 	{	
 	    
