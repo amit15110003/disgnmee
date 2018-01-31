@@ -1,36 +1,22 @@
 <div class="container-fluid" style="padding:0px;">
 	<div class="row" style="padding:0px;">
-		<div class="col-md-12" style="padding:0px;">
-			<div class="col-md-6 home-banner cover-img" >
-			<section class="slide-wrapper">
-<div class="container">
-<div id="myCarousel" class="carousel slide">
-  <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <div class="fill" style=" background-color:#48c3af; background-image:url(http://www.mrwallpaper.com/wallpapers/dandelion-Background.jpg);"></div>
-      </div>
-      <div class="item">
-        <div class="fill" style="background-color:#b33f4a;background-image:url(http://3.bp.blogspot.com/-OLdE-ALRH7Y/TcABVGXzufI/AAAAAAAAAEY/aU0a9roJhtc/s1600/Amazing++Beautiful+Fresh+Flowers+%25281%2529.jpg);"></div>
-      </div>
-      <div class="item">
-        <div class="fill" style="background-color:#7fc2f4;background-image:url(https://images6.alphacoders.com/347/347733.jpg);"></div>
-      </div>
-      <div class="item">
-        <div class="fill" style="background-color:#e47794; background-image:url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/07/Flower-Backgrounds-HD-Wallpaper-7.jpg);"></div>
-      </div>
-    </div>
-</div>
-</div>
-</section>
+		<div class="col-md-12 home-banner" style="padding:0px;">
+			<div class="col-md-6  cover-img" style="margin-top: 50px;">
+				<div id="myCarousel" class="carousel slide vertical">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item" >
+                            <div class="left" style="background-image:url('https://s4.bukalapak.com/img/408203212/large/jas%20resmi,%20jas%20nikah,%20jas%20kantor,%20jas%20kerja,%20jas%20pria%20moel%20baru,%20jas%20moderen,%20blezer%20korea,%20blezer%20murah.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;"></div>
+                         </div>
+                        <div class="item" >
+                            <div class="left" style="background-image:url('https://ae01.alicdn.com/kf/HTB1.g4qHVXXXXXnXVXXq6xXFXXX6/Formal-Business-Spring-Fall-Man-One-Button-Woolen-Patchwork-Blazer-Suit-5XL-6XLMen-s-Wine-Red.jpg_640x640.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;"></div>
+                        </div>
+                        <div class="item">
+                            <div  class="left" style="background-image:url('https://s1.bukalapak.com/img/171501164/w-1000/Jas_Pria_keren_combie_black__Jas_Blazer__style_korea__Blazer.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			<div class="col-md-6" style="padding-right: 15%; padding-left: 6%;">
 				<h1 style="padding-top: 30%">New<span class="th-bold">Arrivals</span></h1>
@@ -41,7 +27,6 @@
 			</div>
 		</div>
 	</div>
-    <div class="th-gap"></div>
     <div class="row">
 		<h1 class="th-pad">On<span class="th-bold">Treanding</span></h1>	
 		<div class="th-gap"></div>
