@@ -84,24 +84,24 @@
       <ul class="nav navbar-nav hdr">
         <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">call a tailor</a></li>
-            <li><a href="<?php echo base_url(""); ?>index.php/home/designer">call a designer</a></li>
+            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">Call a Tailor</a></li>
+            <li><a href="<?php echo base_url(""); ?>index.php/home/designer">Call a Designer</a></li>
           </ul>
         </li>
-        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Men &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/men">Men</a></li>
+        <li><a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown">Men &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <?php $query=$this->user->showscategory("Men");
+              foreach ($query as $row) {?>
+                <li><a href="<?php echo base_url();?>index.php/product/category/men"><?php echo $row->name; ?></a></li>
+            <?php   }?>
           </ul>
         </li>
-        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Women &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
-            <li><a href="<?php echo base_url();?>index.php/product/category/women">Women</a></li>
+        <li><a class="dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown">Women &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+            <?php $query=$this->user->showscategory("Women");
+              foreach ($query as $row) {?>
+                <li><a href="<?php echo base_url();?>index.php/product/category/men"><?php echo $row->name; ?></a></li>
+            <?php   }?>
           </ul>
         </li>
         <li><a href="#">Decor</a></li>

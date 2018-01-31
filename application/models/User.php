@@ -618,4 +618,17 @@ WHERE orderid='.$orderid.'');
 		return $this->db->insert('abandoned_cart', $data);
 	}
 
+	public function showcategory()
+	{
+		$query=$this->db->get('category');
+		return $query->result();
+	}
+
+	public function showscategory($cat)
+	{
+		$this->db->where('category', $cat);
+		$query=$this->db->get('scategory');
+		return $query->result();
+	}
+
 }?>

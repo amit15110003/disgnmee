@@ -152,6 +152,5 @@ class Home extends CI_Controller {
 		$this->load->view('client/designer');
 		$this->load->view('client/footer');
 	}
-	
 
 }
