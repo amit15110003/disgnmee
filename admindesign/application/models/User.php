@@ -403,4 +403,40 @@ class user extends CI_Model
         return false;
 	
 	}
+	function seencontact($id, $seen)
+	{
+		$this->db->where('id', $id);
+		$data = array('seen'=>$seen);
+		return $this->db->update('message',$data);
+	}
+	function seendesigner($id, $seen)
+	{
+		$this->db->where('id', $id);
+		$data = array('seen'=>$seen);
+		return $this->db->update('designer',$data);
+	}
+	function seentailor($id, $seen)
+	{
+		$this->db->where('id', $id);
+		$data = array('seen'=>$seen);
+		return $this->db->update('tailor',$data);
+	}
+	function contact()
+	{
+		$this->db->order_by("sent","desc");
+		$query=$this->db->get('message');
+		return $query->result();
+	}
+	function tailor()
+	{
+		$this->db->order_by("sent","desc");
+		$query=$this->db->get('tailor');
+		return $query->result();
+	}
+	function designer()
+	{
+		$this->db->order_by("sent","desc");
+		$query=$this->db->get('designer');
+		return $query->result();
+	}
 }?>

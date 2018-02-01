@@ -21,7 +21,7 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .btn:active, .btn.active{ background-color: #000; }
 .hdr{ font-size: 1.3em; padding-top: 5px;}
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
-.th-form{ padding: 25px; margin: 5px 0;}
+.th-form{ padding: 25px; margin: 5px 0; width: 100%;}
 button:focus { outline: none; }
 /*end-button*/
 /*headings*/
@@ -29,6 +29,10 @@ h1{font-family: 'Raleway', sans-serif; font-size: 4em; color: #a3a3a3; font-weig
 @media screen and (max-width: 768px)
 {
     h1{font-size: 3em;}
+}
+@media screen and (max-width: 500px)
+{
+    .home-banner-text{position: absolute;color: #fff !important;}
 }
 h2{font-family: 'Raleway', sans-serif; font-size: 2em; color: #a3a3a3; font-weight: 300; text-transform: capitalize; }
 .th-bold{font-weight: 800;}
@@ -44,7 +48,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .footer{background-color: #f9f9f9;}
 .txtny{background-color: #f9f9f9; padding-top: 5%; padding-bottom: 5%;}
 .rate{ font-weight: 300; line-height: 1.5em;  color: #a3a3a3; font-size: 1em;}
-.vr-txt { transform: rotate(90deg); position: absolute; right: 0; top: 40%;}
+.vr-txt { transform: translateX(-50px) translateX(50%) translateY(0%) rotate(90deg); position: absolute; right: 0; top: 40%;}
 /*headings end*/
 .cover-img{ padding: 0; background-size: cover; background-position: center; background-repeat: no-repeat; }
 .tile{ padding: 5%; text-decoration: none;}

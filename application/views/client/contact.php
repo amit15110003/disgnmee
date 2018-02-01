@@ -17,7 +17,7 @@
         <div class="col-md-12 col-xs-12"><input class="th-btn-inv col-md-12 th-form" type="number" name="mob" placeholder="Phone Number" required></div>
         <div class="col-md-12 col-xs-12"><input class="th-btn-inv col-md-12 th-form" type="text" name="sub" placeholder="Subject"></div>
         <div class="col-md-12 col-xs-12"><textarea class="th-btn-inv col-md-12 th-form" style="height: 200px;" type="text" name="msg" placeholder="Message" required></textarea></div>
-        <div class="col-md-12 col-xs-12"><button type="submit" class="btn th-btn">SEND MESSAGE</button></div>
+        <div class="col-md-12 col-xs-12"><button type="submit" class="btn th-btn pull-right">SEND MESSAGE</button></div>
         <?php echo form_close(); ?>
     <br>
     </div>

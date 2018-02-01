@@ -18,19 +18,23 @@ class product extends CI_Controller {
 		$this->load->view('client/footer');
 	}
 
-	public function category($category)
+	public function category($category,$scategory)
 	{	
+        
 		$category1 = str_replace('-',' ', $category);
+		$scategory1 = str_replace('-',' ', $scategory);
+		$data=$this->user->get_scategory_id($category1,$scategory1);
+		$id=$data[0]->id;
 		$config = array();
-        $config["base_url"] = base_url() . "index.php/product/category/$category";
-        $config["total_rows"] = $this->user->countproduct_category($category1);
+        $config["base_url"] = base_url() . "index.php/product/category/$id";
+        $config["total_rows"] = $this->user->countproduct_category($id);
         $config["per_page"] = 32;
         $config["uri_segment"] = 4;
 
         $this->pagination->initialize($config);
 
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-        $details['query'] = $this->user->showproduct_category($config["per_page"],$page,$category1);
+        $details['query'] = $this->user->showproduct_category($config["per_page"],$page,$id);
         $details["links"] = $this->pagination->create_links();
 		$details['categoryval']=$category1;
 		$this->load->view('client/header',$details);

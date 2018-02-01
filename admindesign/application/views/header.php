@@ -35,9 +35,9 @@
     <!-- Logo -->
     <a href="<?php echo base_url("index.php/admin"); ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>THE</b>HIPPOGRIFF</span>
+      <span class="logo-mini"><b>Design</b>Mee</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>THE</b>HIPPOGRIFF</span>
+      <span class="logo-lg"><b>Design</b>Mee</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -84,7 +84,10 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="<?php echo base_url('index.php/admin/client'); ?>"><i class="fa fa-circle-o"></i>Users</a></li>
+            <li><a href="<?php echo base_url('index.php/admin/tailor'); ?>"><i class="fa fa-circle-o"></i>Tailor Demand</a></li>
+            <li><a href="<?php echo base_url('index.php/admin/designer'); ?>"><i class="fa fa-circle-o"></i>Designer Demand</a></li>
              <li><a href="<?php echo base_url('index.php/admin/subscriber'); ?>"><i class="fa fa-circle-o"></i>subscriber</a></li>
+             <li><a href="<?php echo base_url('index.php/admin/contact'); ?>"><i class="fa fa-circle-o"></i>Contact Us</a></li>
           </ul>
         </li>
         <li>

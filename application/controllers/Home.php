@@ -58,7 +58,7 @@ class Home extends CI_Controller {
 			
 			if ($this->user->insert_msg($data))
 			{
-				$this->session->set_flashdata('msg','<div class="">Message Sent Successfully! </div>');
+				$this->session->set_flashdata('msg','<div class="">Thanks for sending us your details! Our team will be in touch with you soon.</div>');
 				redirect('home/contact');
 			}
 			else
@@ -66,6 +66,40 @@ class Home extends CI_Controller {
 				// error
 				$this->session->set_flashdata('msg','<div class="">Oops! Error.  Please try again later!!!</div>');
 				redirect('home');
+			}
+		    
+		}
+	}
+	public function tailor()
+	{	
+	      
+        $this->form_validation->set_rules('name', 'Name', 'trim|required');
+		$this->form_validation->set_rules('no', 'Contact Detail','trim|required');
+        if ($this->form_validation->run() == FALSE)
+        {	
+            $this->load->view('client/header');
+		    $this->load->view('client/tailor');
+		    $this->load->view('client/footer');
+	    }
+        else
+		{
+		    $data = array(
+				'name' => $this->input->post('name'),
+				'phone' => $this->input->post('no'),
+				'city' => $this->input->post('city'),
+				'orderinfo' => $this->input->post('req')
+			);
+			
+			if ($this->user->tailor($data))
+			{
+				$this->session->set_flashdata('msg','<div class="">Thanks for sending us your details! Our team will be in touch with you soon.</div>');
+				redirect('home/tailor');
+			}
+			else
+			{
+				// error
+				$this->session->set_flashdata('msg','<div class="">Oops! Error.  Please try again later!!!</div>');
+				redirect('home/tailor');
 			}
 		    
 		}
@@ -145,20 +179,39 @@ class Home extends CI_Controller {
 			}
 		$this->load->view('client/subscriber',$data);}
     }
-	public function tailor()
-	{	
-	    
-		$this->load->view('client/header.php');
-		$this->load->view('client/tailor');
-		$this->load->view('client/footer');
-	}
-
 	public function designer()
 	{	
-	    
-		$this->load->view('client/header.php');
-		$this->load->view('client/designer');
-		$this->load->view('client/footer');
+	      
+        $this->form_validation->set_rules('name', 'Name', 'trim|required');
+		$this->form_validation->set_rules('no', 'Contact Detail','trim|required');
+        if ($this->form_validation->run() == FALSE)
+        {	
+            $this->load->view('client/header');
+		    $this->load->view('client/designer');
+		    $this->load->view('client/footer');
+	    }
+        else
+		{
+		    $data = array(
+				'name' => $this->input->post('name'),
+				'phone' => $this->input->post('no'),
+				'city' => $this->input->post('city'),
+				'orderinfo' => $this->input->post('req')
+			);
+			
+			if ($this->user->designer($data))
+			{
+				$this->session->set_flashdata('msg','<div class="">Thanks for sending us your details! Our team will be in touch with you soon.</div>');
+				redirect('home/designer');
+			}
+			else
+			{
+				// error
+				$this->session->set_flashdata('msg','<div class="">Oops! Error.  Please try again later!!!</div>');
+				redirect('home/designer');
+			}
+		    
+		}
 	}
 
 }

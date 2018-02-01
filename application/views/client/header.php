@@ -93,8 +93,9 @@
         <li><a class="dropdown-toggle" id="dropdownMenu<?php echo $i; ?>" data-toggle="dropdown"><?php echo $var->category;?> &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu<?php echo $i; ?>">
             <?php $subcategory=$this->user->showscategory($var->category);
-              foreach ($subcategory as $row) {?>
-                <li><a href="<?php echo base_url();?>index.php/product/category/<?php echo $var->category;?>"><?php echo $row->name; ?></a></li>
+              foreach ($subcategory as $row) {$category = str_replace(' ','-', $var->category);
+                     $scategory = str_replace(' ','-',$row->name);?>
+                <li><a href="<?php echo base_url();?>index.php/product/category/<?php echo $category;?>/<?php echo $scategory;?>"><?php echo $row->name; ?></a></li>
             <?php   }?>
           </ul>
         </li>
@@ -220,9 +221,8 @@
     </div>
   </div>
 </div>
-<!--Notification--->
 <?php if(!empty($this->session->flashdata('msg'))){?>
-<div class="container-fluid" style="background-color:#f4f4f4;height:120px;display:block;position: absolute;margin-top:50px;width:100%;">
+<div class="container-fluid" style="background-color:#f4f4f4;height:120px;display:block;margin-top:50px;width:100%;z-index: 5000;">
 <div class="col-md-12 text-center" style="padding-top:30px;">
 <h4>
 <?php echo $this->session->flashdata('msg'); ?></h4></div>

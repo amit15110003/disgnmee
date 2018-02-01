@@ -185,16 +185,16 @@ class user extends CI_Model
 	}
 	public function attributevalue_cost($attributevalue,$category)
 	{		
-
+        
 		$this->db->where('attributevalue',$attributevalue);
 		$this->db->where('category',$category);
 		$query=$this->db->get('attributevalue');
 		return $query->result();
 	}
-	public function showproduct_category($limit, $start,$category)
+	public function showproduct_category($limit, $start,$scategory)
 	{	
 		$this->db->limit($limit, $start);
-		$this->db->where('category', $category);
+		$this->db->where('category', $scategory);
 		$this->db->where('status', "hosted");
 		$query=$this->db->get('product');
 		
@@ -205,6 +205,13 @@ class user extends CI_Model
             return $data;
         }
         return false;
+	}
+	public function get_scategory_id($category,$scategory)
+	{	
+		$this->db->where('category', $category);
+		$this->db->where('name', $scategory);
+		$query=$this->db->get('scategory');
+		return $query->result();
 	}
 	public function get_product_id($category,$title)
 	{	
@@ -610,6 +617,16 @@ WHERE orderid='.$orderid.'');
     {
     	$data['sent'] = date("Y-m-d H:i:s");
 		return $this->db->insert('message', $data);
+	}
+	function tailor($data)
+    {
+    	$data['sent'] = date("Y-m-d H:i:s");
+		return $this->db->insert('tailor', $data);
+	}
+	function designer($data)
+    {
+    	$data['sent'] = date("Y-m-d H:i:s");
+		return $this->db->insert('designer', $data);
 	}
 	function abandoned_cart($data)
     {

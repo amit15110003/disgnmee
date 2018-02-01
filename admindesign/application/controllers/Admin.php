@@ -585,6 +585,36 @@ public function updateproduct()
 
 	   
 	}
+    public function seencontact($id, $seen)
+    {
+    
+       if($seen=='0') {$seen='1';}
+       else {$seen='0';}
+      $result=$this->user->seencontact($id,$seen);
+     redirect($_SERVER['HTTP_REFERER']);
+
+       
+    }
+    public function seentailor($id, $seen)
+    {
+    
+       if($seen=='0') {$seen='1';}
+       else {$seen='0';}
+      $result=$this->user->seentailor($id,$seen);
+     redirect($_SERVER['HTTP_REFERER']);
+
+       
+    }
+    public function seendesigner($id, $seen)
+    {
+    
+       if($seen=='0') {$seen='1';}
+       else {$seen='0';}
+      $result=$this->user->seendesigner($id,$seen);
+     redirect($_SERVER['HTTP_REFERER']);
+
+       
+    }
 	public function status1($id)
 	{
 	
@@ -732,6 +762,27 @@ public function updateproduct()
 	  redirect('admin/slider');
 	 
 	}
+    public function contact()
+    {   
+            $details['query']=$this->user->contact();
+            $this->load->view('header');
+            $this->load->view('contact',$details);
+            $this->load->view('footer');
+    }
+    public function tailor()
+    {   
+            $details['query']=$this->user->tailor();
+            $this->load->view('header');
+            $this->load->view('tailor',$details);
+            $this->load->view('footer');
+    }
+    public function designer()
+    {   
+            $details['query']=$this->user->designer();
+            $this->load->view('header');
+            $this->load->view('designer',$details);
+            $this->load->view('footer');
+    }
 	 
 		
 }
