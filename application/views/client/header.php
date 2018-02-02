@@ -92,6 +92,7 @@
           foreach ($category as $var) { ?>
         <li><a class="dropdown-toggle" id="dropdownMenu<?php echo $i; ?>" data-toggle="dropdown"><?php echo $var->category;?> &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu<?php echo $i; ?>">
+            <p><?php echo $var->category;?><span class="th-bold">categories</span></p><hr>
             <?php $subcategory=$this->user->showscategory($var->category);
               foreach ($subcategory as $row) {$category = str_replace(' ','-', $var->category);
                      $scategory = str_replace(' ','-',$row->name);?>
