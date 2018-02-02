@@ -44,8 +44,8 @@
           {?>
                 <tr>
                   <td><?php echo $row->title; ?> </td>
-                  <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/Deleteblog/'.$row->id; ?>">delete</a></td>
-                  <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/blogedit/'.$row->id; ?>">Edit</a></td>
+                  <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/Deleteblog/'.$row->id.'/'.$row->image; ?>">delete</a></td>
+                  <td><a class="btn btn-primary" href="<?php echo base_url().'index.php/admin/blogedit/'.$row->id; ?>">Edit</a></td>
                 </tr>
                  <?php }?>
                 </tfoot>
@@ -91,13 +91,4 @@
   });
 </script>
 
-<script type="text/javascript">
- 
-$('select[name=category]').on('change', function(){
-  
-  var categoryN = $(this).val(); 
-  $('select[name=scategory]').find('option:not([value^='+ categoryN +'])').remove();
-  
-});
 
-</script>

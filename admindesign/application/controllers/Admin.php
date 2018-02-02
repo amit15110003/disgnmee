@@ -843,6 +843,7 @@ public function updateproduct()
                 'title' => $this->input->post('title'),
                 'sdescr' =>$this->input->post('sdescr'),
                 'descr' => $this->input->post('descr'),
+                'link'=>preg_replace("/[^a-zA-Z]/", "", $this->input->post('title')),
                 'image' => $picture
             );
         if($this->user->insert_blog($data))
@@ -858,5 +859,26 @@ public function updateproduct()
             }
     } 
     }   
+    public function Deleteblog($id,$delpicture)
+    {
+        if(!empty($delpicture))
+                        {
+                        unlink("../uploads1/blog/".$delpicture);
+                        unlink("../uploads1/blog/blogthumb/".$delpicture);
+                         }
+     
+      $r=$this->user->deleteblog($id);
+      if($r){
+      echo "Successfully Deleted Data";
+      }
+      else {
+          echo "Can Not Delete Data";
+      }
+      
+       
+      
+      redirect('admin/blog');
+     
+    } 
 		
 }

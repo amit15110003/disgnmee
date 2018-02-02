@@ -448,4 +448,9 @@ public function showblog()
 		$query=$this->db->get('blog');;
 		return $query->result();
 	}
+	public function deleteblog($id)
+	{
+		$this->db->where('id', $id);
+	return($this->db->delete('blog'));
+	}
 }?>
