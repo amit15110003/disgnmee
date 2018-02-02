@@ -124,6 +124,11 @@
             <i class="fa fa-th"></i> <span>Abandoned Cart</span>
           </a>
         </li>
+        <li>
+          <a href="<?php echo base_url('index.php/admin/blog'); ?>">
+            <i class="fa fa-th"></i> <span>Blog</span>
+          </a>
+        </li>
       </ul>
     </section>
   </aside>       
