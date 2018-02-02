@@ -1,11 +1,19 @@
 
 <div class="container-fluid" style="margin-top: 100px;">
-    <div class="row">
-        <div class="col-md-8 col-xs-12 col-md-offset-2" style="background-color: #f9f9f9;padding: 15px;">
-        <div class="col-md-2 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 100px;background-position: center;background-size: cover; ">
+            <?php 
+                if ($cart = $this->cart->contents()){$i=0;
+                    foreach ($cart as $item ) {
+              $details=$this->user->get_product_by_id($item['id']);
+             ?>
+    <div class="row" style="margin-bottom: 15px;">
+        <div class="col-md-8 col-xs-12 col-md-offset-2" style="background-color: #f9f9f9;padding: 15px;" id="cart_<?php echo $item['id'];?>">
+        <div class="col-md-2 cover-img" style="background-image: url('<?php echo base_url();?>uploads/<?php echo $details[0]->picture;?>'); height: 100px;background-position: center;background-size: cover; ">
         </div>
         <div class="col-md-6 col-xs-12">
-          <p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<s>Rs.5000</s> ( 30% Off )</span></p>
+          <p  class="text-center">
+            <span><?php  echo $details[0]->title;?></span>
+            <br>
+            <span class="rate">Rs <?php  echo $details[0]->price;?></span></p>
           <div class="col-md-12 text-center">
             <p>Size: S &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <span>
@@ -14,9 +22,14 @@
           </div>
         </div>
         <div class="col-md-4 col-xs-12 text-center">
-            <button class="th-btn-inv">Remove</button>
+            <a class="th-btn-inv-sm col-md-6 btn pull-right" href="<?php echo base_url()?>index.php/cart/removecart/<?php echo $item['rowid'];?>">Move To Wishlist</a>
+            <a class="th-btn-inv-sm col-md-6 btn pull-right" href="<?php echo base_url()?>index.php/cart/removecart/<?php echo $item['rowid'];?>">Remove</a>
         </div>
         </div>
+    </div>
+    <?php $i++;}}?>
+    <div>
+            <a class="btn col-xs-12 col-md-3 th-btn" href="<?php echo base_url(); ?>index.php/checkout" style="" > PROCEED</a>
     </div>
 </div>
 
