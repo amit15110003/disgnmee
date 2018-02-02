@@ -340,3 +340,17 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 {
  padding: 15px;
 }
+
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  opacity:.4;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  opacity: 1;
+  border: 1px solid;
+}
