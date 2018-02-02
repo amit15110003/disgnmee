@@ -227,14 +227,17 @@
 <div class="th-gap"></div>
 <div class="container-fluid">
       <h1 class="th-pad">also<span class="th-bold">suggested</span></h1>
+
+<div class="th-gap"></div>
+      <div class="col-md-12" style="padding-right: 5%;padding-left: 5%;">
 	<?php foreach ($query2 as $row ) {
 				$category=str_replace(' ', '-', $row->category);
 				$title=str_replace(' ', '-', $row->title);?>
-		<div class="col-md-3 tile">
+		<div class="col-md-3 tile" style="padding: 0px;">
 		<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
-			<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?><s>₹ 5000</s> ( 30% Off )</span></p>
+			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 380px;"></div>
+			<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?></span></p>
 		</a>
 		</div>
         <?php }?>
-</div>
+</div></div>
