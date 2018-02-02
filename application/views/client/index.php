@@ -26,11 +26,12 @@
 				<button class="btn th-btn btn-lg">Shop Now</button>
 				<br><br>
 				<div class="carousel slide multi-item-carousel" id="theCarousel" style="padding-top: 5%;">
-					<ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					</ol>
+					<!--<ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active" style="background-color: #000;"></li>
+					    <br>
+					    <li data-target="#carousel-example-generic" data-slide-to="1" style="background-color: #000;"></li><br>
+					    <li data-target="#carousel-example-generic" data-slide-to="2" style="background-color: #000;"></li>
+					</ol>-->
 			        <div class="carousel-inner">
 			          <div class="item active">
 			            <div class="col-xs-4"><a href="#1"><img src="https://s1.bukalapak.com/img/171501164/w-1000/Jas_Pria_keren_combie_black__Jas_Blazer__style_korea__Blazer.jpg" class="img-responsive"></a></div>
