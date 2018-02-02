@@ -18,12 +18,33 @@
                     </div>
                 </div>
 			</div>
-			<div class="col-md-6 col-xs-12 col-sm-6 home-banner-text"  style="padding-right: 15%; padding-left: 6%;">
-				<h1 style="padding-top: 30%">New<span class="th-bold">Arrivals</span></h1>
+			<div class="col-md-5 col-xs-12 col-sm-6 home-banner-text"  style="padding-left: 5%;">
+				<h1 style="padding-top: 20%">New<span class="th-bold">Arrivals</span></h1>
 				<br><br>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-				<br><br><br><br>
+				<br><br>
 				<button class="btn th-btn btn-lg">Shop Now</button>
+				<br><br>
+				<div class="carousel slide multi-item-carousel" id="theCarousel" style="padding-top: 5%;">
+					<ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+			        <div class="carousel-inner">
+			          <div class="item active">
+			            <div class="col-xs-4"><a href="#1"><img src="https://s1.bukalapak.com/img/171501164/w-1000/Jas_Pria_keren_combie_black__Jas_Blazer__style_korea__Blazer.jpg" class="img-responsive"></a></div>
+			          </div>
+			          <div class="item">
+			            <div class="col-xs-4"><a href="#1"><img src="https://s1.bukalapak.com/img/171501164/w-1000/Jas_Pria_keren_combie_black__Jas_Blazer__style_korea__Blazer.jpg" class="img-responsive"></a></div>
+			          </div>
+			          <div class="item">
+			            <div class="col-xs-4"><a href="#1"><img src="https://s1.bukalapak.com/img/171501164/w-1000/Jas_Pria_keren_combie_black__Jas_Blazer__style_korea__Blazer.jpg" class="img-responsive"></a></div>
+			          </div>
+			        </div>
+			</div>
+			<div class="col-md-1">
+				
 			</div>
 		</div>
 	</div>
