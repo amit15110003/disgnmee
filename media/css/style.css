@@ -327,3 +327,16 @@ a:hover, a:focus { color: #000; text-decoration: none;}
   }
 }
 
+.blog-card
+{
+  margin-top: 15px;margin-bottom: 15px;padding:0px;
+  box-shadow: 0px 2px 5px #eee;
+}
+.blog-card:hover
+{
+  box-shadow: 0px 10px 20px #eee;
+}
+.blog-text
+{
+ padding: 15px;
+}

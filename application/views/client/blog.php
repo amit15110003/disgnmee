@@ -1,13 +1,49 @@
-<div class="row" style="padding-top: 100px;">
-	<div class="container">
-		<p>Proin et nisl finibus, accumsan mi ac, faucibus nisi. Sed posuere, diam quis egestas venenatis, mauris mauris egestas leo, sit amet fermentum arcu nisi non turpis. Aliquam eleifend lorem ac elit tincidunt, nec maximus nunc mattis. Sed nisi nisl, imperdiet sit amet lacus sit amet, cursus laoreet turpis. Mauris vel varius ipsum. Mauris vitae condimentum velit. Donec facilisis eget metus vitae faucibus. Nulla sed justo tempor, aliquam massa ac, efficitur arcu. Morbi tempor leo aliquam purus dignissim vehicula. Donec congue mauris ut felis varius, gravida euismod leo consequat.
+<div class="row">
+	<div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
+		<h1 style="padding-top: 5%">Know<span class="th-bold">Fashion</span></h1>
+		<div class="th-gap"></div>
+		<div class="col-md-4">
+		 <?php $i=0; foreach ($query as $row) {
+                     if($i%3=='0'){?>
+            <div class="col-md-12 blog-card">
+	        	<div class="" style="background-image: url('<?php echo base_url();?>uploads1/blog/blogthumb/<?php echo $row->image; ?>');background-size: cover;background-position: center;height: 300px;">
+	        	</div>
+	        	<div class="col-md-12 blog-text">
+	        		<h3><?php echo $row->title; ?></h3>
+	                <p class="text-justify"><?php echo $row->descr; ?></p>
+	                <button class="col-md-4 col-xs-6 th-btn btn pull-right" type="submit" name="" onclick="javascript:More('');">More</button>
+	        	</div>
+        	</div>
+        <?php } $i++;}?>
+       </div>
+		<div class="col-md-4">
+		 <?php $i=0; foreach ($query as $row) {
+                     if($i%3=='1'){?>
+            <div class="col-md-12 blog-card">
+	        	<div class="" style="background-image: url('<?php echo base_url();?>uploads1/blog/blogthumb/<?php echo $row->image; ?>');background-size: cover;background-position: center;height: 300px;">
+	        	</div>
+	        	<div class="col-md-12 blog-text">
+	        		<h3><?php echo $row->title; ?></h3>
+	                <p class="text-justify"><?php echo $row->descr; ?></p>
+	                <button class="col-md-4 col-xs-6 th-btn btn pull-right" type="submit" name="" onclick="javascript:More('');">More</button>
+	        	</div>
+        	</div>
+        <?php } $i++;}?>
+       </div>
+	   <div class="col-md-4">
+		 <?php $i=0; foreach ($query as $row) {
+                     if($i%3=='2'){?>
+            <div class="col-md-12 blog-card">
+	        	<div class="" style="background-image: url('<?php echo base_url();?>uploads1/blog/blogthumb/<?php echo $row->image; ?>');background-size: cover;background-position: center;height: 300px;">
+	        	</div>
+	        	<div class="col-md-12 blog-text">
+	        		<h3><?php echo $row->title; ?></h3>
+	                <p class="text-justify"><?php echo $row->descr; ?></p>
+	                <button class="col-md-4 col-xs-6 th-btn btn pull-right" type="submit" name="" onclick="javascript:More('');">More</button>
+	        	</div>
+        	</div>
+        <?php } $i++;}?>
+       </div>
 
-		Fusce et mi euismod, luctus velit a, condimentum neque. Integer et ipsum vel ligula tristique viverra. Integer scelerisque odio eget scelerisque euismod. Donec tempus elit nulla, ac maximus sem pharetra a. Nulla efficitur placerat est, ac ullamcorper erat consequat egestas. Pellentesque ultrices nunc non tellus placerat, ac accumsan est congue. Quisque porttitor, sem at euismod ullamcorper, ex nisi lobortis leo, at varius nunc ex at libero. Donec varius tellus eget dui sagittis, ut eleifend nibh luctus. Phasellus volutpat nulla ac aliquet convallis.
-
-		Vivamus dignissim, ex eget commodo mollis, dui ante maximus arcu, quis consectetur sem risus ut nulla. Aliquam suscipit a nisl nec malesuada. Nullam dictum neque mauris, vel lobortis lacus lacinia sed. Nullam auctor metus erat, sit amet fringilla neque maximus vitae. Proin a mi in tortor hendrerit feugiat ac sit amet velit. Donec rhoncus quam justo, vel dictum ex gravida at. Aliquam lobortis sed augue sit amet faucibus. Nulla nibh odio, dapibus semper sem vel, molestie imperdiet orci.
-
-		Proin purus metus, porta nec leo et, accumsan eleifend risus. Suspendisse vitae diam vitae urna consequat tempor. In a maximus ante. Integer dapibus nulla vitae tortor ultrices, vitae interdum metus gravida. Nam auctor cursus scelerisque. Pellentesque sed turpis mattis, pulvinar augue ut, gravida lacus. Sed ut massa a nisi feugiat euismod non vel lorem. Maecenas pretium mauris vel laoreet porta. Vestibulum sollicitudin ac enim sit amet rhoncus. Nullam mauris leo, consequat sed mi sit amet, rutrum auctor quam. Nunc luctus nisl et odio dapibus, et cursus ex posuere. Aenean venenatis facilisis feugiat.
-
-		Donec cursus justo sed lacinia egestas. Pellentesque eget risus quam. Nam euismod mi metus. Nunc fermentum, nunc at egestas semper, massa dolor tempor lorem, sed ultricies nisi mi eu sapien. Sed eleifend diam sed ante pellentesque, eget fringilla nisi vehicula. Nullam sit amet condimentum orci. In nisl lectus, condimentum at dolor nec, suscipit aliquam tellus. Duis vitae pharetra ex, nec tincidunt mi. Integer feugiat rhoncus vehicula. Nunc eu massa ut nulla pulvinar ultricies. Proin congue ultricies metus, eu iaculis turpis vestibulum eget. Etiam aliquet est sit amet mauris cursus volutpat. Pellentesque mattis nulla ex, vitae eleifend massa placerat quis. Aenean consectetur non odio non ornare.</p>
 	</div>
 </div>

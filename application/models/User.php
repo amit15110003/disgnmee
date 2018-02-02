@@ -640,5 +640,10 @@ WHERE orderid='.$orderid.'');
 		$query=$this->db->get('scategory');
 		return $query->result();
 	}
-
+    public function showblog()
+	{
+		$query=$this->db->get('blog');
+		return $query->result();
+	}
+    
 }?>
