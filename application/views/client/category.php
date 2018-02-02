@@ -68,28 +68,28 @@
 	        <div>
 	            <ul>
 	            	<br><br><div class="hitem" >Colour</div><br><br>
-	                <li class="color-square" style="background:#00ffff"></li>
-	                <li class="color-square" style="background:#ff0000"></li>
-	                <li class="color-square" style="background:#ffff00"></li>
-	                <li class="color-square" style="background:#00ff00"></li>
-	                <li class="color-square" style="background:#ff00ff"></li>
-	                <li class="color-square" style="background:#0f0f0f"></li>
-	                <li class="color-square" style="background:#f0f0f0"></li>
-	                <li class="color-square" style="background:#0f0f0f"></li>
-	                <li class="color-square" style="background:#fff0f0"></li>
-	                <li class="color-square" style="background:#f0f0f0"></li>
+	                <li class="color-square" style="background:#A14141"></li>
+	                <li class="color-square" style="background:#E24343"></li>
+	                <li class="color-square" style="background:#404F92"></li>
+	                <li class="color-square" style="background:#0D92B8"></li>
+	                <li class="color-square" style="background:#202020"></li>	<br>
+	                <li class="color-square" style="background:#5D4935"></li>
+	                <li class="color-square" style="background:#F07B42"></li>
+	                <li class="color-square" style="background:#EDCA3E"></li>
+	                <li class="color-square" style="background:#F3E8D2"></li>
+	                <li class="color-square" style="background:#505155"></li>
 	            </ul>
 	        </div>
     	</div>
 	</div>
-	<div class="col-md-9" style="padding: 5%;">
+	<div class="col-md-9">
 		<?php foreach($query as $row) {
 				$category=str_replace(' ', '-', $row->category);
 				$title=str_replace(' ', '-', $row->title);?>
 		<div class="col-md-4">
 			<div class="tile">
 				<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
-					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
+					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 380px;"></div>
 					<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?></span></p>
 				</a>
 			</div>

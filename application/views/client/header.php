@@ -102,7 +102,7 @@
     <?php  $i++; }?>
         <li><a href="<?php echo base_url(""); ?>index.php/home/blog">Know Fashion</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
         <li> <a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
           <!--<li><a>
               <?php $attributes = array("name" => "search");
