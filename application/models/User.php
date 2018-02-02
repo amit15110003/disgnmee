@@ -645,5 +645,10 @@ WHERE orderid='.$orderid.'');
 		$query=$this->db->get('blog');
 		return $query->result();
 	}
-    
+    public function showblogdetails($link)
+	{
+		$this->db->where('link', $link);
+		$query=$this->db->get('blog');
+		return $query->result();
+	}
 }?>

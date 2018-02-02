@@ -27,6 +27,7 @@
   <!-- jQuery 2.2.0 -->
 <script src="<?php echo base_url('media/plugins/jQuery/jQuery-2.2.0.min.js'); ?>"></script>
 
+
   </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

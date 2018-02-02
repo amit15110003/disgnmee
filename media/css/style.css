@@ -17,6 +17,7 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .btn{border-radius: 0px;}
 .th-btn{ color: #fbfbfb; font-size: 1.2em; background-color: #000; height: 60px; padding-left: 50px; padding-right: 50px;font-weight: 300; }
 .th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
+.blog-btn{ background-color:#000;color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .th-btn-inv{margin-bottom:15px; font-family: 'Raleway', sans-serif;height: 60px; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; background-color: #fff; border: 1px solid #a3a3a3; }
 .th-btn-inv-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px;background-color: #fff; border: 1px solid #a3a3a3; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .btn:active, .btn.active{ background-color: #000;color:#fff; }
@@ -329,7 +330,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 
 .blog-card
 {
-  margin-top: 15px;margin-bottom: 15px;padding:0px;
+  margin-top: 15px;margin-bottom: 30px;padding:0px;
   box-shadow: 0px 2px 5px #eee;
 }
 .blog-card:hover
