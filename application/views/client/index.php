@@ -31,7 +31,7 @@
 <div class="th-gap"></div>
 <div class="container-fluid" style="padding:0px;">
     <div class="row">
-		<h1 class="th-pad col-md-12 col-xs-12 col-sm-12">On<span class="th-bold">Treanding</span></h1>	
+		<h1 class="th-pad col-md-12 col-xs-12 col-sm-12">On<span class="th-bold">Trending</span></h1>	
 		<div class="th-gap"></div>
 		<div class="col-md-6 col-xs-12 col-sm-12">
 			<div class="vr-txt"><h1>Classic<span class="th-bold">White</span></h1></div>
@@ -68,19 +68,19 @@
 		<div class="col-md-12 col-xs-12 col-sm-12">
 			<div class="col-md-3 col-xs-12 col-sm-12">
 				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
+				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
 				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
+				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
 				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
+				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
 				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
-				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000        <s>Rs.5000</s> ( 30% Off )</span></p>
+				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000 </span></p>
 			</div>
 		</div>
 	</div>

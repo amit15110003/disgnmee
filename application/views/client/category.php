@@ -1,6 +1,13 @@
-<div class="container-fluid" style="padding-top: 5%;">
-	<div class="col-md-3" style="padding: 4%;">
+<div class="container-fluid" style="padding-top: 5%;padding-left: 5%;padding-right: 5%;">
+	<div class="col-md-12">
+		<ol class="breadcrumb" style="background-color: #fff;">
+				  <li><a href="#"><?php echo $categoryval;?></a></li>
+				  <li class="active"><?php echo $scategoryval;?></li>
+		</ol>
+	</div>
+	<div class="col-md-3">
 		<div class="menu">
+			
         	<div class="mini-menu">
 	            <ul>         		
 	        		<li>
@@ -83,7 +90,7 @@
 			<div class="tile">
 				<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
 					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 300px;"></div>
-					<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?><s>₹ 5000</s> ( 30% Off )</span></p>
+					<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?></span></p>
 				</a>
 			</div>
 		</div>

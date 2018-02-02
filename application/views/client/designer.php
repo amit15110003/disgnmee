@@ -2,9 +2,9 @@
 	<img src="https://upload.lotsop.com//media/images/sitesetting/91430117714_11.jpg">
 	<div class="container-fluid col-md-12 text-center" style="padding: 5%;">
 		<h1>Call a <span class="th-bold">designer</span></h1>
-<h2>Explore your personal style with DesignMee.
+<p>Explore your personal style with DesignMee.
 Melange of hand-picked international fabrics, and designs that are only limited by your imagination. 
-Book an appointment and let our designers walk you through the world of premium Bespoke fashion!</h2>
+Book an appointment and let our designers walk you through the world of premium Bespoke fashion!</p>
 
 	</div>
 	<div class="col-md-6 col-md-offset-3">

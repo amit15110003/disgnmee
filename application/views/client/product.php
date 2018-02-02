@@ -1,15 +1,36 @@
 <div class="spacer"></div>
 <div id="startchange"></div>
-<div class="container single-product" style="padding-top: 10%;">
-	<div class="col-md-7 center-block single-product-img">
-	    <div class=" single-product-image">
-	    
-		<img id="zoom_01" src="<?php echo base_url();?>uploads/thumb/<?php echo $picture;?>" data-zoom-image="<?php echo base_url();?>uploads/<?php echo $picture;?>" class="img-responsive center-block" style="margin-top: -50px;" />
-	    </div>
+<div class="container-fluid single-product" style="padding-top: 10%;padding-left: 5%;padding-right: 5%;">
+	<div class="col-md-1 center-block hidden-xs">
+		<div id="gallery_01">
+ 		<div class="col-md-12 side-img active">
+			<a  href="#" class="elevatezoom-gallery active" data-update="" data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
+			data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $picture;?>">
+			<img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" width="100" height="100" class="img-responsive center-block"  /></a>
+		</div>
+		<?php
+			if(!empty($query)){
+			 foreach ($query as $row) {?>
+ 		<div class="col-md-12 side-img">
+			<a  href="#" class="elevatezoom-gallery"
+			     data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"
+			     data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $row->img; ?>"
+			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>" width="100" height="100" class="img-responsive center-block"  /></a>
+		</div>
+		<?php }}?>
+		</div>
+	</div>
+	<div class="col-md-6 center-block single-product-img">
+	    <div class="col-md-12 center-block">
+	    	<div class="single-product-image center-block ">
+				<img  class="img-responsive center-block" id="zoom_03" src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
+				data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $picture;?>"/>
+			</div>
+		</div>
 	</div>
 	<div class="col-md-5">
 		<div class="row">
-			<div class="col-md-10 col-xs-12 ">
+			<div class="col-md-12 col-xs-12 ">
 				<h1><?php echo $title; ?> </h1>
 			</div>
 		</div>
@@ -32,12 +53,12 @@
 				</div>
 				<br><br>
 				<div style="padding: 0;" class="col-md-12" data-toggle="buttons">
-				  <label class="btn th-btn-sm"><input type="radio" name="options" id="option1" autocomplete="off" checked> XS </label>
-				  <label class="btn th-btn-sm"><input type="radio" name="options" id="option2" autocomplete="off"> S </label>
-				  <label class="btn th-btn-sm active"><input type="radio" name="options" id="option3" autocomplete="off"> M </label>
-				  <label class="btn th-btn-sm"><input type="radio" name="options" id="option3" autocomplete="off"> L </label>
-				  <label class="btn th-btn-sm"><input type="radio" name="options" id="option3" autocomplete="off"> XL </label>
-				  <label class="btn th-btn-sm"><input type="radio" name="options" id="option3" autocomplete="off"> XXL </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option1" autocomplete="off" checked> XS </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option2" autocomplete="off"> S </label>
+				  <label class="btn th-btn-sm active"><input type="radio" name="size" id="option3" autocomplete="off"> M </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" autocomplete="off"> L </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" autocomplete="off"> XL </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" autocomplete="off"> XXL </label>
 				</div>
 			</div>
 			</div>

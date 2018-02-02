@@ -439,4 +439,13 @@ class user extends CI_Model
 		$query=$this->db->get('designer');
 		return $query->result();
 	}
+	function insert_blog($data)
+    {
+		return $this->db->insert('blog', $data);
+	}
+public function showblog()
+	{
+		$query=$this->db->get('blog');;
+		return $query->result();
+	}
 }?>

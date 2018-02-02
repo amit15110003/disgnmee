@@ -67,8 +67,7 @@ class cart extends CI_Controller
         'qty'     => $this->input->post('qty'),
         'price'   => 39.95,
         'name'    => 'T-Shirt',
-        'attributevalue' =>$this->input->post('attributevalue'),
-        'category' =>$this->input->post('category')
+        'attributevalue' =>$this->input->post('attributevalue')
 		);
 		$this->cart->insert($data);
 	

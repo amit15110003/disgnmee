@@ -37,6 +37,7 @@ class product extends CI_Controller {
         $details['query'] = $this->user->showproduct_category($config["per_page"],$page,$id);
         $details["links"] = $this->pagination->create_links();
 		$details['categoryval']=$category1;
+		$details['scategoryval']=$scategory1;
 		$this->load->view('client/header',$details);
 		$this->load->view('client/category',$details);
 		$this->load->view('client/footer');
@@ -47,13 +48,15 @@ class product extends CI_Controller {
 		$category = str_replace('-', ' ', $category);
 		$title = str_replace('-', ' ', $title);
 		$details=$this->user->get_product_id($category,$title);
+
+		$data['query']=$this->user->get_image_id($details[0]->id);
 		$data['query1']=$this->user->get_review_id($details[0]->id);
 		$data['query2']=$this->user->showproduct_mostview_cat($category);
 			$data['id'] = $details[0]->id;
 			$data['picture'] = $details[0]->picture;
 			$data['title'] = $details[0]->title;
         	$data['Descr'] = $details[0]->Descr;
-        	$data['category'] = $details[0]->category;
+        	$data['category'] = $category;
         	$data['price'] = $details[0]->price;
         	$data['color'] = $details[0]->color;
         	$data['review'] = $details[0]->review;

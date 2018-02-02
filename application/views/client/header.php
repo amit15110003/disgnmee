@@ -100,7 +100,7 @@
           </ul>
         </li>
     <?php  $i++; }?>
-        <li><a href="<?php echo base_url(""); ?>index.php/home/blog">Know Fasion</a></li>
+        <li><a href="<?php echo base_url(""); ?>index.php/home/blog">Know Fashion</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li> <a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>

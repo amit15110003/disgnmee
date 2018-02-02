@@ -17,8 +17,8 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .btn{border-radius: 0px;}
 .th-btn{ color: #fbfbfb; font-size: 1.2em; background-color: #000; height: 60px; padding-left: 50px; padding-right: 50px;font-weight: 300; }
 .th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
-.th-btn-inv{ padding: 0 20px; font-family: 'Raleway', sans-serif; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; height: 40px; background-color: #fff; border: 1px solid #a3a3a3; }
-.btn:active, .btn.active{ background-color: #000; }
+.th-btn-inv{margin-bottom:15px; font-family: 'Raleway', sans-serif;height: 60px; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; background-color: #fff; border: 1px solid #a3a3a3; }
+.btn:active, .btn.active{ background-color: #000;color:#fff; }
 .hdr{ font-size: 1.3em; padding-top: 5px;}
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
 .th-form{ padding: 25px; margin: 5px 0; width: 100%;}
@@ -214,4 +214,72 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 
 .carousel.vertical .item {
     left: 0;
+}
+
+.side-img
+{
+  display:table-cell;
+  vertical-align:middle;
+  height: 100px;
+  width: 100px;
+}
+.elevatezoom-gallery
+{
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  height: 100px;
+  width:100px;
+  max-height:100px;
+}
+.elevatezoom-gallery img
+{
+  max-height: 80px;
+}
+/*set a border on the images to prevent shifting*/
+ #gallery_01 img{border:2px solid white;}
+ 
+ /*Change the colour*/
+ .active .side-img {border:2px solid #ccc !important;}
+
+.single-product-img
+{
+  display:table-cell;
+  vertical-align:middle;
+  height: 450px;
+}
+.single-product-image
+{
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  height: 450px;
+  max-height:450px;
+}
+.single-product-image img
+{
+  max-height: 480px;
+  border:none !important;
+}
+@media screen and (max-width: 480px)
+{ 
+    .single-product-img
+    {
+  display:table-cell;
+  vertical-align:middle;
+  height: 450px;
+    }
+    .single-product-image
+  {
+    display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+    height: 450px;
+  width:600px;
+  max-height:450px;
+  }
+  .single-product-image img
+{
+  max-height: 450px;
+}
 }

@@ -59,9 +59,16 @@
             })
         </script>
 
-    <script>
-	   $("#zoom_01").elevateZoom(); 
-	</script>
+  <script>
+     $("#zoom_03").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: 'active', imageCrossfade: true, loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'}); 
+
+//pass the images to Fancybox
+$("#zoom_03").bind("click", function(e) {  
+  var ez =   $('#zoom_03').data('elevateZoom'); 
+  $.fancybox(ez.getGalleryList());
+  return false;
+});
+  </script>
   <script type="text/javascript">
      $('.carousel').carousel({
   interval: 3000,cycle: true,pause: "null"
@@ -125,28 +132,15 @@
              });
          }
       </script>
-      <script>
-         function price() {
-              var x = $('#price :selected').val();
-
-              document.getElementById("pricedisplay").innerHTML = x;
-         }
-      </script>
-      <script>
-              var x = $('#price :selected').val();
-              
-              document.getElementById("pricedisplay").innerHTML = x;
-      </script>
       <script type="text/javascript">
       function cartadd(id)
       { 
-        var qty = $('#qty :selected').val();
-        var attributevalue = $('#price :selected').text();
-        var category=document.getElementById("category").innerHTML;
+        var qty = '1';
+        var attributevalue = $('input[name=size]:checked').val();
         $.ajax({  
                      type: "POST",
                       url: "<?php echo site_url('cart/cartadd');?>",
-                      data:'&id='+id+'&qty='+qty+'&category='+category+'&attributevalue='+attributevalue,
+                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue,
                       success: function (response) {
                         location.reload();
                     }
@@ -157,14 +151,12 @@
       function cartadd1(id)
       { 
         var x = document.getElementById("cartcounter").innerHTML;
-        var qty = $('#qty :selected').val();
-        var color = $('#color :selected').text();
-        var attributevalue = $('#price :selected').text();
-        var category=document.getElementById("category").innerHTML;
+        var qty ='1';
+        var attributevalue = $('input[name=size]:checked').val();
         $.ajax({  
                      type: "POST",
                       url: "<?php echo site_url('cart/cartadd1');?>",
-                      data:'&id='+id+'&qty='+qty+'&category='+category+'&attributevalue='+attributevalue,
+                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue,
                       success: function (response) {
                         document.getElementById("cartcounter").innerHTML = ++x;
                         document.getElementById("cartcounter1").innerHTML = x;
@@ -176,7 +168,7 @@
       function cartadd3(id)
       { 
         var qty = $('#qty :selected').val();
-        var attributevalue = $('#price :selected').text();
+       var attributevalue = $('input[name=size]:checked').val();
         var category=document.getElementById("category").innerHTML;
         $.ajax({  
                      type: "POST",

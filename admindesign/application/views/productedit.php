@@ -59,7 +59,9 @@
       <div class="col-md-12">
       <?php foreach($query2 as $row){?>
       <div class="col-md-3 ">
-      <img src="<?php echo base_url(); ?>../uploads/thumb/<?php echo $row->img; ?>">
+      <img src="<?php echo base_url(); ?>../uploads/thumb/<?php echo $row->img; ?>" class="img-responsive center-block">
+       <a href="" onclick="javascript:remove_image(<?php echo $row->id;?>);" class="btn btn-danger center-block">Remove</a>
+        <input type="hidden" value="<?php echo $row->img; ?>" id="image_<?php echo $row->id;?>">
       </div>
       <?php }?>
       <div class="row" style="margin-top: 40px;">
@@ -88,3 +90,36 @@
 
 
 
+<script type="text/javascript">
+    function remove_image(postid)
+    {  var name =$('#image_'+postid).val();
+        var r =confirm("Confirm to Delete");
+        if (r == true) {
+            $.ajax({
+                    type: "POST",
+                     url: "<?php echo site_url('admin/remove_image');?>",
+                    data:'&id='+postid+'&name='+name,
+                    success: function (response) {
+                    }
+                });
+} else {
+    txt = "You pressed Cancel!";
+}
+    }
+  </script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#upload').bind("click",function() 
+    { 
+        var imgVal = $('#uploadfile').val(); 
+        if(imgVal=='') 
+        { 
+            alert("empty input file"); 
+            return false; 
+        } 
+
+
+    }); 
+});
+</script> 

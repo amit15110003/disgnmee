@@ -2,8 +2,8 @@
 	<img src="https://upload.lotsop.com//media/images/sitesetting/91430117714_11.jpg">
 	<div class="container-fluid col-md-12 text-center" style="padding: 5%;">
 		<h1>Call a <span class="th-bold">tailor</span></h1>
-<h2>Sizes are for mannequins. Create your own custom fit with DesignMee tailor at your doorstep at no added cost!
-Now forget trying to chase the mythical 'Perfect fit' and let us create your own.</h2>
+<p>Sizes are for mannequins. Create your own custom fit with DesignMee tailor at your doorstep at no added cost!
+Now forget trying to chase the mythical 'Perfect fit' and let us create your own.</p>
 
 	</div>
 	<div class="col-md-6 col-md-offset-3 col-xs-12 col-sm-6 col-sm-offset-3">
