@@ -6,7 +6,7 @@
  		<div class="col-md-12 side-img active">
 			<a  href="#" class="elevatezoom-gallery active" data-update="" data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
 			data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $picture;?>">
-			<img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" width="100" height="100" class="img-responsive center-block"  /></a>
+			<img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" width="120" height="120" class="img-responsive center-block"  /></a>
 		</div>
 		<?php
 			if(!empty($query)){
@@ -15,7 +15,7 @@
 			<a  href="#" class="elevatezoom-gallery"
 			     data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"
 			     data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $row->img; ?>"
-			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>" width="100" height="100" class="img-responsive center-block"  /></a>
+			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>" width="120" height="120" class="img-responsive center-block"  /></a>
 		</div>
 		<?php }}?>
 		</div>
@@ -236,7 +236,7 @@
 		<div class="col-md-3 ">
 	    <div class="col-sm-12 col-md-12 tile"  style="padding: 0px;">
 		<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
-			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 380px;"></div>
+			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>');"></div>
 			<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?></span></p>
 		</a>
 		</div>

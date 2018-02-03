@@ -89,19 +89,19 @@
 		<div class="th-gap"></div>
 		<div class="col-md-12 col-xs-12 col-sm-12">
 			<div class="col-md-3 col-xs-12 col-sm-12">
-				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
+				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png');"></div>
 				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
-				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
+				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); "></div>
 				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
-				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
+				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); "></div>
 				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000</span></p>
 			</div>
 			<div class="col-md-3 col-xs-12 col-sm-12">
-				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png'); height: 300px;"></div>
+				<div class="col-md-12 col-xs-12 col-sm-12 cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/5.png');"></div>
 				<p  class="text-center"><span>Varkala Shirt - Olive</span><br><span class="rate">Rs.4000 </span></p>
 			</div>
 		</div>

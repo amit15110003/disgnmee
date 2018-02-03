@@ -1,6 +1,6 @@
 <div class="container-fluid" style="padding-top: 5%;padding-left: 5%;padding-right: 5%;">
 	<div class="col-md-12">
-		<ol class="breadcrumb" style="background-color: #fff;">
+		<ol class="breadcrumb" style="background-color: #fff;padding-left: 0px;">
 				  <li><a href="#"><?php echo $categoryval;?></a></li>
 				  <li class="active"><?php echo $scategoryval;?></li>
 		</ol>
@@ -9,7 +9,7 @@
 		<div class="menu">
 			
         	<div class="mini-menu">
-	            <ul>         		
+	            <ul style="padding-left: 0px;">         		
 	        		<li>
 		            	<a href="#" class="hitem" >Ocassion</a><br><br>
 		            	<label class="cont">Formal
@@ -66,7 +66,7 @@
 			    </ul>
         	</div>
 	        <div>
-	            <ul>
+	            <ul style="padding-left: 0px;">
 	            	<br><br><div class="hitem" >Colour</div><br><br>
 	                <li class="color-square" style="background:#A14141"></li>
 	                <li class="color-square" style="background:#E24343"></li>
@@ -86,10 +86,10 @@
 		<?php foreach($query as $row) {
 				$category=str_replace(' ', '-', $row->category);
 				$title=str_replace(' ', '-', $row->title);?>
-		<div class="col-md-4">
-			<div class="tile">
+		<div class="col-md-4" style="padding: 10px;">
+			<div class="tile" >
 				<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
-					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>'); height: 380px;"></div>
+					<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>');"></div>
 					<p  class="text-center uc"><span><?php echo $row->title; ?></span><br><span class="rate">₹<?php echo $row->price;?></span></p>
 				</a>
 			</div>

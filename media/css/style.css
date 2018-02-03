@@ -52,7 +52,7 @@ a:hover, a:focus { color: #000; text-decoration: none;}
 .rate{ font-weight: 300; line-height: 1.5em;  color: #a3a3a3; font-size: 1em;}
 .vr-txt { transform: translateX(-50px) translateX(50%) translateY(0%) rotate(90deg); position: absolute; right: 0; top: 40%;}
 /*headings end*/
-.cover-img{ padding: 0; background-size: cover; background-position: center; background-repeat: no-repeat; }
+.cover-img{ padding: 0; background-size: cover; background-position: center; background-repeat: no-repeat;height:350px; }
 .tile{ padding-bottom: 5%; text-decoration: none;}
 .tile:hover{box-shadow: 0 0 20px #ddd;}
 .tile a{ text-decoration: none;}
