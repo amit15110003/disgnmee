@@ -1,8 +1,8 @@
 <div class="container-fluid" style="padding-top: 5%;padding-left: 5%;padding-right: 5%;">
 	<div class="col-md-12">
-		<ol class="breadcrumb" style="background-color: #fff;padding-left: 0px;">
-				  <li><a href="#"><?php echo $categoryval;?></a></li>
-				  <li class="active"><?php echo $scategoryval;?></li>
+		<ol class="breadcrumb">
+				  <li><a class="hitem" href="#"><?php echo $categoryval;?></a></li>
+				  <li  class="hitem" class="active"><?php echo $scategoryval;?></li>
 		</ol>
 	</div>
 	<div class="col-md-3">
