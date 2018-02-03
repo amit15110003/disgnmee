@@ -24,7 +24,7 @@
             <label>Category</label>
             <select class="form-control select2" style="width: 100%;" name="category">
               <?php foreach ($query3 as $row) { ?>
-                <option value="<?php echo $row->id;?>" ><?php echo $row->category; echo " - "; echo $row->name;?></option>
+                <option value="<?php echo $row->id;?>" <?php if($category==$row->id){echo "selected";}?>><?php echo $row->category; echo " - "; echo $row->name;?></option>
               <?php }?>
             </select>
           </div>
@@ -42,6 +42,35 @@
                 <?php }?>
             </select>
           </div>
+
+              <div class="form-group">
+                <label for="sehir">Ocassion</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="ocassion">
+                    <option value="Formal" <?php if($ocassion=="Formal"){echo "selected";}?>>Formal</option>
+                    <option value="Causal" <?php if($ocassion=="Causal"){echo "selected";}?>>Causal</option>
+                    <option value="Festive" <?php if($ocassion=="Festive"){echo "selected";}?>>Festive</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="sehir">Fabric</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="fabric">
+                    <option value="Cotton" <?php if($fabric=="Cotton"){echo "selected";}?>>Cotton</option>
+                    <option value="Linen" <?php if($fabric=="Linen"){echo "selected";}?>>Linen</option>
+                    <option value="Chambray" <?php if($fabric=="Chambray"){echo "selected";}?>>Chambray</option>
+                    <option value="Flannel" <?php if($fabric=="Flannel"){echo "selected";}?>>Flannel</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="sehir">Pattern</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="pattern">
+                    <option value="Solids" <?php if($pattern=="Solids"){echo "selected";}?>>Solids</option>
+                    <option value="Strips" <?php if($pattern=="Strips"){echo "selected";}?>>sStrips</option>
+                    <option value="Checks" <?php if($pattern=="Checks"){echo "selected";}?>>Checks</option>
+                    <option value="Prints" <?php if($pattern=="Prints"){echo "selected";}?>>Prints</option>
+                </select>
+              </div>       
           <div class="form-group">
             <label for="exampleInputFile">File input</label>
             <input type="file" id="exampleInputFile" name="picture">

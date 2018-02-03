@@ -20,8 +20,8 @@
 		<?php }}?>
 		</div>
 	</div>
-	<div class="col-md-6 center-block single-product-img">
-	    <div class="col-md-12 center-block">
+	<div class="col-md-6">
+	    <div class="col-md-12 single-product-img">
 	    	<div class="single-product-image center-block ">
 				<img  class="img-responsive center-block" id="zoom_03" src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
 				data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $picture;?>"/>
@@ -233,7 +233,7 @@
 	<?php foreach ($query2 as $row ) {
 				$category=str_replace(' ', '-', $row->category);
 				$title=str_replace(' ', '-', $row->title);?>
-		<div class="col-md-3 ">
+		<div class="col-md-3 " style="padding: 10px;">
 	    <div class="col-sm-12 col-md-12 tile"  style="padding: 0px;">
 		<a href="<?php echo base_url("index.php/product/details/$category/$title"); ?>">
 			<div class="col-md-12 cover-img" style="background-image: url('<?php echo base_url();?>uploads/thumb/<?php echo $row->picture;?>');"></div>

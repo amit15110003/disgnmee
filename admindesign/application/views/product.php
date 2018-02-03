@@ -36,6 +36,35 @@
                     <?php }?>
                 </select>
               </div>
+
+              <div class="form-group">
+                <label for="sehir">Ocassion</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="ocassion">
+                    <option value="Formal">Formal</option>
+                    <option value="Causal">Causal</option>
+                    <option value="Festive">Festive</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="sehir">Fabric</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="fabric">
+                    <option value="Cotton">Cotton</option>
+                    <option value="Linen">Linen</option>
+                    <option value="Chambray">Chambray</option>
+                    <option value="Flannel">Flannel</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="sehir">Pattern</label>
+                <select id="dates-field2" class="multiselect-ui form-control" name="pattern">
+                    <option value="Solids">Solids</option>
+                    <option value="sStrips">sStrips</option>
+                    <option value="Checks">Checks</option>
+                    <option value="Prints">Prints</option>
+                </select>
+              </div>
               <div class="form-group">
                   <label for="exampleInputFile">File input</label>
                   <input type="file" id="exampleInputFile" name="picture">

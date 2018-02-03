@@ -11,7 +11,7 @@
         	<div class="mini-menu">
 	            <ul style="padding-left: 0px;">         		
 	        		<li>
-		            	<a href="#" class="hitem" >Ocassion</a><br><br>
+		            	<a class="hitem" >Ocassion</a><br><br>
 		            	<label class="cont">Formal
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
@@ -26,7 +26,7 @@
 						</label>
 			        </li>        		
 	        		<li>
-		            	<br><br><a href="#" class="hitem" >Fabric</a><br><br>
+		            	<br><br><a class="hitem" >Fabric</a><br><br>
 		            	<label class="cont">Cotton
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
@@ -45,7 +45,7 @@
 						</label>
 			        </li>         		
 	        		<li>
-		            	<br><br><a href="#" class="hitem" >Pattern</a><br><br>
+		            	<br><br><a  class="hitem" >Pattern</a><br><br>
 		            	<label class="cont">Solids
 						  <input type="checkbox" checked="checked">
 						  <span class="checkmark"></span>
