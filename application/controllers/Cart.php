@@ -40,16 +40,20 @@ class cart extends CI_Controller
 		$uid=$this->session->userdata('uid');
 		$postid=$this->input->post('id');
 		$qty=$this->input->post('qty');
-		$category=$this->input->post('category');
+		$hem=$this->input->post('hem');
+		$cuff=$this->input->post('cuff');
+		$collar=$this->input->post('collar');
+		$sleeve=$this->input->post('sleeve');
+		$placket=$this->input->post('placket');
 		$attributevalue=$this->input->post('attributevalue');
 		$checkcart = $this->db->query('select * from cart 
 			                            where productid="'.$postid.'" and attributevalue="'.$attributevalue.'"
-			                            and uid = "'.$uid.'"');
+			                            and hem="'.$hem.'" and cuff="'.$cuff.'" and collar="'.$collar.'" and hem="'.$hem.'" and placket="'.$placket.'" and uid = "'.$uid.'"');
 		$resultcheckcart = $checkcart->num_rows();
 
 
 		if($resultcheckcart == '0' ){
-		$data=array('productid'=>$postid,'uid'=>$uid,'item'=>$qty,'category'=>$category,'attributevalue'=>$attributevalue);
+		$data=array('productid'=>$postid,'uid'=>$uid,'item'=>$qty,'hem'=>$hem,'cuff'=>$cuff,'collar'=>$collar,'sleeve'=>$sleeve,'placket'=>$placket,'attributevalue'=>$attributevalue);
 		$this->db->insert('cart',$data);
 		}
 		else if($resultcheckcart >='1' ){
@@ -113,16 +117,21 @@ class cart extends CI_Controller
 	$uid=$this->session->userdata('uid');
 	$postid=$this->input->post('id');
 	$qty=$this->input->post('qty');
+	$hem=$this->input->post('hem');
+	$cuff=$this->input->post('cuff');
+	$collar=$this->input->post('collar');
+	$sleeve=$this->input->post('sleeve');
+	$placket=$this->input->post('placket');
 	$attributevalue=$this->input->post('attributevalue');
-	$category=$this->input->post('category');
 	$checkcart = $this->db->query('select * from wishlist 
 		                            where productid="'.$postid.'" 
-		                            and attributevalue="'.$attributevalue.'" and uid = "'.$uid.'"');
+		                            and attributevalue="'.$attributevalue.'"
+			                            and hem="'.$hem.'" and cuff="'.$cuff.'" and collar="'.$collar.'" and hem="'.$hem.'" and placket="'.$placket.'" and uid = "'.$uid.'"');
 	$resultcheckcart = $checkcart->num_rows();
 
 
 	if($resultcheckcart == '0' ){
-	$data=array('productid'=>$postid,'uid'=>$uid,'item'=>$qty,'category'=>$category,'attributevalue'=>$attributevalue);
+	$data=array('productid'=>$postid,'uid'=>$uid,'item'=>$qty,'hem'=>$hem,'cuff'=>$cuff,'collar'=>$collar,'sleeve'=>$sleeve,'placket'=>$placket,'attributevalue'=>$attributevalue);
 	$this->db->insert('wishlist',$data);
 		echo '<script language="javascript">';
 		echo 'alert("Successfully add to cart")';

@@ -157,10 +157,15 @@ $('.multi-item-carousel .item').each(function(){
       { 
         var qty = '1';
         var attributevalue = $('input[name=size]:checked').val();
+        var hem = $('input[name=hem]:checked').val();
+        var cuff = $('input[name=cuff]:checked').val();
+        var collar = $('input[name=collar]:checked').val();
+        var sleeve = $('input[name=sleeve]:checked').val();
+        var placket = $('input[name=placket]:checked').val();
         $.ajax({  
                      type: "POST",
                       url: "<?php echo site_url('cart/cartadd');?>",
-                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue,
+                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue+'&hem='+hem+'&cuff='+cuff+'&collar='+collar+'&sleeve='+sleeve+'&placket='+placket,
                       success: function (response) {
                         location.reload();
                     }
@@ -239,13 +244,18 @@ $('.multi-item-carousel .item').each(function(){
        <script type="text/javascript">
       function wishlist(id)
       {
-             var qty = $('#qty :selected').val();
-            var attributevalue = $('#price :selected').text();
-        var category=document.getElementById("category").innerHTML;
+             var qty = '1';
+             var attributevalue = $('#price :selected').text();
+             var attributevalue = $('input[name=size]:checked').val();
+             var hem = $('input[name=hem]:checked').val();
+             var cuff = $('input[name=cuff]:checked').val();
+             var collar = $('input[name=collar]:checked').val();
+             var sleeve = $('input[name=sleeve]:checked').val();
+             var placket = $('input[name=placket]:checked').val();
               $.ajax({
                       type: "POST",
                       url: "<?php echo site_url('cart/wishlist');?>",
-                      data:"id="+id+'&qty='+qty+'&category='+category+'&attributevalue='+attributevalue,
+                      data:"id="+id+'&qty='+qty+'&attributevalue='+attributevalue+'&hem='+hem+'&cuff='+cuff+'&collar='+collar+'&sleeve='+sleeve+'&placket='+placket,
                     success: function (response) {
                      location.reload();
                     }
@@ -256,16 +266,12 @@ $('.multi-item-carousel .item').each(function(){
     function remove_cart(postid)
     {
       var x = document.getElementById("cartcounter").innerHTML;
-      var l=document.getElementById("cost_"+postid).innerHTML;
-      var t=document.getElementById("totalcost").innerHTML;
-      var s=t-l;
             $.ajax({
                     type: "POST",
                     url: "<?php echo site_url('cart/remove_cart');?>",
                     data:"postid="+postid,
                     success: function (response) {
                         document.getElementById("cartcounter").innerHTML = --x;
-                        document.getElementById("totalcost").innerHTML=s;
                      $("#cart_"+postid).hide();
                     }
                 });
@@ -345,7 +351,7 @@ $('.multi-item-carousel .item').each(function(){
                     url: "<?php echo site_url('wishlist/remove_wish');?>",
                     data:"postid="+postid,
                     success: function (response) {
-                     $("#wish_"+postid).hide();
+                     location.reload();
                     }
                 });
     }

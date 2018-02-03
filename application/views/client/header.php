@@ -124,16 +124,16 @@
              </li>-->
         <?php if ($this->session->userdata('fname')){ ?>
         <li class="dropdown">
-          <a class=" dropdown-toggle th-btn" type="button" data-toggle="dropdown" data-hover="dropdown">
-           <?php echo $result = substr($this->session->userdata('fname'), 0, 4); ?> <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+           <?php echo $result = substr($this->session->userdata('fname'), 0, 6); ?>
           </a>
           <ul class="dropdown-menu">
             <li><a href="<?php echo base_url("index.php/profile"); ?>">Profile</a></li>
-            <li><a href="<?php echo base_url("index.php/orders"); ?>" class="list-group-item"> Orders</a></li>
-            <li><a href="<?php echo base_url("index.php/wishlist"); ?>" class="list-group-item"> Wishlist</a></li>
-            <li><a href="<?php echo base_url("index.php/profile/address"); ?>" class="list-group-item">Address</a></li>
-            <li><a href="<?php echo base_url("index.php/profile/account_details"); ?>" class="list-group-item">Account details</a></li>
-            <li><a href="<?php echo base_url("index.php/home/logout"); ?>" class="list-group-item">Logout</a></li>
+            <li><a href="<?php echo base_url("index.php/orders"); ?>" > Orders</a></li>
+            <li><a href="<?php echo base_url("index.php/wishlist"); ?>"> Wishlist</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/address"); ?>">Address</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/account_details"); ?>">Account details</a></li>
+            <li><a href="<?php echo base_url("index.php/home/logout"); ?>">Logout</a></li>
           </ul>
         </li>
         <?php } else{?>

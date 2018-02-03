@@ -1,46 +1,39 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header ">
-		<h1>Wishlist</h1>	
-</div>
-<div class="container">
+<div class="container-fluid" style="padding-top: 100px;">
+    <h1>Wishlist</h1>   
     <div class="row">
-        <div class="col-md-offset-1 col-xs-12 col-md-10">
            <?php if(!empty($query)){ foreach ($query as $row ) {
               $details=$this->user->get_product_by_id($row->productid);
-              $details1=$this->user->attributevalue_cost($row->attributevalue);
              ?>
-            <div class="col-xs-12 col-md-4" id="cart_<?php echo $row->id;?>">
-                <div class="cart-layout cart_item col-xs-12 col-md-12 card" id="cart_<?php echo $row->id;?>">
-                <div class="col-md-1 col-xs-6">
-                    <h5><a href="" onclick="javascript:remove_wish(<?php echo $row->id;?>);">x</a></h5>
-                </div>
-                <div class="col-md-12 col-xs-12">
-                    <img src="<?php echo base_url();?>uploads/thumb/<?php echo $details[0]->picture;?>" class="img-responsive center-block" style="height: 150px;">
-                </div>
-                <div class="col-md-12 col-xs-12 text-center" >
-                    <h4><b><a href="" style="color: #000;"><?php  echo $details[0]->title;?></a></b></h4>
-                </div>
-                <div class="col-md-4 col-xs-12 text-center" >
-                    <h5><?php echo $row->attributevalue; ?></h5>
-                </div>
-                <div class="col-md-4 col-xs-6 text-center">
-                    <h5><b>&#8377; <?php  
-                     
-                    echo $details1[0]->cost;?></b></h5>
-                </div>
-                <div class="col-md-4 col-xs-6 text-center">
-                        <h5>Qty: <?php echo $row->item;?></h5>
-                </div>
-                <button onclick="javascript:move_cart(<?php echo $row->id;?>);" class="theme-btn col-md-12 col-xs-12" id="wish">Move to Cart</button>
-                </div>
-            </div>
-            <?php }}else{?>
-            <div class="text-center" style="padding-top:100px;padding-bottom:100px;">
-                 
-              <h3>Empty</h3>
-              <a type="" class="btn" href="<?php echo base_url();?>" style="color:#000;"> CONTINUE SHOPPING</a>
-             </div><?php }?>
+            <div class="row" style="margin-bottom: 15px;">
+            <div class="col-md-8 col-xs-12 col-md-offset-2" style="background-color: #f9f9f9;padding: 15px;" id="cart_<?php echo $row->id;?>">
+                <div class="col-md-2 cover-img" style="background-image: url('<?php echo base_url();?>uploads/<?php echo $details[0]->picture;?>'); height: 180px;background-position: center;background-size: cover; ">
         </div>
+        <div class="col-md-4 col-xs-12">
+          <p  class="text-center">
+            <span><?php  echo $details[0]->title;?></span>
+            <br>
+            <span class="rate">Rs <?php  echo $details[0]->price;?></span></p>
+          <div class="col-md-12 text-center">
+            <p>Size: <?php echo $row->attributevalue; ?></p>
+            <p><span>
+              <button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">-</button>&nbsp;&nbsp; 1 &nbsp;&nbsp;<button style="border-radius: 50%; background-color: black; border: none; height: 25px; width: 25px;">+</button>
+            </span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+            
+            <p>Hem: <?php echo $row->hem; ?></p>
+            <p>Cuff: <?php echo $row->cuff; ?></p>
+            <p>Collar: <?php echo $row->collar; ?></p>
+            <p>Sleeve: <?php echo $row->sleeve; ?></p>
+            <p>Placket: <?php echo $row->placket; ?></p>
+        </div>
+        <div class="col-md-2 col-xs-12 text-center">
+            <a class="th-btn-inv-sm col-md-12 btn " onclick="javascript:move_cart(<?php echo $row->id;?>);">Move To Wishlist</a>
+            <a class="th-btn-inv-sm col-md-12 btn " onclick="javascript:remove_wish(<?php echo $row->id;?>);">Remove</a>
+        </div>
+        </div>
+             <?php }}?>
     </div>
+</div>
 </div>

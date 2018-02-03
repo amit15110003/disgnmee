@@ -53,9 +53,9 @@
 				</div>
 				<br><br>
 				<div style="padding: 0;" class="col-md-12" data-toggle="buttons">
-				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option1" value="XS" autocomplete="off" checked> XS </label>
+				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option1" value="XS" autocomplete="off"> XS </label>
 				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option2" value="S" autocomplete="off"> S </label>
-				  <label class="btn th-btn-sm active"><input type="radio" name="size" id="option3" value="M" autocomplete="off"> M </label>
+				  <label class="btn th-btn-sm active"><input type="radio" name="size" id="option3" value="M" autocomplete="off" checked> M </label>
 				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" value="L" autocomplete="off"> L </label>
 				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" value="XL" autocomplete="off"> XL </label>
 				  <label class="btn th-btn-sm"><input type="radio" name="size" id="option3" value="XXL" autocomplete="off"> XXL </label>
