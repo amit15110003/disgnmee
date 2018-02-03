@@ -1,15 +1,17 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>My Dashboard</h1>
-</div>
-<div class="container">
-	<div class="col-md-2" style="border-right:solid 1px #ccc;">
-		<a href="<?php echo base_url("index.php/orders"); ?>" class="list-group-item"> Orders</a>
-        <a href="<?php echo base_url("index.php/wishlist"); ?>" class="list-group-item"> Wishlist</a>
-		<a href="<?php echo base_url("index.php/profile/address"); ?>" class="list-group-item">Address</a>
-		<a href="<?php echo base_url("index.php/profile/account_details"); ?>" class="list-group-item">Account details</a>
-		<a href="<?php echo base_url("index.php/home/logout"); ?>" class="list-group-item">Logout</a>
+<div class="container-fluid" style="padding:10% 5%;">
+	<div class="col-md-12">
+		<ol class="breadcrumb">
+				  <li><a class="hitem" href="#">User Profile</a></li>
+		</ol>
+	</div>  
+	<div class="col-md-2 mini-menu">
+		<ul><a href="<?php echo base_url("index.php/profile"); ?>" class="hitem" >My Account</a><br><br>
+			<li><a class="cont" href="<?php echo base_url("index.php/orders"); ?>"> Orders</a></li>
+	        <li><a class="cont" href="<?php echo base_url("index.php/wishlist"); ?>"> Wishlist</a></li>
+			<li><a class="cont" href="<?php echo base_url("index.php/profile/address"); ?>"">Address</a></li>
+			<li><a class="cont" href="<?php echo base_url("index.php/profile/account_details"); ?>">Account details</a></li>
+			<li><a class="cont" href="<?php echo base_url("index.php/home/logout"); ?>">Logout</a></li>
+		</ul>
 	</div>
 	<div class="col-md-9 col-md-offset-1">
 		<h2>Hello <?php echo $this->session->userdata('fname'); ?> <?php echo $this->session->userdata('lname'); ?></h2>

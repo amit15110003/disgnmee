@@ -1,50 +1,75 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>Profile</h1>
-</div>
-<div class="container">
-  <div class="col-md-2" style="border-right:solid 1px #ccc;">
-    <a href="<?php echo base_url("index.php/orders"); ?>" class="list-group-item"> Orders</a>
-    <a href="<?php echo base_url("index.php/wishlist"); ?>" class="list-group-item"> Wishlist</a>
-    <a href="<?php echo base_url("index.php/profile/address"); ?>" class="list-group-item">Address</a>
-    <a href="<?php echo base_url("index.php/profile/account_details"); ?>" class="list-group-item">Account details</a>
-    <a href="<?php echo base_url("index.php/home/logout"); ?>" class="list-group-item">Logout</a>
-  </div>
-  <div class="col-md-9 col-md-offset-1">
-      <div class="row">
-        <h3><b>Account Details</b></h3>
+<div class="container-fluid" style="padding:10% 5%;">
+    <div class="col-md-12">
+        <ol class="breadcrumb">
+                  <li><a class="hitem" href="#">User Profile</a></li>
+        </ol>
+    </div>  
+    <div class="col-md-2 mini-menu">
+        <ul><a href="<?php echo base_url("index.php/profile"); ?>" class="hitem" >My Account</a><br><br>
+            <li><a class="cont" href="<?php echo base_url("index.php/orders"); ?>"> Orders</a></li>
+            <li><a class="cont" href="<?php echo base_url("index.php/wishlist"); ?>"> Wishlist</a></li>
+            <li><a class="cont" href="<?php echo base_url("index.php/profile/address"); ?>"">Address</a></li>
+            <li><a class="cont" style="color: black;" href="<?php echo base_url("index.php/profile/account_details"); ?>">Account details</a></li>
+            <li><a class="cont" href="<?php echo base_url("index.php/home/logout"); ?>">Logout</a></li>
+        </ul>
+    </div>
+    <div class="col-md-9 col-md-offset-1">
+      <!-- Edit Account Details -->
+        <div class="col-md-12  col-xs-12 clps">
+          <div class="col-md-12  col-xs-12">
+            <div class="col-md-9 col-xs-6">
+              <p>Account Details</p>
+              <p style="text-transform: capitalize;"><?php echo $fname;?> <?php echo $lname;?></p>
+            </div>
+            <div class="col-md-3 col-xs-6 ">
+              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#address">Edit</button>
+            </div>
+          </div>
+          <div id="address" class="collapse col-md-12  col-xs-12 ">
         <?php $attributes = array("name" => "account_details");
                     echo form_open("profile/account_details", $attributes);?>
-          <div class=" col-md-6">
-            <label for="exampleInputName2">First Name </label>
-            <input type="text" class="theme-form" id="exampleInputName2" placeholder="First Name" name="fname" value="<?php echo $fname; ?>" style="text-transform: capitalize;">
+              <div class="col-md-6">
+                <label>First Name <span style="color: red;">*</span></label>
+                <input class="th-btn-inv col-md-12 th-form" type="text" name="fname" value="<?php echo $fname; ?>" style="text-transform: capitalize;" required>
+              </div>
+              <div class="col-md-6">
+                <label>Last Name<span style="color: red;">*</span></label>
+                <input class="th-btn-inv col-md-12 th-form" type="text" name="lname" value=" <?php echo $lname; ?>" style="text-transform: capitalize;" required>
+              </div>
+              <div class="col-md-6">
+                <label>Phone <span style="color: red;">*</span></label>
+                <input class="th-btn-inv col-md-12 th-form" type="number" name="contact" value="<?php echo $contact; ?>" required>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn th-btn" data-toggle="collapse" data-target="#address">UPDATE</button>
+            </div>
+              <?php echo form_close(); ?>
           </div>
-          <div class="col-md-6">
-            <label for="exampleInputEmail2">Last Name</label>
-            <input type="text" class="theme-form" id="exampleInputEmail2" placeholder="Last Name" name="lname" value=" <?php echo $lname; ?>" style="text-transform: capitalize;">
-          </div>
-          <div class=" col-md-12">
-            <label for="exampleInputEmail1">Contact</label>
-            <input type="text" class="theme-form" id="exampleInputEmail1" name="contact" value=" <?php echo $contact; ?>" required>
-            <br>
-          </div>
-        <button  type="submit" class="theme-btn col-sm-12 col-md-3 col-md-offset-9">UPDATE</button>
-        <?php echo form_close(); ?>
         </div>
-        <div class="row">
-          <h3><b>Password Change</b></h3>
-          <br>
+      <!-- Change Password -->
+        <div class="col-md-12  col-xs-12 clps">
+          <div class="col-md-12  col-xs-12">
+            <div class="col-md-9 col-xs-6">
+              <p>Password Change</p>
+              <p style="text-transform: capitalize;">************</p>
+            </div>
+            <div class="col-md-3 col-xs-6 ">
+              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#pass">Edit</button>
+            </div>
+          </div>
+          <div id="pass" class="collapse col-md-12  col-xs-12 ">
         <?php $attributes = array("name" => "password");
                     echo form_open("profile/password", $attributes);?>
-          <div class="col-md-12">
-            <label for="exampleInputEmail1">New Password</label>
-            <input type="Password" class="theme-form" id="exampleInputEmail1">
-          
-            <br></div>
-          <button type="submit" class="theme-btn col-sm-12 col-md-3 col-md-offset-9" > UPDATE</button>
-        <?php echo form_close(); ?>
-      </div>
+              <div class="col-md-6">
+                <label>New Password</label>
+                <input class="th-btn-inv col-md-12 th-form" type="Password" name="pass" style="text-transform: capitalize;" required>
+              </div>
+              <div class="col-md-12">
+                <button type="submit" class="btn th-btn" data-toggle="collapse" data-target="#address">UPDATE</button>
+            </div>
+              <?php echo form_close(); ?>
+          </div>
+        </div>
       </div>
   </div>
 </div>
