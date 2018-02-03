@@ -173,10 +173,15 @@ $('.multi-item-carousel .item').each(function(){
         var x = document.getElementById("cartcounter").innerHTML;
         var qty ='1';
         var attributevalue = $('input[name=size]:checked').val();
+        var hem = $('input[name=hem]:checked').val();
+        var cuff = $('input[name=cuff]:checked').val();
+        var collar = $('input[name=collar]:checked').val();
+        var sleeve = $('input[name=sleeve]:checked').val();
+        var placket = $('input[name=placket]:checked').val();
         $.ajax({  
                      type: "POST",
                       url: "<?php echo site_url('cart/cartadd1');?>",
-                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue,
+                      data:'&id='+id+'&qty='+qty+'&attributevalue='+attributevalue+'&hem='+hem+'&cuff='+cuff+'&collar='+collar+'&sleeve='+sleeve+'&placket='+placket,
                       success: function (response) {
                         document.getElementById("cartcounter").innerHTML = ++x;
                         document.getElementById("cartcounter1").innerHTML = x;

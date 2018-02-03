@@ -19,7 +19,7 @@ i{color: #a3a3a3;font-size: 18px !important;}
 .th-btn-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .blog-btn{ background-color:#000;color: #a3a3a3 !important; font-size: 1em; height: 40px; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .th-btn-inv{margin-bottom:15px; font-family: 'Raleway', sans-serif;height: 60px; color: #a3a3a3 !important; font-size: 1em; font-weight: 300; background-color: #fff; border: 1px solid #a3a3a3; }
-.th-btn-inv-sm{ color: #a3a3a3 !important; font-size: 1em; height: 40px;background-color: #fff; border: 1px solid #a3a3a3; padding-left: 15px; padding-right: 15px; font-weight: 300; }
+.th-btn-inv-sm{ margin-top:15px;margin-bottom:15px;color: #a3a3a3 !important; font-size: 1em; height: 40px;background-color: #fff; border: 1px solid #a3a3a3; padding-left: 15px; padding-right: 15px; font-weight: 300; }
 .btn:active, .btn.active{ background-color: #000;color:#fff; }
 .hdr{ font-size: 1.3em; padding-top: 5px;}
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus { outline: none; }
