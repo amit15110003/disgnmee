@@ -5,7 +5,7 @@
 				  <li  class="hitem" class="active"><?php echo $scategoryval;?></li>
 		</ol>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-3 hidden-xs">
 		<div class="menu">
 		<input type="hidden" id="keywords" value="<?php echo $categoryval; ?>" onchange="searchFilter()"/>	
 		<input type="hidden" id="keywords1" value="<?php echo $scategoryval; ?>" onchange="searchFilter()"/>

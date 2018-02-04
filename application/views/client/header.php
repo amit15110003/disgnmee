@@ -42,12 +42,14 @@
   <nav class="navbar navbar-default th-header navbar-fixed-top" style="border:none; height: 60px;">
   <div class="container-fluid  th-header-p" >
     <div class="navbar-header col-md-4">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <span class="visible-xs pull-right" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
       <a class="navbar-brand " href="<?php echo base_url(""); ?>" ><img class="img-responsive" style="height: 30px;" src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png"></a>
 
       <a href="<?php echo base_url("cart"); ?>" class="navbar-toggle navbar-mobile pull-right hidden">
@@ -104,8 +106,10 @@
         <li><a href="<?php echo base_url(""); ?>index.php/home/blog">Know Fashion</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
-        <li> <a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
-          <!--<li><a>
+        <li class="dropdown"> <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown"><i class="fa fa-search" aria-hidden="true"></i></a>
+          
+          <ul class="dropdown-menu">
+            <li><a>
               <?php $attributes = array("name" => "search");
                       echo form_open("home/search_keyword", $attributes);?>
               <div class="form-inline" style="margin-top:-9px;">
@@ -121,7 +125,9 @@
             </div>
               </div>
                   <?php echo form_close(); ?></a>
-             </li>-->
+             </li>
+           </ul>
+         </li>
         <?php if ($this->session->userdata('fname')){ ?>
         <li class="dropdown">
           <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">

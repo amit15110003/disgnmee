@@ -52,13 +52,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url();?>media/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url();?>media/js/bootstrap-dropdownhover.js"></script>
-    <script src="<?php echo base_url();?>media/js/select-togglebutton.js"></script>
-    <script type="text/javascript">
-            $(document).ready(function() {
-                $('#tag').togglebutton();
-            })
-        </script>
+   <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
 
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
   <script>
      $("#zoom_03").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: 'active', imageCrossfade: true, loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'}); 
 
