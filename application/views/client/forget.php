@@ -1,5 +1,6 @@
 
-<div class="container" style="padding-top: 10%;">
+<div class="container" style="padding: 10% 0;">
+      <h1 class="text-center">Recover<span class="th-bold">Password</span></h1><br><br>
 	<div class="col-md-offset-4 col-md-4 ">
         <?php $attributes = array("name" => "forget");
           echo form_open("forget", $attributes);?>
