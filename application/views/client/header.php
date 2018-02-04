@@ -45,10 +45,97 @@
       <span class="visible-xs pull-right" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">Call a Tailor</a></li>
+            <li><a href="<?php echo base_url(""); ?>index.php/home/designer">Call a Designer</a></li>
+          </ul>
+        </li>
+    <?php $category=$this->user->showcategory(); $i=4;
+          foreach ($category as $var) { ?>
+        <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" id="dropdownMenu<?php echo $i; ?>" data-toggle="dropdown"><?php echo $var->category;?> &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu<?php echo $i; ?>">
+            <p><?php echo $var->category;?><span class="th-bold">categories</span></p>
+            <?php $subcategory=$this->user->showscategory($var->category);
+              foreach ($subcategory as $row) {$category = str_replace(' ','-', $var->category);
+                     $scategory = str_replace(' ','-',$row->name);?>
+                <li><a href="<?php echo base_url();?>index.php/product/category/<?php echo $category;?>/<?php echo $scategory;?>"><?php echo $row->name; ?></a></li>
+            <?php   }?>
+          </ul>
+        </li>
+    <?php  $i++; }?>
+        <li><a href="<?php echo base_url(""); ?>index.php/home/blog">Know Fashion</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
+        <li class="dropdown"> <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown"><i class="fa fa-search" aria-hidden="true"></i></a>
+          
+          <ul class="dropdown-menu">
+            <li><a>
+              <?php $attributes = array("name" => "search");
+                      echo form_open("home/search_keyword", $attributes);?>
+              <div class="form-inline" style="margin-top:-9px;">
+               <div class = "input-group form-inline" style="border-radius:0px !important;background-color:transparent!important;">
+               <input type = "text" class = "form-control" placeholder="Search" name="keyword" style="border-radius:0px !important;">
+               
+               <span class = "input-group-btn">
+                  <button class = "btn btn-default" type = "submit" style="border-radius:0px !important;">
+                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+               </span>
+               
+            </div>
+              </div>
+                  <?php echo form_close(); ?></a>
+             </li>
+           </ul>
+         </li>
+        <?php if ($this->session->userdata('fname')){ ?>
+        <li class="dropdown">
+          <a class=" dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+           <?php echo $result = substr($this->session->userdata('fname'), 0, 6); ?>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="<?php echo base_url("index.php/profile"); ?>">Profile</a></li>
+            <li><a href="<?php echo base_url("index.php/orders"); ?>" > Orders</a></li>
+            <li><a href="<?php echo base_url("index.php/wishlist"); ?>"> Wishlist</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/address"); ?>">Address</a></li>
+            <li><a href="<?php echo base_url("index.php/profile/account_details"); ?>">Account details</a></li>
+            <li><a href="<?php echo base_url("index.php/home/logout"); ?>">Logout</a></li>
+          </ul>
+        </li>
+        <?php } else{?>
+        <li><a data-toggle="modal" data-target=".login"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+        <?php }?>
+        <li>
+          <a href="<?php echo base_url();?>index.php/cart">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <span class="badge" id="cartcounter1">
+              <?php 
+            if(!empty($this->session->userdata('uid')))
+            {
+                $detail1=$this->user->countproduct($this->session->userdata('uid'));
+                    if(!empty($detail1))
+                      { 
+                        echo $detail1; 
+                      }
+                  else{
+                    echo"0";
+                    }
+            }
+            elseif(!empty($this->cart->contents()))
+            {
+              $i=0;
+              $cart = $this->cart->contents();
+              foreach($cart as $items)
+              {
+                $i++;
+              }
+               echo $i;
+            }
+            else{echo"0";} ?>
+              </span>
+            </a>
+          </li>
       </div>
       <a class="navbar-brand " href="<?php echo base_url(""); ?>" ><img class="img-responsive" style="height: 30px;" src="<?php echo base_url();?>media/image/Hippogrifftypeteal.png"></a>
 
