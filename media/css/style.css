@@ -345,3 +345,7 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
   opacity: 1;
   border: 1px solid;
 }
+
+::-webkit-scrollbar {
+    width: 1px;
+}

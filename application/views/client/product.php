@@ -78,127 +78,137 @@
 			            <button type="button" class="th-btn-inv col-md-12 col-xs-12" data-toggle="modal" data-target="#cst">Coustmize</button>
 						<div class="modal fade bs-example-modal-lg" id="cst" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 						  <div class="modal-dialog modal-lg" role="document">
-						    <div class="modal-content" style="height: 500px; overflow: auto; padding: 50px 0;">
+						    <div class="modal-content" style="padding: 50px 0;overflow: hidden;">
 						      	<div class="row text-center">
 						      		<div class="col-md-2 col-md-offset-1">
 						      			<p><span class="th-bold">Hem</span></p>
-						      			<label>
-										    <input type="radio" name="hem" value="Type 1" checked />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/hem1.jpg">
-										    <p>Type 1</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="hem" value="Type 2" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/hem2.jpg">
-										    <p>Type 2</p>
-									  	</label>
+						      			<div style="height: 500px; overflow: auto;">
+							      			<label>
+											    <input type="radio" name="hem" value="Type 1" checked />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/hem1.jpg">
+											    <p>Type 1</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="hem" value="Type 2" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/hem2.jpg">
+											    <p>Type 2</p>
+										  	</label>
+										</div>
 						    		</div>
 						      		<div class="col-md-2">
 						      			<p><span class="th-bold">Cuff</span></p>
-						      			<label>
-										    <input type="radio" name="cuff" value="French Cuff" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff1.jpg">
-										    <p>French Cuff</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="cuff" value="Single Round Cuff" checked />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff2.jpg">
-										    <p>Single Round Cuff</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="cuff" value="Two Button Cuff" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff3.jpg">
-										    <P>Two Button Cuff</P>
-									  	</label>
+						      			<div style="height: 500px; overflow: auto;">
+							      			<label>
+											    <input type="radio" name="cuff" value="French Cuff" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff1.jpg">
+											    <p>French Cuff</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="cuff" value="Single Round Cuff" checked />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff2.jpg">
+											    <p>Single Round Cuff</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="cuff" value="Two Button Cuff" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff3.jpg">
+											    <P>Two Button Cuff</P>
+										  	</label>
+										</div>
 						    		</div>
 						      		<div class="col-md-2">
 						      			<p><span class="th-bold">Collar</span></p>
-						      			<label>
-										    <input type="radio" name="collar" value="Button Down Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar1.jpg">
-										    <p>Button Down Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Spread Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar2.jpg">
-										    <p>Spread Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Band Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar3.jpg">
-										    <p>Band Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Cutaway Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar4.jpg">
-										    <p>Cutaway Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Hidden Button Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar5.jpg">
-										    <p>Hidden Button Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Pin Collars" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar6.jpg">
-										    <p>Pin Collars</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Classic Collar"  checked />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar7.jpg">
-										    <p>Classic Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Straight Point Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar8.jpg">
-										    <p>Straight Point Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Winged Tip Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar9.jpg">
-										    <p>Winged Tip Collar</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="collar" value="Club Collar" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar10.jpg">
-										    <p>Club Collar</p>
-									  	</label>
+						      			<div style="height: 500px; overflow: auto;">
+							      			<label>
+											    <input type="radio" name="collar" value="Button Down Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar1.jpg">
+											    <p>Button Down Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Spread Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar2.jpg">
+											    <p>Spread Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Band Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar3.jpg">
+											    <p>Band Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Cutaway Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar4.jpg">
+											    <p>Cutaway Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Hidden Button Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar5.jpg">
+											    <p>Hidden Button Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Pin Collars" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar6.jpg">
+											    <p>Pin Collars</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Classic Collar"  checked />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar7.jpg">
+											    <p>Classic Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Straight Point Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar8.jpg">
+											    <p>Straight Point Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Winged Tip Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar9.jpg">
+											    <p>Winged Tip Collar</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="collar" value="Club Collar" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar10.jpg">
+											    <p>Club Collar</p>
+										  	</label>
+									  	</div>
 						    		</div>
 						      		<div class="col-md-2">
 						      			<p><span class="th-bold">Sleeve</span></p>
-						      			<label>
-										    <input type="radio" name="sleeve" value="Half Sleeve" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve1.jpg">
-										    <p>Half Sleeve</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="sleeve" value="Full Sleeve" checked />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve2.jpg">
-										    <p>Full Sleeve</p>
-									  	</label>
+						      			<div style="height: 500px; overflow: auto;">
+							      			<label>
+											    <input type="radio" name="sleeve" value="Half Sleeve" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve1.jpg">
+											    <p>Half Sleeve</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="sleeve" value="Full Sleeve" checked />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve2.jpg">
+											    <p>Full Sleeve</p>
+										  	</label>
+										</div>
 						    		</div>
 						      		<div class="col-md-2">
 						      			<p><span class="th-bold">Placket</span></p>
-						      			<label>
-										    <input type="radio" name="placket" value="Conventional" checked />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket1.jpg">
-										    <p>Conventional</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="placket" value="Concealed" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket2.jpg">
-										    <p>Concealed</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="placket" value="French" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket3.jpg">
-										    <p>French</p>
-									  	</label>
-						      			<label>
-										    <input type="radio" name="placket" value="Contrast" />
-										    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket4.jpg">
-										    <p>Contrast</p>
-									  	</label>
+						      			<div style="height: 500px; overflow: auto;">
+							      			<label>
+											    <input type="radio" name="placket" value="Conventional" checked />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket1.jpg">
+											    <p>Conventional</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="placket" value="Concealed" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket2.jpg">
+											    <p>Concealed</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="placket" value="French" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket3.jpg">
+											    <p>French</p>
+										  	</label>
+							      			<label>
+											    <input type="radio" name="placket" value="Contrast" />
+											    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/placket4.jpg">
+											    <p>Contrast</p>
+										  	</label>
+									  	</div>
 						    		</div>
 						    	</div>
 						    </div>
