@@ -215,8 +215,8 @@
     		 <a href="<?php  $authUrl=  $this->facebook->login_url();
     		 echo $authUrl;?>" class="btn col-md-6 col-xs-12" style="background-color: #385499;color: #fff;border-radius:0px;">Facebook</a>
     		 <br><br>
-    		<h5 style="text-align: center;"><a href="<?php echo base_url();?>forget"  style="text-decoration:none;">LOST YOUR PASSWORD?</a></h5><hr>
-    <h4>Or Create <a href="<?php echo base_url();?>signup" style="text-decoration:none;">New Account</a></h4>
+    		<h5 style="text-align: center;"><a href="<?php echo base_url();?>index.php/forget"  style="text-decoration:none;">LOST YOUR PASSWORD?</a></h5><hr>
+    <h4>Or Create <a href="<?php echo base_url();?>index.php/signup" style="text-decoration:none;">New Account</a></h4>
     </div>
     </div>
     </div>

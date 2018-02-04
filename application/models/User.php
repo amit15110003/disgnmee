@@ -383,33 +383,25 @@ class user extends CI_Model
     	$this->db->where('id', $id);
 		return $this->db->update('product', $data);
 	}
-	function insert_delivery($data,$uid)
+	function insert_delivery($data,$uid,$id)
     {
 		 $this->db->where('uid',$uid);
+		 $this->db->where('id',$id);
 	   $q = $this->db->get('delivery');
 
 	   if ( $q->num_rows() > 0 ) 
 	   {
 	      $this->db->where('uid',$uid);
-	      $this->db->update('delivery',$data);
+	     return  $this->db->update('delivery',$data);
 	   } else {
 	      $this->db->set('uid', $uid);
-	      $this->db->insert('delivery', $data);
+	      return $this->db->insert('delivery', $data);
 	   }
 	}
-	function insert_shipping($data,$uid)
+	function insert_shipping($data)
     {
-		 $this->db->where('uid',$uid);
-	   $q = $this->db->get('shipping');
-
-	   if ( $q->num_rows() > 0 ) 
-	   {
-	      $this->db->where('uid',$uid);
-	      $this->db->update('shipping',$data);
-	   } else {
-	      $this->db->set('uid', $uid);
-	      $this->db->insert('shipping', $data);
-	   }
+	     return $this->db->insert('delivery', $data);
+	   
 	}
 	function get_delivery_by_id($id)
 	{

@@ -17,12 +17,12 @@
       <!-- Edit Account Details -->
         <div class="col-md-12  col-xs-12 clps">
           <div class="col-md-12  col-xs-12">
-            <div class="col-md-9 col-xs-6">
+            <div class="col-md-10 col-xs-6">
               <p>Account Details</p>
               <p style="text-transform: capitalize;"><?php echo $fname;?> <?php echo $lname;?></p>
             </div>
-            <div class="col-md-3 col-xs-6 ">
-              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#address">Edit</button>
+            <div class="col-md-2 col-xs-6 ">
+              <button type="button" class="th-btn-inv cbtn col-md-12 col-xs-12" data-toggle="collapse" data-target="#address">Edit</button>
             </div>
           </div>
           <div id="address" class="collapse col-md-12  col-xs-12 ">
@@ -49,12 +49,12 @@
       <!-- Change Password -->
         <div class="col-md-12  col-xs-12 clps">
           <div class="col-md-12  col-xs-12">
-            <div class="col-md-9 col-xs-6">
+            <div class="col-md-10 col-xs-6">
               <p>Password Change</p>
               <p style="text-transform: capitalize;">************</p>
             </div>
-            <div class="col-md-3 col-xs-6 ">
-              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#pass">Edit</button>
+            <div class="col-md-2 col-xs-6 ">
+              <button type="button" class="th-btn-inv cbtn col-md-12 col-xs-12" data-toggle="collapse" data-target="#pass">Edit</button>
             </div>
           </div>
           <div id="pass" class="collapse col-md-12  col-xs-12 ">
