@@ -1,35 +1,30 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>Login</h1>
-</div>
-<div class="container" style="padding-top: 20px;">
-	<div class="col-md-offset-4 col-md-4 ">
-		<div class="card">
+<div class="container" style="padding: 5% 0;">
+	<div class="col-md-offset-3 col-md-6 col-xs-12">
+		<div class="col-md-12 col-xs-12 text-center" style="padding: 5% 0;"><h1>log<span class="th-bold">In</span></h1><hr></div>
 		<?php $attributes = array("name" => "loginform");
             echo form_open("login/login", $attributes);?>
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">Email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+		  <div class="col-md-12 col-xs-12">
+		    <label>Email<span style="color: red;">*</span></label>
+		    <input type="email" class="th-btn-inv col-md-12 th-form" placeholder="Email" name="email">
 		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+		  <div class="col-md-12 col-xs-12">
+		    <label>Password<span style="color: red;">*</span></label>
+		    <input type="password" class="th-btn-inv col-md-12 th-form" placeholder="Password" name="password">
 		  </div>
-		  <button class="theme-btn-lg col-md-12 col-xs-12"> LOGIN</button>
+		  <div class="col-md-12 col-xs-12" style="padding-top:15px;">
+		  	<button type="submit" class="btn th-btn col-xs-12">Login</button>
+		  </div>
 		<?php echo form_close(); ?>
-		<br>
-		<div style="padding-top: 40px;">
-			<h5 style="text-align: center;"><a href="#"  style="text-decoration:none;">LOST YOUR PASSWORD?</a></h5>
-
+		<div class="col-md-12 col-xs-12 text-center" style="padding-top: 15px;padding-bottom: 15px;">
+			<a style="text-transform: capitalize;" href="#">lost password?</a>&nbsp;OR&nbsp;<a style="text-transform: capitalize;" href="<?php echo base_url();?>index.php/signup" style="text-decoration:none;">don't have an account</a>&nbsp;YET?
 		</div>
-		<div class="col-md-offset-5 col-md-2" style="background-color: #000;height: 1px;"></div>
-		<br>
-		<h4 class=" "><b>Social Login</b></h4>
-		 <a href="<?php echo $loginURL;?>" class="btn col-md-6 col-xs-12" style="background-color: #e24825;color: #fff;">Google</a>
-		 <a href="<?php echo $authUrl;?>" class="btn col-md-6 col-xs-12" style="background-color: #385499;color: #fff;">Facebook</a>
+		<div class="col-md-12 col-xs-12 col-xs-12 text-center">OR<hr></div>
+		<div class="col-md-6 col-xs-12">
+		 <a href="<?php echo $loginURL;?>" class="col-md-12 col-xs-12 col-xs-12 th-form text-center" style="background-color: #e24825;color: #fff;">Login with Google</a>
+		</div>
+		<div class="col-md-6 col-xs-12">
+		 <a href="<?php echo $authUrl;?>" class="col-md-12 col-xs-12 th-form text-center" style="background-color: #385499;color: #fff;">Login with Facebook</a>
+		</div>
 		 
 </div>
-<br><hr>
-<h4>Or Create <a href="<?php echo base_url();?>index.php/signup" style="text-decoration:none;">New Account</a></h4>
-</div></div>
+</div>

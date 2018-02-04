@@ -1,34 +1,28 @@
-<div class="spacer"></div>
-<div id="startchange"></div>
-<div class="page-header">
-		<h1>Register</h1>
-</div>
-<div class="container" style="padding-top: 20px;">
-	<div class="col-md-offset-4 col-md-4 ">
-		<div class="card">
+
+<div class="container" style="padding: 5% 0;">
+	<div class="col-md-offset-3 col-md-6">
+		<div class="col-md-12 text-center" style="padding: 5% 0;"><h1>sign<span class="th-bold">Up</span></h1><hr></div>
 		<?php $attributes = array("name" => "loginform");
             echo form_open("signup/index", $attributes);?>
-           <div class="form-group">
-		    <label for="exampleInputEmail1">First Name</label>
-		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First Name" name="fname">
+           <div class="col-md-6">
+		    <label>First Name <span style="color: red;">*</span></label>
+		    <input type="text" class="th-btn-inv col-md-12 th-form" placeholder="First Name" name="fname">
 		  </div>
-		   <div class="form-group">
-		    <label for="exampleInputEmail1">Last Name</label>
-		    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last Name" name="lname">
+		   <div class="col-md-6">
+		    <label>Last Name<span style="color: red;">*</span></label>
+		    <input type="text" class="th-btn-inv col-md-12 th-form" placeholder="Last Name" name="lname">
 		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">Email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+		  <div class="col-md-12">
+		    <label>Email<span style="color: red;">*</span></label>
+		    <input type="email" class="th-btn-inv col-md-12 th-form" placeholder="Email" name="email">
 		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+		  <div class="col-md-12">
+		    <label>Password<span style="color: red;">*</span></label>
+		    <input type="password" class="th-btn-inv col-md-12 th-form" placeholder="Password" name="password">
 		  </div>
-		  <button class="theme-btn-lg col-md-12 col-xs-12"> Signup</button>
+		  <div class="col-md-12" style="padding-top:15px;">
+		  	<button type="submit" class="btn th-btn"> Signup</button>
+		  </div>
 		<?php echo form_close(); ?>
-		<br>
-		<div style="padding-top: 40px;">
-			<h5 style="text-align: center;"><a href="#">LOST YOUR PASSWORD?</a></h5>
-
-		</div>
-</div></div></div>
+	</div>
+</div>

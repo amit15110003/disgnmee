@@ -202,115 +202,84 @@ class profile extends CI_Controller
 		
 		if ($this->form_validation->run() == FALSE)
         {
-        	$details = $this->user->get_user_by_id($this->session->userdata('uid'));
-        	$data['category']=$this->user->showcategory();
-			$details1=$this->user->deliveryadd($this->session->userdata('uid'));
-			$details2=$this->user->shippingadd($this->session->userdata('uid'));
-			if(!empty($details1)){
-			$data['fname'] = $details1[0]->fname;
-			$data['lname'] = $details1[0]->lname;
-			$data['country'] = $details1[0]->country;
-			$data['state'] = $details1[0]->state;
-			$data['town'] = $details1[0]->town;
-			$data['addr'] = $details1[0]->addr;
-			$data['mob'] = $details1[0]->mob;
-			$data['pin'] = $details1[0]->pin;
-			}
-			else{
-			$data['fname'] = "";
-			$data['lname'] = "";
-			$data['country'] = "";
-			$data['state'] ="";
-			$data['town'] = "";
-			$data['addr'] ="";
-			$data['mob'] = "";
-			$data['pin'] ="";
-			}
-			if(!empty($details2)){
-			$data['fname1'] = $details2[0]->fname;
-			$data['lname1'] = $details2[0]->lname;
-			$data['country1'] = $details2[0]->country;
-			$data['state1'] = $details2[0]->state;
-			$data['town1'] = $details2[0]->town;
-			$data['addr1'] = $details2[0]->addr;
-			$data['mob1'] = $details2[0]->mob;
-			$data['pin1'] = $details2[0]->pin;
-			}
-			else{
-			$data['fname1'] = "";
-			$data['lname1'] = "";
-			$data['country1'] = "";
-			$data['state1'] ="";
-			$data['town1'] = "";
-			$data['addr1'] ="";
-			$data['mob1'] = "";
-			$data['pin1'] ="";
-			}
-        	$this->load->view('client/header',$data);
-			$this->load->view('client/address',$data);
+			$details['query']=$this->user->deliveryadd($this->session->userdata('uid'));
+        	$this->load->view('client/header');
+			$this->load->view('client/address',$details);
 			$this->load->view('client/footer');
         }
-		else
-		{	$uid =$this->session->userdata('uid');
+
+    }
+	public function address1($id)
+    {		$uid =$this->session->userdata('uid');
 			$data = array(
 				'fname' => $this->input->post('fname'),
 				'lname' => $this->input->post('lname'),
 				'mob' =>  $this->input->post('mob'),
+				'mail' =>  $this->input->post('mail'),
 				'country' => $this->input->post('country'),
 				'addr' => $this->input->post('addr'),
 				'state' => $this->input->post('state'),
 				'town' => $this->input->post('town'),
 				'pin' =>  $this->input->post('pin'));
-				$result=$this->user->insert_delivery($data,$uid);
+				$result=$this->user->insert_delivery($data,$uid,$id);
 		if ($result)
 			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
+				$this->session->set_flashdata('msg','<div> Successfully Updated</div>');
 				redirect('profile/address');
 			}
 			else
 			{
 				// error
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
+				$this->session->set_flashdata('msg','<div>Oops! Error.  Something Went Wrong</div>');
 				redirect('profile/address');
 			}
-		}
+		
     }
     public function shipping()
     {
-    	$this->form_validation->set_rules('fname1', 'First Name', 'trim|required|alpha|min_length[3]|max_length[30]');
-		$this->form_validation->set_rules('lname1', 'Last Name', 'trim|required|alpha|min_length[3]|max_length[30]');
+    	$this->form_validation->set_rules('fname', 'First Name', 'trim|required|alpha|min_length[3]|max_length[30]');
+		$this->form_validation->set_rules('lname', 'Last Name', 'trim|required|alpha|min_length[3]|max_length[30]');
 		
 		if ($this->form_validation->run() == FALSE)
         {
-        	redirect('profile');
+        	redirect('profile/address');
         }
 		else
 		{	$uid =$this->session->userdata('uid');
 			$data = array(
-				'fname' => $this->input->post('fname1'),
-				'lname' => $this->input->post('lname1'),
-				'mob' =>  $this->input->post('mob1'),
-				'country' => $this->input->post('country1'),
-				'addr' => $this->input->post('addr1'),
-				'state' => $this->input->post('state1'),
-				'town' => $this->input->post('town1'),
-				'pin' =>  $this->input->post('pin1'));
-				$result=$this->user->insert_shipping($data,$uid);
-		if ($result)
+				'uid'=>$uid,
+				'fname' => $this->input->post('fname'),
+				'lname' => $this->input->post('lname'),
+				'mob' =>  $this->input->post('mob'),
+				'mail' =>  $this->input->post('mail'),
+				'country' => $this->input->post('country'),
+				'addr' => $this->input->post('addr'),
+				'state' => $this->input->post('state'),
+				'town' => $this->input->post('town'),
+				'pin' =>  $this->input->post('pin')
+			    );
+				$result1=$this->user->insert_shipping($data);
+		if ($result1)
 			{
-				$this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
+				$this->session->set_flashdata('msg','<div> Successfully Updated</div>');
 				redirect('profile/address');
 			}
 			else
 			{
-				$this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
+				$this->session->set_flashdata('msg','<div>Oops! Error.  Something Went Wrong</div>');
 				redirect('profile/address');
 			}
 		}
     }
 
     
-	
+	 public function deleteadd()
+	{
+	$uid=$this->session->userdata('uid');
+	$postid=$this->input->post('id');
+	$this->db->delete('delivery', array('id'=>$postid,
+										  'uid'=>$uid));
+	}
 	
 		
 }
