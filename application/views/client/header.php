@@ -82,7 +82,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-md-4" style="background-color:#fff!important;">
       <ul class="nav navbar-nav hdr">
-        <li><a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" id="dropdownMenu1" data-toggle="dropdown">Bespoke &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">Call a Tailor</a></li>
             <li><a href="<?php echo base_url(""); ?>index.php/home/designer">Call a Designer</a></li>
@@ -90,7 +90,7 @@
         </li>
     <?php $category=$this->user->showcategory(); $i=4;
           foreach ($category as $var) { ?>
-        <li><a class="dropdown-toggle" id="dropdownMenu<?php echo $i; ?>" data-toggle="dropdown"><?php echo $var->category;?> &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-hover="dropdown" id="dropdownMenu<?php echo $i; ?>" data-toggle="dropdown"><?php echo $var->category;?> &nbsp; <i class="fa fa-angle-down" aria-hidden="true"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu<?php echo $i; ?>">
             <p><?php echo $var->category;?><span class="th-bold">categories</span></p>
             <?php $subcategory=$this->user->showscategory($var->category);
@@ -193,22 +193,21 @@
 <div class="modal fade login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-md" role="document" style="margin-top:10%;">
     <div class="modal-content" style="border:none;">
-      	<div class="col-md-8 col-md-offset-2 col-xs-12">
+      	<div class="col-md-8 col-md-offset-2 col-xs-12" style="background-color: #fff !important;box-shadow: 0 5px 20px #ddd;padding: 50px 20px 50px 20px; ">
     		<div class="card">
     		<?php $attributes = array("name" => "loginform");
                 echo form_open("login/login", $attributes);?>
     		  <div class="form-group">
     		    <label for="exampleInputEmail1">Email</label>
-    		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
+    		    <input type="email" class="th-btn-inv col-md-12 th-form" id="exampleInputEmail1" placeholder="Email" name="email">
     		  </div>
     		  <div class="form-group">
     		    <label for="exampleInputPassword1">Password</label>
-    		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+    		    <input type="password" class="th-btn-inv col-md-12 th-form" id="exampleInputPassword1" placeholder="Password" name="password">
     		  </div>
-    		  <button class="theme-btn col-md-12 col-xs-12"> LOGIN</button>
+    		  <button class="col-md-12 btn th-btn col-xs-12"> LOGIN</button>
     		<?php echo form_close(); ?>
-    		<br><br><br>
-    		<h4 class=" "><b>Social Login</b></h4>
+    		<h4 class=" " style="padding-top: 20px;"><b>Social Login</b></h4>
                 <a href="<?php  
 		            $loginURL= $this->google->loginURL();
     		 echo $loginURL;?>" class="btn col-md-6 col-xs-12" style="background-color: #e24825;color: #fff;border-radius:0px;">Google</a>

@@ -35,7 +35,7 @@
           <li class="rate"><a href="<?php echo base_url(""); ?>index.php/home/Contact" >Contact Us</a></li>
         </ul>
 			</div>
-      <div class="text-center col-md-12">
+      <div class="text-center col-md-12 col-xs-12">
         <br><br><br>
         <a href=" https://www.facebook.com/DesignMeeIN/" style="padding: 0 15px;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href="https://www.instagram.com/designmeein/" style="padding: 0 15px;"><i class="fa fa-instagram" aria-hidden="true"></i></a>

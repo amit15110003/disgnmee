@@ -1,8 +1,8 @@
 
-<div class="container-fluid" style="margin-top: 100px;">
-            <?php 
+<div class="container-fluid" style="margin-top: 100px;padding-bottom: 100px;">
+            <?php $count=0;
                 if ($cart = $this->cart->contents()){$i=0;
-                    foreach ($cart as $item ) {
+                    foreach ($cart as $item ) {$count++;
               $details=$this->user->get_product_by_id($item['id']);
              ?>
     <div class="row" style="margin-bottom: 15px;">
@@ -35,7 +35,7 @@
         </div>
     </div>
     <?php $i++;}}?>
-    <?php foreach ($query as $row ) {
+    <?php foreach ($query as $row ) {$count++;
               $details=$this->user->get_product_by_id($row->productid);
              ?>
              <div class="row" style="margin-bottom: 15px;">
@@ -68,8 +68,21 @@
         </div>
     </div>
             <?php }?>
+     <?php if($count=='0')
+        {?>
+        <div class="row" style="margin-bottom: 15px;">
+                <div class="col-md-8 col-xs-12 col-md-offset-2 text-center" style="padding: 15px;padding-top: 100px;" >
+                    <p>Empty Cart</p>
+                    <a class="btn col-xs-12 col-md-4 col-md-offset-4 th-btn text-center pull-center" href="<?php echo base_url(); ?>" style="" > Continue Shoping</a>
+                </div>
+        </div>
+    <?php }?>
     <div class="col-md-8 col-md-offset-2" style="padding:0px;">
-            <a class="btn col-xs-12 col-md-3 th-btn pull-right" href="<?php echo base_url(); ?>index.php/checkout" style="" > PROCEED</a>
+           <?php if($count=='0'){?>
+
+           <?php }else{?>
+            <a class="btn col-xs-12 col-md-3 th-btn pull-right" href="<?php echo base_url(); ?>index.php/checkout" style="" > Proceed</a>
+            <?php }?>
     </div>
 </div>
 

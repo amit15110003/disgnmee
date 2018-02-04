@@ -25,7 +25,7 @@
 				<br><br>
 				<button class="btn th-btn btn-lg">Shop Now</button>
 				<br><br>
-				<div class="carousel slide multi-item-carousel" id="theCarousel" style="padding-top: 5%;">
+				<div class="carousel slide multi-item-carousel hidden-xs" id="theCarousel" style="padding-top: 5%;">
 					<!--<ol class="carousel-indicators">
 					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active" style="background-color: #000;"></li>
 					    <br>
@@ -55,6 +55,8 @@
     <div class="row">
 		<h1 class="th-pad col-md-12 col-xs-12 col-sm-12">On<span class="th-bold">Trending</span></h1>	
 		<div class="th-gap"></div>
+		<div class="th-gap"></div>
+		<div class="th-gap"></div>
 		<div class="col-md-6 col-xs-12 col-sm-12">
 			<div class="vr-txt"><h1>Classic<span class="th-bold">White</span></h1></div>
 			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/2.png'); height: 600px;"></div>
@@ -73,7 +75,7 @@
     <div class="th-gap"></div><div class="th-gap"></div>
     <div class="row">
 		<div class="col-md-12 col-xs-12 col-sm-12" style="padding:0px;">
-			<div class="col-md-6 col-xs-12 col-sm-12 th-pad">
+			<div class="col-md-6 col-xs-12 col-sm-12 th-pad" style="padding-top: 15px;padding-bottom: 15px;">
 				<h1 style="padding-top: 15%">Custom<span class="th-bold">Shirts</span></h1>
 				<br><br>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

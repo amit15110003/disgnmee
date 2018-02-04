@@ -12,7 +12,7 @@
 			if(!empty($query)){
 			 foreach ($query as $row) {?>
  		<div class="col-md-12 side-img">
-			<a  href="#" class="elevatezoom-gallery"
+			<a  href="#" class="elevatezoom-gallery hidden-xs"
 			     data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"
 			     data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $row->img; ?>"
 			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"  height="120" class="img-responsive center-block"  /></a>
@@ -20,7 +20,7 @@
 		<?php }}?>
 		</div>
 	</div>
-	<div class="col-md-5 col-md-offset-1">
+	<div class="col-md-5 col-xs-12 col-md-offset-1" style="padding-bottom: 30px;">
 	    <div class="col-md-12 single-product-img">
 	    	<div class="single-product-image center-block ">
 				<img  class="img-responsive center-block" id="zoom_03" src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
@@ -29,9 +29,9 @@
 		</div>
 	</div>
 	<div class="col-md-5">
-		<div class="row">
-			<div class="col-md-12 col-xs-12 ">
-				<h1><?php echo $title; ?> </h1>
+		<div class="row" style="padding-top:0px;margin-top: 0px;">
+			<div class="col-md-12 col-xs-12 " style="padding-top: 0px;margin-top: -10px;">
+				<h1 style="padding-top: 0px;margin-top: 0px;"><?php echo $title; ?> </h1>
 			</div>
 		</div>
 		<div class="row">
@@ -42,8 +42,8 @@
 			</div>
 			<div class="col-md-12">
 				<div class="th-gap"></div>
-				<p class="col-md-8">Select Size:</p>
-				<a class="col-md-4 pral" href="" data-toggle="modal" data-target="#size">Size Chart</a>
+				<p class="col-md-8" style="padding-left: 0px;">Select Size:</p>
+				<a class="col-md-4 text-right pral" href="" data-toggle="modal" data-target="#size" style="padding-right: 0px;">Size Chart</a>
 				<div class="modal fade bs-example-modal-lg" id="size" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 				  <div class="modal-dialog modal-lg" role="document">
 				    <div class="modal-content">
