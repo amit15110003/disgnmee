@@ -337,13 +337,18 @@ label > input{ /* HIDE RADIO */
   visibility: hidden; /* Makes input not-clickable */
   position: absolute; /* Remove input from document flow */
 }
-label > input + img{ /* IMAGE STYLES */
+label > input + div{ /* IMAGE STYLES */
   cursor:pointer;
   opacity:.4;
 }
-label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+label > input:checked + div{ /* (RADIO CHECKED) IMAGE STYLES */
   opacity: 1;
   border: 1px solid;
 }
 
-::-webkit-scrollbar {}
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+.modal-content{padding: 50px 0;overflow: hidden;}
+.scl{height: 300px; overflow: auto;}
