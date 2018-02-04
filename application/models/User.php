@@ -112,15 +112,10 @@ class user extends CI_Model
 	    return NULL;
 
 	}
-	function countproduct_sort($category,$tag)
+	function countproduct_sort($categoryid,$ocassion,$fabric,$pattern)
 	{	
-		$this->db->where('category', $category);
+		$this->db->where('category', $categoryid);
 		$this->db->where('status', "hosted");
-		if($tag!="null")
-		{
-
-		$this->db->like('tag', $tag);
-		}
 		$this->db->select_sum('id');
 	    $this->db->from('product');
 
@@ -524,7 +519,15 @@ class user extends CI_Model
 		$query=$this->db->get('product');
 		return $query->result();
 	}
-
+    public function productfilter($limit, $start,$categoryid,$ocassion,$fabric,$pattern)
+	{ 	
+		$this->db->limit($limit, $start);
+		$this->db->order_by("posted", "desc");
+		$this->db->where('category', $categoryid);
+		$this->db->where('status', "hosted");
+		$query=$this->db->get('product');
+		return $query->result();
+	}
 	/*order*/
 		public function getorderadd($orderid)
 	{ 	

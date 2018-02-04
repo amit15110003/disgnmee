@@ -136,6 +136,8 @@ $('.multi-item-carousel .item').each(function(){
 	<script>
          function searchFilter() {
              var keywords = $('#keywords').val();
+             var keywords1 = $('#keywords1').val();
+             var categoryid = $('#categoryid').val();
              var ocassion = [];
             $.each($("input[name='ocassion']:checked"), function(){            
                 ocassion.push($(this).val());
@@ -154,8 +156,8 @@ $('.multi-item-carousel .item').each(function(){
             //alert("My favourite sports are: " + pattern.join(", "));
              $.ajax({
                  type: 'POST',
-                 url: '<?php echo base_url(); ?>index.php/product/viewsort/',
-                 data:'&keywords='+keywords+'&ocassion='+ocassion+'&fabric='+fabric+'&pattern='+pattern,
+                 url: '<?php echo base_url(); ?>index.php/product/viewsort',
+                 data:'&keywords='+keywords+'&keywords1='+keywords1+'&categoryid='+categoryid+'&ocassion='+ocassion+'&fabric='+fabric+'&pattern='+pattern,
                  beforeSend: function () {
                      $('.loading').show();
                  },

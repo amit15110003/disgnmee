@@ -38,6 +38,7 @@ class product extends CI_Controller {
         $details["links"] = $this->pagination->create_links();
 		$details['categoryval']=$category1;
 		$details['scategoryval']=$scategory1;
+		$details['scategoryid']=$id;
 		$this->load->view('client/header',$details);
 		$this->load->view('client/category',$details);
 		$this->load->view('client/footer');
@@ -71,19 +72,23 @@ class product extends CI_Controller {
 	 function viewsort(){
 
         $keywords = $this->input->post('keywords');
+        $keywords1 = $this->input->post('keywords1');
+        $categoryid = $this->input->post('categoryid');
+        $category1 = str_replace(' ','-', $keywords);
+		$scategory1 = str_replace(' ','-', $keywords1);
         $ocassion = $this->input->post('ocassion');
         $fabric = $this->input->post('fabric');
         $pattern = $this->input->post('pattern');
         $config = array();
-        $config["base_url"] = base_url() . "index.php/product/category/$category2";
-        $config["total_rows"] = $this->user->countproduct_sort($category1,$tag);
+        $config["base_url"] = base_url() . "index.php/product/category/$category1/$scategory1";
+        $config["total_rows"] = $this->user->countproduct_sort($categoryid,$ocassion,$fabric,$pattern);
         $config["per_page"] = 32;
         $config["uri_segment"] = 4;
 
         $this->pagination->initialize($config);
 
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		if($sortBy=="popular")
+		/*if($sortBy=="popular")
 		{
 			$details['query']=$this->user->sortproduct_popular($config["per_page"],$page,$category1,$tag);
 		}
@@ -94,7 +99,8 @@ class product extends CI_Controller {
 		else if($sortBy=="default")
 		{
 			$details['query']=$this->user->sortproduct($config["per_page"],$page,$category1,$tag);
-		}
+		}*/
+		$details['query']=$this->user->productfilter($config["per_page"],$page,$categoryid,$ocassion,$fabric,$pattern);
         $details["links"] = $this->pagination->create_links();
 		$details['categoryval']=$category1;
 		$this->load->view('client/category1',$details);
