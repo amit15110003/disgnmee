@@ -9,7 +9,7 @@
               <p>As Guest</p>
             </div>
             <div class="col-md-3 col-xs-6 ">
-              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#login">Edit</button>
+              <button type="button" class="th-btn-inv cbtn col-xs-12 col-md-12" data-toggle="collapse" data-target="#login">Edit</button>
             </div>
           </div>
           <div id="login" class="collapse col-md-12  col-xs-12 ">
@@ -25,7 +25,7 @@
               <p>#ADDRESS#</p>
             </div>
             <div class="col-md-3 col-xs-6 ">
-              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#address">Edit</button>
+              <button type="button" class="th-btn-inv cbtn col-xs-12 col-md-12" data-toggle="collapse" data-target="#address">Edit</button>
             </div>
           </div>
           <div id="address" class="collapse col-md-12  col-xs-12 ">
@@ -48,7 +48,7 @@
               <p>#items#  </p>
             </div>
             <div class="col-md-3 col-xs-6 ">
-              <button type="button" class="th-btn-inv cbtn" data-toggle="collapse" data-target="#shipping">Edit</button>
+              <button type="button" class="th-btn-inv cbtn col-xs-12 col-md-12" data-toggle="collapse" data-target="#shipping">Edit</button>
             </div>
           </div>
           <div id="shipping" class="collapse col-md-12  col-xs-12 ">
