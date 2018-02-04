@@ -368,7 +368,10 @@ class admin extends CI_Controller
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
 				'price' => $this->input->post('price'),
-				'color' => $this->input->post('color'),
+                'color' => $this->input->post('color'),
+                'ocassion' => $this->input->post('ocassion'),
+                'fabric' => $this->input->post('fabric'),
+                'pattern' => $this->input->post('pattern'),
 				'status' => "pending",
 				'picture' => $picture
 			);
@@ -484,6 +487,9 @@ public function updateproduct()
 				'type' => $this->input->post('type'),
 				'price' => $this->input->post('price'),
 				'color' => $this->input->post('color'),
+                'ocassion' => $this->input->post('ocassion'),
+                'fabric' => $this->input->post('fabric'),
+                'pattern' => $this->input->post('pattern'),
 				'status' => "pending",
 				'picture' => $picture
 			);
@@ -511,7 +517,10 @@ public function updateproduct()
         			$data['Descr'] = $details[0]->Descr;
         			$data['category'] = $details[0]->category;
 					$data['price'] = $details[0]->price;
-					$data['color'] = $details[0]->color;
+                    $data['color'] = $details[0]->color;
+                    $data['ocassion'] = $details[0]->ocassion;
+                    $data['fabric'] = $details[0]->fabric;
+                    $data['pattern'] = $details[0]->pattern;
 					$data['picture'] = $details[0]->picture;
 					$data['status'] = $details[0]->status;
         	    $data['query2']=$this->user->showproductimage($pid);
