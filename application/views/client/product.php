@@ -78,7 +78,7 @@
 			            <button type="button" class="th-btn-inv col-md-12 col-xs-12" data-toggle="modal" data-target="#cst">Coustmize</button>
 						<div class="modal fade bs-example-modal-lg" id="cst" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 						  <div class="modal-dialog modal-lg" role="document">
-						    <div class="modal-content" style="height: 500px; overflow: auto; padding: 50px 0;">
+						    <div class="modal-content" style="height: 500px; overflow: hidden; padding: 50px 0;">
 						      	<div class="row text-center">
 						      		<div class="col-md-2 col-md-offset-1">
 						      			<p><span class="th-bold">Hem</span></p>
@@ -93,7 +93,7 @@
 										    <p>Type 2</p>
 									  	</label>
 						    		</div>
-						      		<div class="col-md-2">
+						      		<div class="col-md-2" style="overflow: auto;height: 200px;">
 						      			<p><span class="th-bold">Cuff</span></p>
 						      			<label>
 										    <input type="radio" name="cuff" value="French Cuff" />

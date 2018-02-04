@@ -73,7 +73,7 @@
         <div class="row" style="margin-bottom: 15px;">
                 <div class="col-md-8 col-xs-12 col-md-offset-2 text-center" style="padding: 15px;padding-top: 100px;" >
                     <p>Empty Cart</p>
-                    <a class="btn col-xs-12 col-md-4 col-md-offset-4 th-btn text-center pull-center" href="<?php echo base_url(); ?>" style="" > Continue Shoping</a>
+                    <a class="btn col-xs-12 col-md-4 col-md-offset-4 th-btn text-center pull-center" href="<?php echo base_url(); ?>" style="" > Continue Shopping</a>
                 </div>
         </div>
     <?php }?>
