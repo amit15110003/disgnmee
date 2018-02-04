@@ -385,5 +385,20 @@ $('.multi-item-carousel .item').each(function(){
                 });
     }
   </script>
+  <script type="text/javascript">
+    (function () {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://d25z1h7fcwlg61.cloudfront.net/airim.js';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+<script type="text/javascript">
+  window.airimSettings = {
+    aid : 4290575999
+  }
+</script>
   </body>
 </html>
