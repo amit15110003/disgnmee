@@ -136,12 +136,26 @@ $('.multi-item-carousel .item').each(function(){
 	<script>
          function searchFilter() {
              var keywords = $('#keywords').val();
-             var sortBy = $('#sortBy').val();
-             var tag = $('#tag').val();
+             var ocassion = [];
+            $.each($("input[name='ocassion']:checked"), function(){            
+                ocassion.push($(this).val());
+            });
+            var fabric = [];
+            $.each($("input[name='fabric']:checked"), function(){            
+                fabric.push($(this).val());
+            });
+            var pattern = [];
+            $.each($("input[name='pattern']:checked"), function(){            
+                pattern.push($(this).val());
+            });
+            alert(keywords);
+            //alert("My favourite sports are: " +  ocassion.join(", "));
+           // alert("My favourite sports are: " + fabric.join(", "));
+            //alert("My favourite sports are: " + pattern.join(", "));
              $.ajax({
                  type: 'POST',
-                 url: '<?php echo base_url(); ?>index.php/product/viewsort/'+keywords,
-                 data:'&keywords='+keywords+'&sortBy='+sortBy+'&tag='+tag,
+                 url: '<?php echo base_url(); ?>index.php/product/viewsort/',
+                 data:'&keywords='+keywords+'&ocassion='+ocassion+'&fabric='+fabric+'&pattern='+pattern,
                  beforeSend: function () {
                      $('.loading').show();
                  },

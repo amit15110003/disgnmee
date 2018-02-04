@@ -8,58 +8,59 @@
 	<div class="col-md-3">
 		<div class="menu">
 			
+		<input type="hidden" id="keywords" value="<?php echo $scategoryval; ?>" onchange="searchFilter()"/>
         	<div class="mini-menu">
 	            <ul style="padding-left: 0px;">         		
 	        		<li>
 		            	<a class="hitem" >Ocassion</a><br><br>
 		            	<label class="cont">Formal
-						  <input type="checkbox" checked="checked">
+						  <input type="checkbox" checked="checked" value="Formal" name="ocassion" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Casual
-						  <input type="checkbox">
+						  <input type="checkbox" name="ocassion" value="Casual" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Festive
-						  <input type="checkbox">
+						  <input type="checkbox" name="ocassion" value="Festive" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 			        </li>        		
 	        		<li>
 		            	<br><br><a class="hitem" >Fabric</a><br><br>
 		            	<label class="cont">Cotton
-						  <input type="checkbox" checked="checked">
+						  <input type="checkbox" checked="checked" value="Cotton" name="fabric" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Linen
-						  <input type="checkbox">
+						  <input type="checkbox" name="fabric" value="Linen" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Chambray
-						  <input type="checkbox">
+						  <input type="checkbox" name="fabric" value="Chambray" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Flannel
-						  <input type="checkbox">
+						  <input type="checkbox" name="fabric" value="Flannel" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 			        </li>         		
 	        		<li>
 		            	<br><br><a  class="hitem" >Pattern</a><br><br>
 		            	<label class="cont">Solids
-						  <input type="checkbox" checked="checked">
+						  <input type="checkbox" checked="checked" value="Solids" name="pattern" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Stripes
-						  <input type="checkbox">
+						  <input type="checkbox" name="pattern" value="Stripes" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Checks
-						  <input type="checkbox">
+						  <input type="checkbox" name="pattern" value="Checks" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 						<label class="cont">Prints
-						  <input type="checkbox">
+						  <input type="checkbox" name="pattern" value="Prints" onchange="searchFilter()">
 						  <span class="checkmark"></span>
 						</label>
 			        </li>
@@ -125,7 +126,7 @@
 		</select>
 	</div>
 	<div class="col-md-3 col-xs-8">
-		<input type="hidden" id="keywords" value="<?php echo $categoryval; ?>" onkeyup="searchFilter()"/>
+		<input type="hidden" id="keywords" value="<?php echo $categoryval; ?>" onchange="searchFilter()"/>
 		<select class="theme-select" data-placeholder="Select an option" id="sortBy" onchange="searchFilter()" style="border:solid 1px #ccc;">
             <option value="default">Default sorting</option>
             <option value="popular">Sort by popularity</option>

@@ -6,7 +6,7 @@
  		<div class="col-md-12 side-img active">
 			<a  href="#" class="elevatezoom-gallery active" data-update="" data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 
 			data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $picture;?>">
-			<img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" width="120" height="120" class="img-responsive center-block"  /></a>
+			<img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>"  height="120" class="img-responsive center-block"  /></a>
 		</div>
 		<?php
 			if(!empty($query)){
@@ -15,12 +15,12 @@
 			<a  href="#" class="elevatezoom-gallery"
 			     data-image="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"
 			     data-zoom-image="<?php echo base_url(); ?>uploads/<?php echo $row->img; ?>"
-			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>" width="120" height="120" class="img-responsive center-block"  /></a>
+			    ><img src="<?php echo base_url(); ?>uploads/thumb/<?php echo $row->img; ?>"  height="120" class="img-responsive center-block"  /></a>
 		</div>
 		<?php }}?>
 		</div>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-5 col-md-offset-1">
 	    <div class="col-md-12 single-product-img">
 	    	<div class="single-product-image center-block ">
 				<img  class="img-responsive center-block" id="zoom_03" src="<?php echo base_url(); ?>uploads/thumb/<?php echo $picture;?>" 

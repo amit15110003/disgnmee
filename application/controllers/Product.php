@@ -68,11 +68,12 @@ class product extends CI_Controller {
 		$this->load->view('client/footer');
 	}
 
-	 function viewsort($category){
-        $sortBy = $this->input->post('sortBy');
-        $tag = $this->input->post('tag');
-        $category1 = str_replace('%20', ' ',$category);
-        $category2 = str_replace(' ', '-', $category1);
+	 function viewsort(){
+
+        $keywords = $this->input->post('keywords');
+        $ocassion = $this->input->post('ocassion');
+        $fabric = $this->input->post('fabric');
+        $pattern = $this->input->post('pattern');
         $config = array();
         $config["base_url"] = base_url() . "index.php/product/category/$category2";
         $config["total_rows"] = $this->user->countproduct_sort($category1,$tag);
