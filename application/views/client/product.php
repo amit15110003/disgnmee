@@ -106,21 +106,21 @@
 											    <input type="radio" name="cuff" value="French Cuff" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff1.jpg">
-												    <p>French Cuff</p>
+												    <p>French </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="cuff" value="Single Round Cuff" checked />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff2.jpg">
-												    <p>Single Round Cuff</p>
+												    <p>Single Round </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="cuff" value="Two Button Cuff" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/cuff3.jpg">
-												    <P>Two Button Cuff</P>
+												    <P>Two Button </P>
 												</div>
 										  	</label>
 										</div>
@@ -132,70 +132,70 @@
 											    <input type="radio" name="collar" value="Button Down Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar1.jpg">
-												    <p>Button Down Collar</p>
+												    <p>Button Down </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Spread Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar2.jpg">
-												    <p>Spread Collar</p>
+												    <p>Spread </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Band Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar3.jpg">
-												    <p>Band Collar</p>
+												    <p>Band </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Cutaway Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar4.jpg">
-												    <p>Cutaway Collar</p>
+												    <p>Cutaway </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Hidden Button Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar5.jpg">
-												    <p>Hidden Button Collar</p>
+												    <p>Hidden Button </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Pin Collars" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar6.jpg">
-												    <p>Pin Collars</p>
+												    <p>Pin </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Classic Collar"  checked />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar7.jpg">
-												    <p>Classic Collar</p>
+												    <p>Classic </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Straight Point Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar8.jpg">
-												    <p>Straight Point Collar</p>
+												    <p>Straight</p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Winged Tip Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar9.jpg">
-												    <p>Winged Tip Collar</p>
+												    <p>Winged Tip </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="collar" value="Club Collar" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/collar10.jpg">
-												    <p>Club Collar</p>
+												    <p>Club </p>
 												</div>
 										  	</label>
 									  	</div>
@@ -207,14 +207,14 @@
 											    <input type="radio" name="sleeve" value="Half Sleeve" />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve1.jpg">
-												    <p>Half Sleeve</p>
+												    <p>Half </p>
 												</div>
 										  	</label>
 							      			<label>
 											    <input type="radio" name="sleeve" value="Full Sleeve" checked />
 											    <div>
 												    <img class="img-responsive center-block" src="<?php echo base_url();?>media/image/customize/sleeve2.jpg">
-												    <p>Full Sleeve</p>
+												    <p>Full </p>
 												</div>
 										  	</label>
 										</div>
@@ -253,6 +253,10 @@
 									  	</div>
 						    		</div>
 						    	</div>
+						    	<div class="modal-footer" style="margin-bottom: -45px;padding-bottom: 0px;">
+							        <button type="button" class="th-btn col-xs-6 col-md-3 col-md-offset-2">Done</button>
+							        <button type="button" class="th-btn-inv  col-xs-6 col-md-3 col-md-offset-2" data-dismiss="modal">Cancel</button>
+							      </div>
 						    </div>
 						  </div>
 						</div>

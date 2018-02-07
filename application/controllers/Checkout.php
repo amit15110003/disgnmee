@@ -17,48 +17,7 @@ class checkout extends CI_Controller
 		if ($this->form_validation->run() == FALSE)
         {
 		$data['query']=$this->user->showcart($this->session->userdata('uid'));
-		$details1=$this->user->deliveryadd($this->session->userdata('uid'));
-			$details2=$this->user->shippingadd($this->session->userdata('uid'));
-			if(!empty($details1)){
-			$data['fname'] = $details1[0]->fname;
-			$data['lname'] = $details1[0]->lname;
-			$data['country'] = $details1[0]->country;
-			$data['state'] = $details1[0]->state;
-			$data['town'] = $details1[0]->town;
-			$data['addr'] = $details1[0]->addr;
-			$data['mob'] = $details1[0]->mob;
-			$data['pin'] = $details1[0]->pin;
-			}
-			else{
-			$data['fname'] = "";
-			$data['lname'] = "";
-			$data['country'] = "";
-			$data['state'] ="";
-			$data['town'] = "";
-			$data['addr'] ="";
-			$data['mob'] = "";
-			$data['pin'] ="";
-			}
-			if(!empty($details2)){
-			$data['fname1'] = $details2[0]->fname;
-			$data['lname1'] = $details2[0]->lname;
-			$data['country1'] = $details2[0]->country;
-			$data['state1'] = $details2[0]->state;
-			$data['town1'] = $details2[0]->town;
-			$data['addr1'] = $details2[0]->addr;
-			$data['mob1'] = $details2[0]->mob;
-			$data['pin1'] = $details2[0]->pin;
-			}
-			else{
-			$data['fname1'] = "";
-			$data['lname1'] = "";
-			$data['country1'] = "";
-			$data['state1'] ="";
-			$data['town1'] = "";
-			$data['addr1'] ="";
-			$data['mob1'] = "";
-			$data['pin1'] ="";
-			}
+		$data['query1']=$this->user->deliveryadd($this->session->userdata('uid'));
 		$this->load->view('client/header');
 		$this->load->view('client/checkout',$data);
 		$this->load->view('client/footer');

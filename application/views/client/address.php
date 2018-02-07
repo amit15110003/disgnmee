@@ -1,10 +1,10 @@
 <div class="container-fluid" style="padding:10% 5%;">
     <div class="col-md-12">
         <ol class="breadcrumb">
-                  <li><a class="hitem" href="#">User Profile</a></li>
+                  <li><a class="hitem hidden-xs" href="#">User Profile</a></li>
         </ol>
     </div>  
-    <div class="col-md-2 mini-menu">
+    <div class="col-md-2 mini-menu hidden-xs">
         <ul><a href="<?php echo base_url("index.php/profile"); ?>" class="hitem" >My Account</a><br><br>
             <li><a class="cont" href="<?php echo base_url("index.php/orders"); ?>"> Orders</a></li>
             <li><a class="cont" href="<?php echo base_url("index.php/wishlist"); ?>"> Wishlist</a></li>
@@ -22,11 +22,11 @@
               <p>Address</p>
               <p style="text-transform: capitalize;"><?php echo $row->fname;?> <?php echo $row->lname;?></p>
             </div>
-            <div class="col-md-2 col-xs-12 ">
-              <button type="button" class="th-btn-inv cbtn  col-xs-12" data-toggle="collapse" data-target="#address<?php echo $row->id;?>">Edit</button>
+            <div class="col-md-2 col-xs-12 th-pb">
+              <button type="button" class="th-btn-inv-sm cbtn  col-xs-12" data-toggle="collapse" data-target="#address<?php echo $row->id;?>">Edit</button>
             </div>
-            <div class="col-md-2 col-xs-12 ">
-              <button type="button" class="th-btn-inv cbtn  col-xs-12"  onclick="javascript:deleteadd(<?php echo $row->id;?>);">Delete</button>
+            <div class="col-md-2 col-xs-12 th-pb">
+              <button type="button" class="th-btn-inv-sm cbtn  col-xs-12"  onclick="javascript:deleteadd(<?php echo $row->id;?>);">Delete</button>
             </div>
           </div>
           <div id="address<?php echo $row->id;?>" class="collapse col-md-12  col-xs-12 ">
@@ -68,8 +68,8 @@
 				<label>Country<span style="color: red;">*</span></label>
               	<input class="th-btn-inv col-md-12 th-form" type="text" name="country" value="<?php echo $row->country;?>">
           	  </div>
-              <div class="col-md-12">
-              	<button type="submit" class="btn th-btn" data-toggle="collapse" data-target="#address">Continue</button>
+              <div class="col-md-12 th-pt th-pb">
+              	<button type="submit" class="btn th-btn col-xs-12 col-md-3" data-toggle="collapse" data-target="#address">Continue</button>
           	</div>
       				<?php echo form_close(); ?>
           </div>
@@ -78,12 +78,12 @@
     	<!-- Add new address -->
         <div class="col-md-12  col-xs-12 clps">
           <div class="col-md-12  col-xs-12">
-            <div class="col-md-9 col-xs-12">
+            <div class="col-md-10 col-xs-12">
               <p>Add New</p>
               <p style="text-transform: capitalize;">+</p>
             </div>
-            <div class="col-md-3 col-xs-12 ">
-              <button type="button" class="th-btn-inv cbtn  col-xs-12" data-toggle="collapse" data-target="#add_ress">Add</button>
+            <div class="col-md-2 col-xs-12 th-pb">
+              <button type="button" class="th-btn-inv-sm cbtn  col-xs-12" data-toggle="collapse" data-target="#add_ress">Add</button>
             </div>
           </div>
           <div id="add_ress" class="collapse col-md-12  col-xs-12 ">
@@ -125,8 +125,8 @@
 				<label>Country<span style="color: red;">*</span></label>
               	<input class="th-btn-inv col-md-12 th-form" type="text" name="country" value="INDIA">
           	  </div>
-              <div class="col-md-12">
-              	<button type="submit" class="btn th-btn" data-toggle="collapse" data-target="#add_ress">Continue</button>
+              <div class="col-md-12 th-pt th-pb">
+              	<button type="submit" class="btn th-btn col-xs-12 col-md-3" data-toggle="collapse" data-target="#add_ress">Continue</button>
           	</div>
       				<?php echo form_close(); ?>
           </div>
