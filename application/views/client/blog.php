@@ -2,7 +2,7 @@
 	<div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
 		<h1 style="padding-top: 100px;">Know<span class="th-bold">Fashion</span></h1>
 		<div class="th-gap"></div>
-		<div class="col-md-4 col-xs-12">
+		<!--<div class="col-md-4 col-xs-12">
 		 <?php $i=0; foreach ($query as $row) {
                      if($i%3=='0'){?>
             <div class="col-md-12 col-xs-12 blog-card">
@@ -43,7 +43,7 @@
 	        	</div>
         	</div>
         <?php } $i++;}?>
-       </div>
+       </div>-->
 
 	</div>
 </div>
