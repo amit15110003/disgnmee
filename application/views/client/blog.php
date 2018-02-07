@@ -44,6 +44,19 @@
         	</div>
         <?php } $i++;}?>
        </div>-->
+       <?php foreach ($query as $row) { ?>
+	       <div class="col-md-4 col-xs-12">
+	            <div class="col-md-12 col-xs-12 blog-card">
+		        	<div class="row" style="background-image: url('<?php echo base_url();?>media/image/blog/<?php echo $row->image; ?>');background-size: cover;background-position: center;height: 300px;">
+		        	</div>
+		        	<div class="col-md-12 blog-text">
+		        		<h3><?php echo $row->title; ?></h3>
+		                <p class="text-justify"><?php echo $row->descr; ?></p>
+		                <a class="col-md-4  col-xs-6 blog-btn btn pull-right" href="<?php echo base_url();?>index.php/home/blogd/<?php echo $row->link; ?>" >More</a>
+		        	</div>
+	        	</div>
+	       </div>
+       <?php }?>
 
 	</div>
 </div>

@@ -39,6 +39,12 @@ class Home extends CI_Controller {
 		$this->load->view('client/blogdetails',$data);
 		$this->load->view('client/footer');
 	}
+	public function blogd($link)
+	{	
+		$this->load->view('client/header.php');
+		$this->load->view("client/blogs/$link");
+		$this->load->view('client/footer');
+	}
 	public function about()
 	{	
 		$this->load->view('client/header');

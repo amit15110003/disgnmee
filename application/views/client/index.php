@@ -6,13 +6,13 @@
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item" >
-                            <div class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p1.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
+                            <div class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p1.png');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
                          </div>
                         <div class="item" >
-                            <div class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p2.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
+                            <div class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p2.png');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
                         </div>
                         <div class="item">
-                            <div  class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p3.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;">
+                            <div  class="left" style="background-image:url('<?php echo base_url();?>media/image/slider/p3.png');background-repeat: no-repeat;background-position: top;background-size: cover;">
                             </div>
                         </div>
                     </div>
@@ -26,13 +26,13 @@
 				<button class="btn th-btn btn-lg">Shop Now</button>
 				<br><br>
 				<div class="col-md-12 hidden-xs" style="padding-left: 0px; padding-right: 0px;">
-					<div class="col-md-4 home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p1.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;">
+					<div class="col-md-4" style="padding-left: 0;"><div class="home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p1.png');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
 						
 					</div>
-					<div class="col-md-4 home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p2.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;">
+					<div class="col-md-4"><div class="home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p2.png');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
 						
 					</div>
-					<div class="col-md-4 home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p3.jpg');background-repeat: no-repeat;background-position: top;background-size: cover;">
+					<div class="col-md-4" style="padding-right: 0;"><div class="home-banner1" style="background-image:url('<?php echo base_url();?>media/image/slider/p3.png');background-repeat: no-repeat;background-position: top;background-size: cover;"></div>
 						
 					</div>
 				</div>
@@ -52,16 +52,16 @@
 		<div class="th-gap"></div>
 		<div class="col-md-6 col-xs-12 col-sm-12">
 			<div class="vr-txt"><h1>Romantic<span class="th-bold">Rendezvouz</span></h1></div>
-			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/2.png'); height: 600px;"></div>
+			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/t1.jpg'); height: 600px;"></div>
 		</div>
 		<div class="col-md-6 col-xs-12 col-sm-12">
 			<div class="col-md-12 col-xs-12 col-sm-12">
-			<div class="vr-txt"><h2>Corporate <span class="th-bold">Classics</span></h2></div>
-			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/3.png'); height: 300px;"></div>
+			<div class="vr-txt"><h2>Award<span class="th-bold">Night</span></h2></div>
+			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/t2.jpg'); height: 300px;"></div>
 			</div>
 			<div class="col-md-12 col-xs-12 col-sm-12">
-			<div class="vr-txt"><h2>Spotlight <span class="th-bold">Special</span></h2></div>
-			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/3.png'); height: 300px;"></div>
+			<div class="vr-txt"><h2>Corporate<span class="th-bold">Classics</span></h2></div>
+			<div class="cover-img" style="background-image: url('<?php echo base_url();?>media/image/products/t3.jpg'); height: 300px;"></div>
 			</div>
 		</div>
 	</div>
