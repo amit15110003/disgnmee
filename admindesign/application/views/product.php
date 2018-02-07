@@ -94,6 +94,7 @@
                   <td><?php echo $row->title; ?> </td>
                   <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/productedit/'.$row->id; ?>">Edit</a></td>
                 </tr>
+                <td><a  class="btn btn-primary" href="<?php echo base_url().'index.php/admin/attribute/'.$row->id; ?>">Attribute</a></td>
                  <?php }?>
                 </tfoot>
               </table>

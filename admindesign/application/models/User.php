@@ -312,6 +312,26 @@ class user extends CI_Model
 		$query=$this->db->get('product');
 		return $query->result();
 	}
+	public function showattribute1($id)
+	{
+		$this->db->where('productid', $id);
+		$query=$this->db->get('attributevalue');
+		return $query->result();
+	}
+	public function update_attribute($data,$id)
+	{
+		$this->db->where('productid',$id);
+	   $q = $this->db->get('attributevalue');
+
+	   if ( $q->num_rows() > 0 ) 
+	   {
+		$this->db->where('productid',$id);
+	      $this->db->update('attributevalue',$data);
+	   } else {
+		$this->db->where('productid',$id);
+	     $this->db->insert('attributevalue', $data);
+	   }
+	}
 	public function update_product($data,$id)
 	{
 		$this->db->where('id', $id);

@@ -165,27 +165,6 @@ class user extends CI_Model
 		$this->db->where('status', "hosted");
 		return $query->result();
 	}
-	public function showattribute($category)
-	{
-		$this->db->where('category',$category);
-		$query=$this->db->get('attribute');
-		return $query->result();
-	}
-	public function showattributevalue($attribute)
-	{		
-
-		$this->db->where('attribute',$attribute);
-		$query=$this->db->get('attributevalue');
-		return $query->result();
-	}
-	public function attributevalue_cost($attributevalue,$category)
-	{		
-        
-		$this->db->where('attributevalue',$attributevalue);
-		$this->db->where('category',$category);
-		$query=$this->db->get('attributevalue');
-		return $query->result();
-	}
 	public function showproduct_category($limit, $start,$scategory)
 	{	
 		$this->db->limit($limit, $start);
@@ -214,6 +193,12 @@ class user extends CI_Model
 		$this->db->where('title', $title);
 		$this->db->where('status', "hosted");
 		$query=$this->db->get('product');
+		return $query->result();
+	}
+	public function showattribute1($id)
+	{
+		$this->db->where('productid', $id);
+		$query=$this->db->get('attributevalue');
 		return $query->result();
 	}
 	public function get_product_by_id($id)

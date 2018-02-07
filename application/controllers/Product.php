@@ -49,7 +49,6 @@ class product extends CI_Controller {
 		$category = str_replace('-', ' ', $category);
 		$title = str_replace('-', ' ', $title);
 		$details=$this->user->get_product_id($category,$title);
-
 		$data['query']=$this->user->get_image_id($details[0]->id);
 		$data['query1']=$this->user->get_review_id($details[0]->id);
 		$data['query2']=$this->user->showproduct_mostview_cat($category);
@@ -63,6 +62,23 @@ class product extends CI_Controller {
         	$data['review'] = $details[0]->review;
         	$data['view'] = $details[0]->view;
         	$view=$data['view']+1;
+         
+         $details1=$this->user->showattribute1($data['id']);
+                if(!empty($details1)){
+                    $data['hem'] = $details1[0]->hem;
+                    $data['cuff'] = $details1[0]->cuff;
+                    $data['collar'] = $details1[0]->collar;
+                    $data['sleeve'] = $details1[0]->sleeve;
+                    $data['placket'] = $details1[0]->placket;
+                }
+                else
+                {
+                    $data['hem'] ="";
+                    $data['cuff'] = "";
+                    $data['collar'] ="";
+                    $data['sleeve'] = "";
+                    $data['placket'] = "";
+                }
 		$this->user->updateview($details[0]->id,$view);
 		$this->load->view('client/header',$data);
 		$this->load->view('client/product',$data);

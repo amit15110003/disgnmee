@@ -585,6 +585,61 @@ public function updateproduct()
 	
 		
 	}
+    public function attribute($pid)
+    {   $this->form_validation->set_rules('productid', 'productid', 'required');
+        if ($this->form_validation->run() == FALSE)
+        {       
+                $details=$this->user->showattribute1($pid);
+                if(!empty($details)){
+                     $data['attributeid'] = $details[0]->id;
+                    $data['productid'] = $pid;
+                    $data['hem'] = $details[0]->hem;
+                    $data['cuff'] = $details[0]->cuff;
+                    $data['collar'] = $details[0]->collar;
+                    $data['sleeve'] = $details[0]->sleeve;
+                    $data['placket'] = $details[0]->placket;
+                }
+                else
+                {
+                    $data['attributeid'] = "";
+                    $data['productid'] = $pid;
+                    $data['hem'] ="";
+                    $data['cuff'] = "";
+                    $data['collar'] ="";
+                    $data['sleeve'] = "";
+                    $data['placket'] = "";
+                }
+                $this->load->view('header');
+                $this->load->view('attribute',$data);
+                $this->load->view('footer');
+
+        }
+        else
+        {
+           $productid=$this->input->post('productid');
+        $data = array(
+                
+                'productid' => $this->input->post('productid'),
+                'hem' => $this->input->post('hem'),
+                'cuff' => $this->input->post('cuff'),
+                'collar' => $this->input->post('collar'),
+                'sleeve' => $this->input->post('sleeve'),
+                'placket' => $this->input->post('placket')
+            );
+        if($this->user->update_attribute($data,$productid))
+        {
+            $this->session->set_flashdata('msg','<div class="alert alert-success text-center"> Successfully Updated</div>');
+                redirect($_SERVER['HTTP_REFERER']);
+            }
+            else
+            {
+                // error
+                $this->session->set_flashdata('msg','<div class="alert alert-danger text-center">Oops! Error.  Something Went Wrong</div>');
+                redirect($_SERVER['HTTP_REFERER']);
+            }
+    
+        }
+    }
 	public function status($id)
 	{
 	
