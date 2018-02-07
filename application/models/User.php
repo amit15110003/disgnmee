@@ -54,6 +54,8 @@ class user extends CI_Model
 	}
 	public function showcategory()
 	{
+
+		$this->db->order_by("id", "asc");
 		$query=$this->db->get('category');
 		return $query->result();
 	}
@@ -148,11 +150,6 @@ class user extends CI_Model
 	}
 	
 	
-	
-	public function showartist()
-	{   $query=$this->db->get('artist');;
-		return $query->result();
-	}
 	public function showtype()
 	{
 		$query=$this->db->get('type');;
