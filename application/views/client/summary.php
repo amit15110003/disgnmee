@@ -2,11 +2,8 @@
   <div class="row">
     <div class="col-md-12 col-xs-12 " style="padding:0 5%">
 
-      <div class="col-md-8 col-xs-12">
-        <div class="clps">
-                <p>Login : <span style="font-size:14px;color:#000; "><?php if ($this->session->userdata('fname')){ echo $this->session->userdata('fname'); echo " "; echo $this->session->userdata('lname');}else{echo"As Guest";}?></span></p>
-                <p>Dilivery Address : <span style="font-size:14px;text-transform: capitalize; " id="addressf"><span style="color:#000;"><?php $i=0; foreach ($query1 as $row) {if($i=='0'){?> <?php echo $row->fname;?> <?php echo $row->lname;?>, </span> <?php echo $row->addr;?> <?php echo $row->town;?> <?php echo $row->state;?>, <?php echo $row->pin;?><?php }$i++;}?></span></p>
-                <p>Shipping Information : <span style="font-size:14px;color:#000; "><span id="item_count1"></span> Item</span></p>
+      <div class="col-md-8 col-md-offset-2 col-xs-12" style="box-shadow: 0 10px 10px #f3f3f3;">
+        <div >
             <div class=" col-md-12  col-xs-12" style="margin-top: 20px;">
                 <?php $count=0;
                   if ($cart = $this->cart->contents()){$i=0;
@@ -34,7 +31,7 @@
                   <div class="col-md-12 col-xs-12" style="background-color: #f9f9f9;padding: 15px;" id="cart_<?php echo $row->id;?>">
                   <div class="col-md-2 cover-img" style="background-image: url('<?php echo base_url();?>uploads/<?php echo $details[0]->picture;?>'); height: 120px;background-position: top;background-size: cover; ">
                   </div>
-                  <div class="col-md-5 col-xs-12">
+                  <div class="col-md-8 col-xs-12">
                      <p><?php  echo $details[0]->title;?></p>
                             <p style="font-size: 14px;"><span class="rate" style="color:#000;padding-right: 15px;"><b>Rs <?php  echo $details[0]->price;?></b></span><sapn style="padding-right: 15px;">Size: <?php echo $row->attributevalue; ?></sapn><span>Item: <?php echo $row->item; ?></span></p>
                             <p style="font-size: 14px;padding-left: 0px;padding-right: 0px;" class="col-md-12">Hem: <?php echo $row->hem; ?>, Cuff: <?php echo $row->cuff; ?>, Collar: <?php echo $row->collar; ?>, Sleeve: <?php echo $row->sleeve; ?>, Placket: <?php echo $row->placket; ?></p>
@@ -49,9 +46,9 @@
                     <span class="hidden" id="item_count"><?php echo $count;?></span>
             </div>
         </div>
-    </div>
-      <div class="col-md-4 col-xs-12">
         <div class="col-md-12  col-xs-12 clps">
+           <p>Dilivery Address : <span style="font-size:14px;text-transform: capitalize; " id="addressf"><span style="color:#000;"><?php $i=0; foreach ($query1 as $row) {if($i=='0'){?> <?php echo $row->fname;?> <?php echo $row->lname;?>, </span> <?php echo $row->addr;?> <?php echo $row->town;?> <?php echo $row->state;?>, <?php echo $row->pin;?><?php }$i++;}?></span></p>
+           <p>Shipping Information : <span style="font-size:14px;color:#000; "><span id="item_count1"></span> Item</span></p>
           <div class="col-md-12  col-xs-12">Price Details<hr></div>
           <div class="col-md-12  col-xs-12">
             <p class="col-md-6  col-xs-6 text-left" style="padding: 0px;">Price</p>
@@ -85,6 +82,9 @@
             <input type="hidden" name="pid" value="<?php echo implode(",",$pid);?>">
             <p class="col-md-12  col-xs-12 text-left" style="padding: 0px;"><span id="info"></span></p>
           </div>
+        </div> 
+        <div class="col-md-12 col-xs-12 th-pb">
+            <button class="th-btn btn col-md-4 col-md-offset-4 th-pb">Confirm</button>
         </div>
       </div>
 
@@ -92,6 +92,7 @@
     </div>
   </div>
 </div>
+<div class="gap"></div>
 <script>
      $(document).ready(function(){
              document.getElementById("item_count1").innerHTML=document.getElementById("item_count").innerHTML;
@@ -180,41 +181,3 @@
       
     });
   </script>
-  <script>
-     function adress_select(id)
-      {
-            document.getElementById("addressf").innerHTML=
-           document.getElementById("address_"+id).innerHTML;
-            document.getElementById("billing_name").value=
-           document.getElementById("name_"+id).innerHTML;
-            document.getElementById("billing_name1").value=
-           document.getElementById("lname_"+id).innerHTML;
-            document.getElementById("billing_address").value=
-           document.getElementById("address_"+id).innerHTML;
-            document.getElementById("billing_city").value=
-           document.getElementById("city_"+id).innerHTML;
-            document.getElementById("billing_state").value=
-           document.getElementById("state_"+id).innerHTML;
-            document.getElementById("billing_zip").value=
-           document.getElementById("zip_"+id).innerHTML;
-            document.getElementById("billing_tel").value=
-           document.getElementById("tel_"+id).innerHTML;
-            document.getElementById("billing_email").value=
-           document.getElementById("email_"+id).innerHTML;
-            document.getElementById("billing_country").value=
-           document.getElementById("country_"+id).innerHTML;
-        }
-</script>
-<script type="text/javascript">
-      $(document).ready(function()
-      { 
-        var id = $('input[name=sa]:checked').val();
-        document.getElementById("addressf").innerHTML=id;
-      }
-      </script>
-<script>
-  window.onload = function() {
-    var d = new Date().getTime();
-    document.getElementById("tid").value = d;
-  };
-</script>
