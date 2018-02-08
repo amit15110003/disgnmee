@@ -56,8 +56,8 @@
 				  <div class="modal-dialog modal-sm" role="document">
 				    <div class="modal-content">
 						<ul class="perstyle">	      
-				            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor">Call a Tailor</a></li>
-				            <li><a href="<?php echo base_url(""); ?>index.php/home/designer">Call a Designer</a></li>
+				            <li><a href="<?php echo base_url(""); ?>index.php/home/tailor"><img src="<?php echo base_url();?>media/image/sewing-machine.png" style="height: 28px;"> Call a Tailor</a></li>
+				            <li><a href="<?php echo base_url(""); ?>index.php/home/designer"><img src="<?php echo base_url();?>media/image/spool-of-thread.png" style="height: 28px;"> Call a Designer</a></li>
 				            <li><a href="">Live Chat</a></li>
 			        	</ul>
 				    </div>
