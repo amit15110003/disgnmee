@@ -1,4 +1,8 @@
-<?php 
+
+
+
+
+<!--<?php 
 $merchant_data='';
 	$working_key='ED2B71ACB9F520BA54B3C73381291A53';//Shared by CCAVENUES
 	$access_code='AVSH64DB03BF70HSFB';//Shared by CCAVENUES
@@ -17,3 +21,4 @@ $merchant_data='';
 	 	 	
 		});
 </script>
+-->

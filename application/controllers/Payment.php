@@ -19,15 +19,14 @@ class payment extends CI_Controller
                 { foreach ($cart as $item )
                     {
                         $details=$this->user->get_product_by_id($item['id']);
-                            $details1=$this->user->attributevalue_cost($item['attributevalue'],$item['category']);
                             $i=$i+($details1[0]->cost*$item['qty']);
                         }
                     }
             elseif(!empty($this->session->userdata('uid'))){
             foreach ($data as $row ) 
             {
-            $details1=$this->user->attributevalue_cost($row->attributevalue,$row->category);
-            $i=$i+($details1[0]->cost*$row->item);}
+            $details=$this->user->get_product_by_id($row->productid); 
+            $i=$i+($details[0]->cost*$row->item);}
             }
             $j=$i;
         	$merchant_data='';
@@ -50,13 +49,13 @@ class payment extends CI_Controller
 				'billing_country' => 'India',
 				'billing_tel' =>  $this->input->post('billing_tel'),
 				'billing_email' =>  $this->input->post('billing_email'),
-				'delivery_name' => $this->input->post('delivery_name'),
-				'delivery_address' => $this->input->post('delivery_address'),
-				'delivery_city' => $this->input->post('delivery_city'),
-				'delivery_state' =>  $this->input->post('delivery_state'),
-				'delivery_zip' => $this->input->post('delivery_zip'),
+				'delivery_name' => $this->input->post('billing_name'),
+				'delivery_address' => $this->input->post('billing_address'),
+				'delivery_city' => $this->input->post('billing_city'),
+				'delivery_state' =>  $this->input->post('billing_state'),
+				'delivery_zip' => $this->input->post('billing_zip'),
 				'delivery_country' => 'India',
-				'delivery_tel' =>  $this->input->post('delivery_tel'),
+				'delivery_tel' =>  $this->input->post('billing_tel'),
 				'merchant_param1'=>$this->input->post('pid'),
 				'merchant_param2'=>'additional Info.',
 				'merchant_param3'=>'additional Info.',
@@ -72,6 +71,7 @@ class payment extends CI_Controller
 	        }
 		$encrypted_data=encrypt1($merchant_data,$working_key);
 	$data1['encrypted_data']=$encrypted_data;
+    echo $this->input->post('billing_name');
 	$data3=array('pid'=>$this->input->post('pid'),'name'=>$this->input->post('billing_name'),'mob'=>$this->input->post('billing_tel'),'email' =>  $this->input->post('billing_email'));
 	$result=$this->user->abandoned_cart($data3);
 	$this->load->view('client/header');
