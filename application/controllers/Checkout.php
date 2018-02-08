@@ -82,6 +82,15 @@ class checkout extends CI_Controller
 		$this->load->view('success');
     }
 
+    public function summary()
+    {
+		$data['query']=$this->user->showcart($this->session->userdata('uid'));
+		$data['query1']=$this->user->deliveryadd($this->session->userdata('uid'));
+    	$this->load->view('client/header');
+		$this->load->view('client/summary',$data);
+		$this->load->view('client/footer');
+    }
+
 	
 		
 }
