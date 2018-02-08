@@ -37,7 +37,7 @@
           <div class="col-md-12  col-xs-12">
             <div class="col-md-9 col-xs-12">
               <p>Dilivery Address</p>
-              <p style="font-size:14px;text-transform: capitalize; " id="addressf"><!--<span style="color:#000;"><?php $i=0; foreach ($query1 as $row) {if($i=='0'){?> <?php echo $row->fname;?> <?php echo $row->lname;?>, </span> <?php echo $row->addr;?> <?php echo $row->town;?> <?php echo $row->state;?>, <?php echo $row->pin;?><?php }$i++;}?>--></p>
+              <p style="font-size:14px;text-transform: capitalize; " id="addressf"><span style="color:#000;"><?php $i=0; foreach ($query1 as $row) {if($i=='0'){?> <?php echo $row->fname;?> <?php echo $row->lname;?>, </span> <?php echo $row->addr;?> <?php echo $row->town;?> <?php echo $row->state;?>, <?php echo $row->pin;?><?php }$i++;}?></p>
             </div>
             <div class="col-md-3 col-xs-12 th-pb ">
               <button type="button" class="th-btn-inv-sm cbtn col-xs-12 col-md-6 pull-right" data-toggle="collapse" data-target="#address">Edit</button>

@@ -152,7 +152,6 @@ $('.multi-item-carousel .item').each(function(){
             $.each($("input[name='pattern']:checked"), function(){            
                 pattern.push($(this).val());
             });
-            alert(keywords);
             //alert("My favourite sports are: " +  ocassion.join(", "));
            // alert("My favourite sports are: " + fabric.join(", "));
             //alert("My favourite sports are: " + pattern.join(", "));
