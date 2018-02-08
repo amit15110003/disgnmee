@@ -4,6 +4,8 @@
 
       <div class="col-md-8 col-md-offset-2 col-xs-12" style="box-shadow: 0 10px 10px #f3f3f3;">
         <div >
+            <p class="text-right">Shipping Information : <span style="font-size:14px;color:#000; "><span id="item_count1"></span> Item</span></p>
+            <hr>
             <div class=" col-md-12  col-xs-12" style="margin-top: 20px;">
                 <?php $count=0;
                   if ($cart = $this->cart->contents()){$i=0;
@@ -46,10 +48,10 @@
                     <span class="hidden" id="item_count"><?php echo $count;?></span>
             </div>
         </div>
-        <div class="col-md-12  col-xs-12 clps">
+        <div class="col-md-12  col-xs-12">
+           <hr>
            <p>Dilivery Address : <span style="font-size:14px;text-transform: capitalize; " id="addressf"><span style="color:#000;"><?php $i=0; foreach ($query1 as $row) {if($i=='0'){?> <?php echo $row->fname;?> <?php echo $row->lname;?>, </span> <?php echo $row->addr;?> <?php echo $row->town;?> <?php echo $row->state;?>, <?php echo $row->pin;?><?php }$i++;}?></span></p>
-           <p>Shipping Information : <span style="font-size:14px;color:#000; "><span id="item_count1"></span> Item</span></p>
-          <div class="col-md-12  col-xs-12">Price Details<hr></div>
+           <hr>
           <div class="col-md-12  col-xs-12">
             <p class="col-md-6  col-xs-6 text-left" style="padding: 0px;">Price</p>
             <p class="col-md-6  col-xs-6 text-right"  style="color:#000;padding: 0px;">Rs. <span id="total_amount">
